@@ -62,7 +62,7 @@
     @apply text-[0.75rem] font-normal leading-none;
   }
 
-  .text-caption-sm {
+  .text-hint {
     @apply text-[0.563rem] font-normal leading-none;
   }
 }
