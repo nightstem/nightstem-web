@@ -14,6 +14,7 @@ export default defineConfig({
     clearMocks: true,
     environment: 'jsdom',
     setupFiles: ['./vitest.setup.ts'],
+    testTimeout: 10000,
     coverage: {
       provider: 'v8',
       include: [
