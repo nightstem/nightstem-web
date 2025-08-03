@@ -17,10 +17,29 @@ echo "Prettier check   ................................................."
 
 if [ -n "$STAGED_FILES" ]; then
     echo "$STAGED_FILES" | xargs pnpm exec prettier --write --ignore-unknown
-    if [ $? -ne 0 ]; then
-        echo "Prettier failed."
+    PRETTIER_EXIT_CODE=$?
+    if [ $PRETTIER_EXIT_CODE -ne 0 ]; then
+        echo "❌ Prettier failed with exit code $PRETTIER_EXIT_CODE"
         exit 1
     fi
+    # Re-add formatted files to staging area
+    echo "$STAGED_FILES" | xargs git add
+    echo "✅ Prettier formatting completed and files re-staged"
+fi
+
+# Check TypeScript
+echo "TypeScript check ................................................."
+
+# Filter TypeScript files
+TS_FILES=$(echo "$STAGED_FILES" | grep -E '\.(ts|tsx)$' || true)
+if [ -n "$TS_FILES" ]; then
+    pnpm lint:ts
+    TS_EXIT_CODE=$?
+    if [ $TS_EXIT_CODE -ne 0 ]; then
+        echo "❌ TypeScript check failed with exit code $TS_EXIT_CODE"
+        exit 1
+    fi
+    echo "✅ TypeScript check passed"
 fi
 
 # Check linter
@@ -28,13 +47,29 @@ echo "Linter check     ................................................."
 
 # Filter files for linter
 LINTER_FILES=$(echo "$STAGED_FILES" | grep -E '\.(js|jsx|ts|tsx)$' || true)
-echo "$LINTER_FILES"
 if [ -n "$LINTER_FILES" ]; then
     echo "$LINTER_FILES" | xargs pnpm exec next lint --fix --file
-    if [ $? -ne 0 ]; then
-        echo "Linter failed."
+    LINT_EXIT_CODE=$?
+    if [ $LINT_EXIT_CODE -ne 0 ]; then
+        echo "❌ Linter failed with exit code $LINT_EXIT_CODE"
         exit 1
     fi
+    echo "✅ Linter check passed"
+fi
+
+# Run tests
+echo "Tests            ................................................."
+
+# Check if there are any test files or if this affects testable code
+TEST_RELEVANT_FILES=$(echo "$STAGED_FILES" | grep -E '\.(js|jsx|ts|tsx)$' || true)
+if [ -n "$TEST_RELEVANT_FILES" ]; then
+    pnpm test
+    TEST_EXIT_CODE=$?
+    if [ $TEST_EXIT_CODE -ne 0 ]; then
+        echo "❌ Tests failed with exit code $TEST_EXIT_CODE"
+        exit 1
+    fi
+    echo "✅ All tests passed"
 fi
 
 echo "------------------------------------------------------------------"
