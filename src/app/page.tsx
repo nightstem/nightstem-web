@@ -4,7 +4,7 @@ export default function Home() {
       <article className="flex flex-col gap-7">
         <h1 className="flex flex-col text-center">
           <img
-            src={"/logo.webp"}
+            src={'/logo.webp'}
             alt="logo"
             width={32}
             height={32}

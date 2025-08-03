@@ -1,21 +1,21 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import './globals.css';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "Nightstem",
+  title: 'Nightstem',
   description:
-    "Nightstem is a software studio creating thoughtful, minimal tools and digital experiences — quietly crafted after hours.",
+    'Nightstem is a software studio creating thoughtful, minimal tools and digital experiences — quietly crafted after hours.',
 };
 
 export default function RootLayout({
