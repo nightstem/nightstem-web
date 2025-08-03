@@ -1,0 +1,118 @@
+name: Deploy production
+run-name: Deploy production
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+permissions:
+  contents: write
+  deployments: write
+
+concurrency:
+  group: deploy-production-group-lock
+
+jobs:
+  bump-version:
+    uses: nightstem/nightstem-web/.github/workflows/bump-version.yml
+    with:
+      bump: ${{ inputs.bump }}
+
+  create-tag-and-pre-release:
+    name: Create tag and pre-release
+    runs-on: ubuntu-latest
+    needs: bump-version
+    outputs:
+      release_id: ${{ steps.create-tag-and-pre-release-step.outputs.release_id }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create tag and pre-release
+        id: create-tag-and-pre-release-step
+        uses: nightstem/actions/create-tag-and-pre-release@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          build_version: ${{ needs.bump-version.outputs.new_version }}
+
+  publish:
+    name: Publish to Cloudflare Pages
+    permissions:
+      contents: read
+      deployments: write
+    runs-on: ubuntu-latest
+    needs: create-tag-and-pre-release
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build project
+        run: pnpm build
+
+      - name: Install Wrangler
+        run: pnpm add wrangler@3.90.0 -w
+
+      - name: Extract branch name
+        id: extract_branch
+        run: |
+          echo "branch_name=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
+
+      - name: Deploy
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ${{ secrets.BUILD_OUTPUT_DIRECTORY }} --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+
+  publish_release_on_sucess:
+    name: Publish Release on Success
+    runs-on: ubuntu-latest
+    needs: [create-tag-and-pre-release, publish]
+    if: ${{ success() }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update pre-release to release
+        uses: jhonny17/actions/update-release@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          release_id: ${{ needs.create-tag-and-pre-release.outputs.release_id }}
+          prerelease: false
+          draft: false
+
+  delete_release_on_failure:
+    name: Delete Release on Failure
+    runs-on: ubuntu-latest
+    needs: [bump-version, create-tag-and-pre-release, publish]
+    if: ${{ failure() || cancelled() }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Delete release
+        uses: jhonny17/actions/delete-release@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          release_id: ${{ needs.create-tag-and-pre-release.outputs.release_id }}
+
+      - name: Delete tag
+        uses: jhonny17/actions/delete-tag@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          build_version: ${{ needs.bump-version.outputs.new_version }}

@@ -1,0 +1,22 @@
+name: Run tests
+description: Runs all the unit tests
+
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+      with:
+        github-token: ${{ inputs.github-token }}
+
+    - name: Run tests
+      shell: bash
+      run: pnpm exec vitest --watch false

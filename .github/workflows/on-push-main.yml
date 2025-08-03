@@ -1,0 +1,32 @@
+name: On push main
+run-name: On push main
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      patch-level:
+        description: 'The level of patch version to increment'
+        required: false
+        type: choice
+        default: patch
+        options:
+          - patch
+          - minor
+          - major
+
+permissions:
+  contents: write
+  deployments: write
+
+concurrency:
+  group: on-main-push-group-lock
+  cancel-in-progress: true
+
+jobs:
+  run-code-checks:
+    name: Run code checks
+    uses: nightstem/nightstem-web/.github/workflows/run-code-checks.yml@main
+    secrets: inherit

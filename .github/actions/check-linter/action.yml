@@ -1,0 +1,19 @@
+name: Check linter
+description: Checks the code meets the linter standards
+
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Install dependencies
+      uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+      with:
+        github-token: ${{ inputs.github-token }}
+
+    - name: Check linter
+      shell: bash
+      run: pnpm exec next lint

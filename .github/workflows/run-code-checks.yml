@@ -1,0 +1,64 @@
+name: Run code checks
+
+on:
+  workflow_call:
+
+permissions:
+  contents: write
+  deployments: write
+
+concurrency:
+  group: run-code-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check_prettier:
+    name: Check prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check prettier
+        uses: nightstem/nightstem-web/.github/actions/check-prettier@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  check_lint:
+    name: Check linter
+    needs: check_prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check eslint
+        uses: nightstem/nightstem-web/.github/actions/check-linter@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  run_tests:
+    name: Run tests
+    runs-on: ubuntu-latest
+    needs: check_prettier
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run tests
+        uses: nightstem/nightstem-web/.github/actions/run-tests@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  check_coverage:
+    name: Check coverage
+    runs-on: ubuntu-latest
+    needs: check_prettier
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check coverage
+        uses: nightstem/nightstem-web/.github/actions/check-coverage@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}

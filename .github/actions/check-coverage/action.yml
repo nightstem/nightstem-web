@@ -1,0 +1,22 @@
+name: Check coverage
+description: Checks the test coverage
+
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+      with:
+        github-token: ${{ inputs.github-token }}
+
+    - name: Check coverage
+      shell: bash
+      run: pnpm exec vitest --coverage --watch false

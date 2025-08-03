@@ -1,0 +1,22 @@
+name: On Pull Request Closed
+run-name: 'On Pull Request Closed: #${{ github.event.pull_request.number }}'
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  actions: write
+
+jobs:
+  clear_cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Clear Cache
+        uses: jhonny17/actions/clear-cache@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          ref: 'refs/heads/${{ github.event.pull_request.head.ref }}'
