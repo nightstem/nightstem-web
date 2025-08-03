@@ -1,0 +1,41 @@
+name: Bump version
+description: Bumps the version in package.json and creates a git tag
+
+inputs:
+  bump:
+    description: 'Version bump type'
+    required: true
+    type: string
+
+outputs:
+  new_version:
+    description: 'The new version that was created'
+    value: ${{ steps.bump.outputs.new_version }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      shell: bash
+      run: npm ci
+
+    - name: Bump version and create tag
+      id: bump
+      shell: bash
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        NEW_VERSION=$(npm version ${{ inputs.bump }} -m "chore(release): bump version to %s")
+        echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+        git push origin HEAD --follow-tags

@@ -23,9 +23,16 @@ concurrency:
 
 jobs:
   bump-version:
-    uses: nightstem/nightstem-web/.github/workflows/bump-version.yml
-    with:
-      bump: ${{ inputs.bump }}
+    name: Bump version
+    runs-on: ubuntu-latest
+    outputs:
+      new_version: ${{ steps.bump-version-step.outputs.new_version }}
+    steps:
+      - name: Bump version
+        id: bump-version-step
+        uses: nightstem/nightstem-web/.github/actions/bump-version@main
+        with:
+          bump: ${{ inputs.bump }}
 
   create-tag-and-pre-release:
     name: Create tag and pre-release
