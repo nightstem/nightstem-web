@@ -34,15 +34,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-
-      - name: Debug token identity
-        run: |
-          echo "Checking token identity..."
-          curl -H "Authorization: token ${{ steps.generate-token.outputs.token }}" \
-               -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/user
-          echo ""
-          echo "APP_ID: ${{ secrets.APP_ID }}"
+          repositories: nightstem-web
 
       - name: Bump version
         id: bump-version-step
@@ -67,6 +59,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          repositories: nightstem-web
 
       - name: Create tag and pre-release
         id: create-tag-and-pre-release-step
@@ -118,6 +111,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          repositories: nightstem-web
 
       - name: Update pre-release to release
         uses: jhonny17/actions/update-release@main
@@ -142,6 +136,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          repositories: nightstem-web
 
       - name: Delete release
         continue-on-error: true
