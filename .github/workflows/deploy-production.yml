@@ -137,9 +137,6 @@ jobs:
     needs: [bump-version, create-pre-release, build-and-deploy]
     if: ${{ failure() || cancelled() }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Generate App Token
         id: generate-token
         uses: actions/create-github-app-token@v1
@@ -147,6 +144,12 @@ jobs:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           repositories: nightstem-web
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.generate-token.outputs.token }}
 
       - name: Delete release
         continue-on-error: true
@@ -166,19 +169,28 @@ jobs:
         continue-on-error: true
         shell: bash
         run: |
-          # Configure git to use the provided GitHub App token
-          git remote set-url origin https://oauth2:${GITHUB_TOKEN}@github.com/nightstem/nightstem-web.git
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Revert the last commit (version bump)
-          git revert HEAD --no-edit
+          # Find the version bump commit and revert only the package.json change
+          BUMP_COMMIT=$(git log --oneline --grep="chore(release): bump version" -n 1 | cut -d' ' -f1)
 
-          # Update the commit message to be more descriptive
-          git commit --amend -m "Revert version bump due to deployment failure"
-
-          # Push the revert commit
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+          if [ -n "$BUMP_COMMIT" ]; then
+            echo "Found version bump commit: $BUMP_COMMIT"
+            
+            # Get the previous version from package.json before the bump
+            PREV_VERSION=$(git show HEAD~1:package.json | grep '"version":' | cut -d'"' -f4)
+            echo "Reverting to previous version: $PREV_VERSION"
+            
+            # Update package.json to previous version
+            git checkout HEAD~1 -- package.json
+            
+            # Create a new commit with the revert
+            git add package.json
+            git commit -m "Revert version bump due to deployment failure (back to $PREV_VERSION)"
+            
+            # Push the revert
+            git push origin main
+          else
+            echo "No version bump commit found, skipping revert"
+          fi
