@@ -62,7 +62,7 @@ runs:
 
         # Perform version bump
         echo "🔄 Bumping version (${{ inputs.bump }})..."
-        NEW_VERSION=$(npm version ${{ inputs.bump }} -m "chore(release): bump version to %s")
+        NEW_VERSION=$(npm version ${{ inputs.bump }} -m "chore(release): bump version to v%s")
 
         if [[ -z "$NEW_VERSION" ]]; then
           echo "❌ Error: Failed to bump version"
