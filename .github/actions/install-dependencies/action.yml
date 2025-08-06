@@ -1,10 +1,18 @@
 name: 'Install Dependencies'
-description: 'Install project dependencies'
+description: 'Install project dependencies with optimized caching'
 
 inputs:
   github-token:
     description: 'GitHub token'
     required: true
+  node-version:
+    description: 'Node.js version to use'
+    required: false
+    default: '20.14.0'
+  pnpm-version:
+    description: 'pnpm version to use'
+    required: false
+    default: '10.13.1'
 
 runs:
   using: 'composite'
@@ -12,30 +20,37 @@ runs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20.14.0'
+        node-version: ${{ inputs.node-version }}
 
-    - name: Install pnpm
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: ${{ inputs.pnpm-version }}
+
+    - name: Get pnpm store directory
+      id: pnpm-cache
       shell: bash
-      run: npm install -g pnpm@10.13.1
+      run: |
+        echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-    # - name: Get pnpm store path
-    #   id: pnpm-store-path
-    #   shell: bash
-    #   run: |
-    #     echo "pnpm store path: $(pnpm store path)"
-    #     echo "store-path=$(pnpm store path)" >> $GITHUB_OUTPUT
+    - name: Cache pnpm store
+      uses: actions/cache@v4
+      with:
+        path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
 
-    # - name: Cache pnpm store and node_modules
-    #   id: pnpm-cache
-    #   uses: actions/cache@v4
-    #   with:
-    #     path: |
-    #       ${{ steps.pnpm-store-path.outputs.store-path }}
-    #       node_modules
-    #     key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-pnpm-store-
+    - name: Cache node_modules
+      uses: actions/cache@v4
+      with:
+        path: |
+          node_modules
+          ~/.cache
+        key: ${{ runner.os }}-node-modules-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-node-modules-
 
     - name: Install dependencies
       shell: bash
-      run: pnpm install
+      run: pnpm install --frozen-lockfile

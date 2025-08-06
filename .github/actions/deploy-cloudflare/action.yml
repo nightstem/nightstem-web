@@ -1,0 +1,70 @@
+name: 'Deploy to Cloudflare Pages'
+description: 'Deploy built application to Cloudflare Pages'
+
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+  cloudflare-api-token:
+    description: 'Cloudflare API token'
+    required: true
+  cloudflare-account-id:
+    description: 'Cloudflare account ID'
+    required: true
+  project-name:
+    description: 'Cloudflare Pages project name'
+    required: true
+  build-output-directory:
+    description: 'Directory containing the built application'
+    required: false
+    default: './out'
+  wrangler-version:
+    description: 'Wrangler version to use'
+    required: false
+    default: '3.90.0'
+  environment:
+    description: 'Deployment environment (production/preview)'
+    required: false
+    default: 'preview'
+
+outputs:
+  deployment-url:
+    description: 'URL of the deployed application'
+    value: ${{ steps.deploy.outputs.deployment-url }}
+  deployment-alias:
+    description: 'Alias URL of the deployment'
+    value: ${{ steps.deploy.outputs.deployment-alias }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Install Wrangler
+      shell: bash
+      run: |
+        if ! command -v pnpm &> /dev/null; then
+          npm install -g pnpm
+        fi
+        pnpm add wrangler@${{ inputs.wrangler-version }} -w
+
+    - name: Extract branch name
+      id: extract_branch
+      shell: bash
+      run: |
+        echo "branch_name=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
+
+    - name: Deploy to Cloudflare Pages
+      id: deploy
+      uses: cloudflare/wrangler-action@v3
+      with:
+        apiToken: ${{ inputs.cloudflare-api-token }}
+        accountId: ${{ inputs.cloudflare-account-id }}
+        command: pages deploy ${{ inputs.build-output-directory }} --project-name=${{ inputs.project-name }} --compatibility-date=2024-01-01
+
+    - name: Extract deployment URLs
+      id: extract-urls
+      shell: bash
+      run: |
+        # Extract deployment URL from Wrangler output
+        # This is a placeholder - actual implementation would depend on Wrangler output format
+        echo "deployment-url=https://${{ inputs.project-name }}.pages.dev" >> $GITHUB_OUTPUT
+        echo "deployment-alias=https://${{ steps.extract_branch.outputs.branch_name }}.${{ inputs.project-name }}.pages.dev" >> $GITHUB_OUTPUT

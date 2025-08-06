@@ -22,34 +22,26 @@ jobs:
     uses: nightstem/nightstem-web/.github/workflows/run-code-checks.yml@main
     secrets: inherit
 
-  publish:
-    name: Publish to Cloudflare Pages
+  build-and-deploy:
+    name: Build and Deploy to Staging
+    environment: staging
     needs: run-code-checks
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+      - name: Build project
+        uses: nightstem/nightstem-web/.github/actions/build-project@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build project
-        run: pnpm build
-
-      - name: Install Wrangler
-        run: pnpm add wrangler@3.90.0 -w
-
-      - name: Extract branch name
-        id: extract_branch
-        run: |
-          echo "branch_name=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
-
-      - name: Deploy
-        id: deploy
-        uses: cloudflare/wrangler-action@v3
+      - name: Deploy to Cloudflare Pages
+        uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ${{ secrets.BUILD_OUTPUT_DIRECTORY }} --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
+          environment: preview

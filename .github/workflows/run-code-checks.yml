@@ -4,61 +4,60 @@ on:
   workflow_call:
 
 permissions:
-  contents: write
-  deployments: write
+  contents: read
+  actions: read
 
 concurrency:
   group: run-code-checks-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  check_prettier:
-    name: Check prettier
+  # Install dependencies once and cache for all subsequent jobs
+  setup:
+    name: Setup dependencies
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  # Run all code quality checks in parallel after dependencies are ready
+  code-quality:
+    name: Code Quality Checks
+    runs-on: ubuntu-latest
+    needs: setup
+    strategy:
+      fail-fast: false
+      matrix:
+        check: [prettier, linter, tests, coverage]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Check prettier
+        if: matrix.check == 'prettier'
         uses: nightstem/nightstem-web/.github/actions/check-prettier@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-  check_lint:
-    name: Check linter
-    needs: check_prettier
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Check eslint
+      - name: Check linter
+        if: matrix.check == 'linter'
         uses: nightstem/nightstem-web/.github/actions/check-linter@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-  run_tests:
-    name: Run tests
-    runs-on: ubuntu-latest
-    needs: check_prettier
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Run tests
+        if: matrix.check == 'tests'
         uses: nightstem/nightstem-web/.github/actions/run-tests@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-  check_coverage:
-    name: Check coverage
-    runs-on: ubuntu-latest
-    needs: check_prettier
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Check coverage
+        if: matrix.check == 'coverage'
         uses: nightstem/nightstem-web/.github/actions/check-coverage@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
