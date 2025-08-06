@@ -105,7 +105,7 @@ jobs:
           build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
           environment: production
 
-  publish_release_on_sucess:
+  publish_release_on_success:
     name: Publish Release on Success
     environment: production
     runs-on: ubuntu-latest
