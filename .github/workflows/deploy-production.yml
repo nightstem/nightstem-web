@@ -35,6 +35,15 @@ jobs:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
+      - name: Debug token identity
+        run: |
+          echo "Checking token identity..."
+          curl -H "Authorization: token ${{ steps.generate-token.outputs.token }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/user
+          echo ""
+          echo "APP_ID: ${{ secrets.APP_ID }}"
+
       - name: Bump version
         id: bump-version-step
         uses: nightstem/nightstem-web/.github/actions/bump-version@main
