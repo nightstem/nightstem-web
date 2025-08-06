@@ -28,12 +28,19 @@ jobs:
     outputs:
       new_version: ${{ steps.bump-version-step.outputs.new_version }}
     steps:
+      - name: Generate App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Bump version
         id: bump-version-step
         uses: nightstem/nightstem-web/.github/actions/bump-version@main
         with:
           bump: ${{ inputs.bump }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ steps.generate-token.outputs.token }}
 
   create-tag-and-pre-release:
     name: Create tag and pre-release
@@ -45,11 +52,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Generate App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Create tag and pre-release
         id: create-tag-and-pre-release-step
         uses: nightstem/actions/create-tag-and-pre-release@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.generate-token.outputs.token }}
           build_version: ${{ needs.bump-version.outputs.new_version }}
 
   build-and-deploy:
@@ -89,10 +103,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Generate App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Update pre-release to release
         uses: jhonny17/actions/update-release@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.generate-token.outputs.token }}
           release_id: ${{ needs.create-tag-and-pre-release.outputs.release_id }}
           prerelease: false
           draft: false
@@ -106,14 +127,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Generate App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Delete release
         uses: jhonny17/actions/delete-release@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.generate-token.outputs.token }}
           release_id: ${{ needs.create-tag-and-pre-release.outputs.release_id }}
 
       - name: Delete tag
         uses: jhonny17/actions/delete-tag@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.generate-token.outputs.token }}
           build_version: ${{ needs.bump-version.outputs.new_version }}
