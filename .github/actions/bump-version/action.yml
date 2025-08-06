@@ -5,7 +5,10 @@ inputs:
   bump:
     description: 'Version bump type'
     required: true
-    type: string
+
+  github-token:
+    description: 'GitHub token'
+    required: true
 
 outputs:
   new_version:
@@ -20,14 +23,10 @@ runs:
       with:
         fetch-depth: 0
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-
     - name: Install dependencies
-      shell: bash
-      run: npm ci
+      uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+      with:
+        github-token: ${{ inputs.github-token }}
 
     - name: Bump version and create tag
       id: bump

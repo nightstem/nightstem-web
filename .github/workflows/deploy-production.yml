@@ -33,6 +33,7 @@ jobs:
         uses: nightstem/nightstem-web/.github/actions/bump-version@main
         with:
           bump: ${{ inputs.bump }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
   create-tag-and-pre-release:
     name: Create tag and pre-release
