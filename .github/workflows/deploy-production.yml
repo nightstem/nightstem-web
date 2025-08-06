@@ -43,16 +43,13 @@ jobs:
           bump: ${{ inputs.bump }}
           github-token: ${{ steps.generate-token.outputs.token }}
 
-  create-tag-and-pre-release:
-    name: Create tag and pre-release
+  create-pre-release:
+    name: Create pre-release
     runs-on: ubuntu-latest
     needs: bump-version
     outputs:
-      release_id: ${{ steps.create-tag-and-pre-release-step.outputs.release_id }}
+      release_id: ${{ steps.create-pre-release-step.outputs.result }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Generate App Token
         id: generate-token
         uses: actions/create-github-app-token@v1
@@ -61,12 +58,25 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           repositories: nightstem-web
 
-      - name: Create tag and pre-release
-        id: create-tag-and-pre-release-step
-        uses: nightstem/actions/create-tag-and-pre-release@main
+      - name: Create pre-release
+        id: create-pre-release-step
+        uses: actions/github-script@v7
         with:
-          github_token: ${{ steps.generate-token.outputs.token }}
-          build_version: ${{ needs.bump-version.outputs.new_version }}
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            const { data: release } = await github.rest.repos.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag_name: '${{ needs.bump-version.outputs.new_version }}',
+              name: '${{ needs.bump-version.outputs.new_version }}',
+              prerelease: true,
+              draft: false,
+              generate_release_notes: true
+            });
+
+            console.log(`Pre-release created: ${release.html_url}`);
+            return release.id;
+          result-encoding: string
 
   build-and-deploy:
     name: Build and Deploy to Production
@@ -75,7 +85,7 @@ jobs:
       contents: read
       deployments: write
     runs-on: ubuntu-latest
-    needs: create-tag-and-pre-release
+    needs: create-pre-release
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -99,7 +109,7 @@ jobs:
     name: Publish Release on Success
     environment: production
     runs-on: ubuntu-latest
-    needs: [create-tag-and-pre-release, build-and-deploy]
+    needs: [create-pre-release, build-and-deploy]
     if: ${{ success() }}
     steps:
       - name: Checkout
@@ -117,14 +127,14 @@ jobs:
         uses: jhonny17/actions/update-release@main
         with:
           github_token: ${{ steps.generate-token.outputs.token }}
-          release_id: ${{ needs.create-tag-and-pre-release.outputs.release_id }}
+          release_id: ${{ needs.create-pre-release.outputs.release_id }}
           prerelease: false
           draft: false
 
   delete_release_on_failure:
     name: Delete Release on Failure
     runs-on: ubuntu-latest
-    needs: [bump-version, create-tag-and-pre-release, build-and-deploy]
+    needs: [bump-version, create-pre-release, build-and-deploy]
     if: ${{ failure() || cancelled() }}
     steps:
       - name: Checkout
@@ -143,7 +153,7 @@ jobs:
         uses: jhonny17/actions/delete-release@main
         with:
           github_token: ${{ steps.generate-token.outputs.token }}
-          release_id: ${{ needs.create-tag-and-pre-release.outputs.release_id }}
+          release_id: ${{ needs.create-pre-release.outputs.release_id }}
 
       - name: Delete tag
         continue-on-error: true
@@ -159,11 +169,14 @@ jobs:
           # Configure git to use the provided GitHub App token
           git remote set-url origin https://oauth2:${GITHUB_TOKEN}@github.com/nightstem/nightstem-web.git
 
-          git config user.name "nightstem[bot]"
-          git config user.email "nightstem[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Revert the last commit (version bump) with a descriptive message
-          git revert HEAD --no-edit -m "Revert version bump due to deployment failure"
+          # Revert the last commit (version bump)
+          git revert HEAD --no-edit
+
+          # Update the commit message to be more descriptive
+          git commit --amend -m "Revert version bump due to deployment failure"
 
           # Push the revert commit
           git push origin main
