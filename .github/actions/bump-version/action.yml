@@ -35,8 +35,8 @@ runs:
         # Configure git to use the provided GitHub App token
         git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/nightstem/nightstem-web.git
 
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "nightstem[bot]"
+        git config user.email "41898282+nightstem[bot]@users.noreply.github.com"
 
         NEW_VERSION=$(npm version ${{ inputs.bump }} -m "chore(release): bump version to %s")
         echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
