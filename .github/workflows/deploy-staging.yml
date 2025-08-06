@@ -1,4 +1,5 @@
 name: Deploy staging
+run-name: 'Deploy staging for PR #${{ github.event.pull_request.number }}'
 
 on:
   pull_request:
@@ -8,9 +9,9 @@ on:
       - synchronize
 
 permissions:
-  actions: write
-  contents: write
+  contents: read
   deployments: write
+  pull-requests: write
 
 concurrency:
   group: deploy-staging-${{ github.ref }}
@@ -18,15 +19,16 @@ concurrency:
 
 jobs:
   run-code-checks:
-    name: Run code checks
+    name: '🔍 Run code quality checks'
     uses: nightstem/nightstem-web/.github/workflows/run-code-checks.yml@main
     secrets: inherit
 
   build-and-deploy:
-    name: Build and Deploy to Staging
+    name: '🚀 Build and deploy to staging'
     environment: staging
     needs: run-code-checks
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4

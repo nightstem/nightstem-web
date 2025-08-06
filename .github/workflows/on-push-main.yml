@@ -1,5 +1,5 @@
 name: On push main
-run-name: On push main
+run-name: 'Code quality checks for main branch'
 
 on:
   push:
@@ -8,15 +8,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  deployments: write
+  contents: read
 
 concurrency:
-  group: on-main-push-group-lock
+  group: on-push-main-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   run-code-checks:
-    name: Run code checks
+    name: '🔍 Run code quality checks'
     uses: nightstem/nightstem-web/.github/workflows/run-code-checks.yml@main
     secrets: inherit

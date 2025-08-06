@@ -3,27 +3,27 @@ description: 'Deploy built application to Cloudflare Pages'
 
 inputs:
   github-token:
-    description: 'GitHub token'
+    description: 'GitHub token with deployments:write permission'
     required: true
   cloudflare-api-token:
-    description: 'Cloudflare API token'
+    description: 'Cloudflare API token with Cloudflare Pages:Edit permission'
     required: true
   cloudflare-account-id:
-    description: 'Cloudflare account ID'
+    description: 'Cloudflare account ID (hex string)'
     required: true
   project-name:
-    description: 'Cloudflare Pages project name'
+    description: 'Cloudflare Pages project name (must exist in account)'
     required: true
   build-output-directory:
-    description: 'Directory containing the built application'
+    description: 'Directory containing the built application (must exist)'
     required: false
     default: './out'
   wrangler-version:
-    description: 'Wrangler version to use'
+    description: 'Wrangler version to use (semver format)'
     required: false
     default: '3.90.0'
   environment:
-    description: 'Deployment environment (production/preview)'
+    description: 'Deployment environment (production or preview only)'
     required: false
     default: 'preview'
 
@@ -38,13 +38,69 @@ outputs:
 runs:
   using: 'composite'
   steps:
+    - name: Validate inputs
+      shell: bash
+      run: |
+        set -euo pipefail
+
+        # Validate environment
+        ENV="${{ inputs.environment }}"
+        if [[ ! "$ENV" =~ ^(production|preview)$ ]]; then
+          echo "❌ Error: Invalid environment '$ENV'. Must be: production or preview"
+          exit 1
+        fi
+
+        # Validate build directory exists
+        BUILD_DIR="${{ inputs.build-output-directory }}"
+        if [[ ! -d "$BUILD_DIR" ]]; then
+          echo "❌ Error: Build directory not found: $BUILD_DIR"
+          echo "📂 Available directories:"
+          ls -la .
+          exit 1
+        fi
+
+        # Check if build directory has content
+        if [[ -z "$(ls -A "$BUILD_DIR")" ]]; then
+          echo "❌ Error: Build directory is empty: $BUILD_DIR"
+          exit 1
+        fi
+
+        # Validate account ID format (basic hex check)
+        ACCOUNT_ID="${{ inputs.cloudflare-account-id }}"
+        if [[ ! "$ACCOUNT_ID" =~ ^[a-fA-F0-9]{32}$ ]]; then
+          echo "⚠️ Warning: Account ID format may be invalid (expected 32-char hex): $ACCOUNT_ID"
+        fi
+
+        echo "✅ Input validation passed"
+        echo "📦 Build directory: $BUILD_DIR ($(ls -1 "$BUILD_DIR" | wc -l) files)"
+        echo "🌍 Environment: $ENV"
+
     - name: Install Wrangler
       shell: bash
       run: |
+        set -euo pipefail
+
+        echo "📦 Installing Wrangler v${{ inputs.wrangler-version }}..."
+
+        # Ensure pnpm is available
         if ! command -v pnpm &> /dev/null; then
+          echo "🔧 Installing pnpm globally..."
           npm install -g pnpm
         fi
-        pnpm add wrangler@${{ inputs.wrangler-version }} -w
+
+        # Install Wrangler with error handling
+        if ! pnpm add wrangler@${{ inputs.wrangler-version }} -w; then
+          echo "❌ Error: Failed to install Wrangler"
+          exit 1
+        fi
+
+        # Verify installation
+        if ! pnpm exec wrangler --version; then
+          echo "❌ Error: Wrangler installation verification failed"
+          exit 1
+        fi
+
+        echo "✅ Wrangler installed successfully"
 
     - name: Extract branch name
       id: extract_branch

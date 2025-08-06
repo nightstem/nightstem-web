@@ -3,14 +3,14 @@ description: 'Build the Next.js project with optimized caching'
 
 inputs:
   github-token:
-    description: 'GitHub token'
+    description: 'GitHub token for accessing private repositories'
     required: true
   node-version:
-    description: 'Node.js version to use'
+    description: 'Node.js version to use (must be valid semver)'
     required: false
     default: '20.14.0'
   build-command:
-    description: 'Build command to run'
+    description: 'Build command to run (should use pnpm)'
     required: false
     default: 'pnpm build'
 
@@ -37,9 +37,48 @@ runs:
         restore-keys: |
           ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
 
+    - name: Validate build environment
+      shell: bash
+      run: |
+        set -euo pipefail
+
+        # Check if package.json exists
+        if [[ ! -f "package.json" ]]; then
+          echo "❌ Error: package.json not found in repository root"
+          exit 1
+        fi
+
+        # Validate build command contains pnpm
+        BUILD_CMD="${{ inputs.build-command }}"
+        if [[ ! "$BUILD_CMD" =~ ^pnpm ]]; then
+          echo "⚠️ Warning: Build command doesn't use pnpm: $BUILD_CMD"
+        fi
+
+        echo "✅ Build environment validation passed"
+
     - name: Build project
       id: build
       shell: bash
       run: |
-        ${{ inputs.build-command }}
-        echo "build-path=${{ github.workspace }}/out" >> $GITHUB_OUTPUT
+        set -euo pipefail
+
+        echo "🔨 Building project with command: ${{ inputs.build-command }}"
+
+        # Run build command with error handling
+        if ! ${{ inputs.build-command }}; then
+          echo "❌ Error: Build command failed"
+          exit 1
+        fi
+
+        # Verify build output exists
+        BUILD_PATH="${{ github.workspace }}/out"
+        if [[ ! -d "$BUILD_PATH" ]]; then
+          echo "❌ Error: Build output directory not found: $BUILD_PATH"
+          echo "📂 Available directories:"
+          ls -la "${{ github.workspace }}"
+          exit 1
+        fi
+
+        echo "✅ Build completed successfully"
+        echo "📦 Build output: $BUILD_PATH"
+        echo "build-path=$BUILD_PATH" >> $GITHUB_OUTPUT

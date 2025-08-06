@@ -1,5 +1,5 @@
 name: On Pull Request Closed
-run-name: 'On Pull Request Closed: #${{ github.event.pull_request.number }}'
+run-name: 'Clean up cache for PR #${{ github.event.pull_request.number }}'
 
 on:
   pull_request:
@@ -8,9 +8,15 @@ on:
 permissions:
   actions: write
 
+concurrency:
+  group: cleanup-cache-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
 jobs:
   clear_cache:
+    name: '🧹 Clean up PR cache'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4

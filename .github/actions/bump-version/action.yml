@@ -3,11 +3,12 @@ description: Bumps the version in package.json and creates a git tag
 
 inputs:
   bump:
-    description: 'Version bump type'
+    description: 'Version bump type (patch, minor, or major)'
     required: true
+    # Note: Input validation happens in shell script
 
   github-token:
-    description: 'GitHub token'
+    description: 'GitHub token with contents:write permission'
     required: true
 
 outputs:
@@ -29,13 +30,53 @@ runs:
       with:
         github-token: ${{ inputs.github-token }}
 
+    - name: Validate input
+      shell: bash
+      run: |
+        BUMP_TYPE="${{ inputs.bump }}"
+        if [[ ! "$BUMP_TYPE" =~ ^(patch|minor|major)$ ]]; then
+          echo "❌ Error: Invalid bump type '$BUMP_TYPE'. Must be: patch, minor, or major"
+          exit 1
+        fi
+        echo "✅ Bump type '$BUMP_TYPE' is valid"
+
     - name: Bump version and create tag
       id: bump
       shell: bash
       run: |
+        set -euo pipefail  # Exit on error, undefined vars, pipe failures
+
+        # Configure git identity
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+        # Check if package.json exists
+        if [[ ! -f "package.json" ]]; then
+          echo "❌ Error: package.json not found in repository root"
+          exit 1
+        fi
+
+        # Get current version for logging
+        CURRENT_VERSION=$(node -p "require('./package.json').version")
+        echo "📦 Current version: $CURRENT_VERSION"
+
+        # Perform version bump
+        echo "🔄 Bumping version (${{ inputs.bump }})..."
         NEW_VERSION=$(npm version ${{ inputs.bump }} -m "chore(release): bump version to %s")
+
+        if [[ -z "$NEW_VERSION" ]]; then
+          echo "❌ Error: Failed to bump version"
+          exit 1
+        fi
+
+        echo "✅ Version bumped to: $NEW_VERSION"
         echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
-        git push origin HEAD --follow-tags
+
+        # Push changes with error handling
+        echo "🚀 Pushing changes and tags..."
+        if ! git push origin HEAD --follow-tags; then
+          echo "❌ Error: Failed to push changes to remote repository"
+          exit 1
+        fi
+
+        echo "✅ Successfully pushed version $NEW_VERSION"
