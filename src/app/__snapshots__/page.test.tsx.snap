@@ -16,10 +16,10 @@ exports[`matches snapshot 1`] = `
         >
           <img
             alt="Nightstem icon"
-            class="object-contain h-[14px] w-[14px] animate-pulse"
+            class="object-contain h-8 w-8 animate-pulse"
           />
           <span
-            class="text-body"
+            class="heading-lg"
           >
             Nightstem
           </span>

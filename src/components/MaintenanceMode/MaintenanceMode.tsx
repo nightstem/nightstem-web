@@ -14,7 +14,7 @@ export const MaintenanceMode = () => {
         <header className="flex flex-col text-center">
           <Logo
             mode={LOGO_MODES.FULL}
-            size={LOGO_SIZES.BODY}
+            size={LOGO_SIZES.LG}
             animation={LOGO_ANIMATIONS.PULSE}
           />
           <h1 className="sr-only">Nightstem</h1>
