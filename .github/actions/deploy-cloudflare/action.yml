@@ -2,9 +2,6 @@ name: 'Deploy to Cloudflare Pages'
 description: 'Deploy built application to Cloudflare Pages'
 
 inputs:
-  github-token:
-    description: 'GitHub token with deployments:write permission'
-    required: true
   cloudflare-api-token:
     description: 'Cloudflare API token with Cloudflare Pages:Edit permission'
     required: true
@@ -114,7 +111,6 @@ runs:
       with:
         apiToken: ${{ inputs.cloudflare-api-token }}
         accountId: ${{ inputs.cloudflare-account-id }}
-        gitHubToken: ${{ inputs.github-token }}
         command: pages deploy ${{ inputs.build-output-directory }} --project-name=${{ inputs.project-name }}
 
     - name: Extract deployment URLs

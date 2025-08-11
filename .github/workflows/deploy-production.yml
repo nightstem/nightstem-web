@@ -110,7 +110,6 @@ jobs:
       - name: Deploy to Cloudflare Pages
         uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
