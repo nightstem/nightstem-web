@@ -1,0 +1,31 @@
+const path = require('path');
+
+/** @type { import('@storybook/nextjs-vite').StorybookConfig } */
+const config = {
+  stories: [
+    // '../src/**/*.mdx',
+    '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+  ],
+  addons: [
+    '@chromatic-com/storybook',
+    '@storybook/addon-docs',
+    '@storybook/addon-onboarding',
+    '@storybook/addon-a11y',
+  ],
+  framework: {
+    name: '@storybook/nextjs-vite',
+    options: {},
+  },
+  viteFinal: async (config) => {
+    // Configure for ES modules compatibility
+    config.define = {
+      ...config.define,
+      global: 'globalThis',
+    };
+
+    return config;
+  },
+  staticDirs: [path.join(__dirname, '..', 'public')],
+};
+
+module.exports = config;
