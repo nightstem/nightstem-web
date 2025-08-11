@@ -189,7 +189,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Find the version bump commit and revert only the package.json change
-          BUMP_COMMIT=$(git log --oneline --grep="chore(release): bump version" -n 1 | cut -d' ' -f1)
+          BUMP_COMMIT=$(git log --oneline --grep="chore(release): bump version to" -n 1 | cut -d' ' -f1)
 
           if [ -n "$BUMP_COMMIT" ]; then
             echo "Found version bump commit: $BUMP_COMMIT"
