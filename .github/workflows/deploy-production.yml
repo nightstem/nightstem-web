@@ -94,11 +94,13 @@ jobs:
       contents: read
       deployments: write
     runs-on: ubuntu-latest
-    needs: create-pre-release
+    needs: [bump-version, create-pre-release]
     timeout-minutes: 20
     steps:
-      - name: Checkout
+      - name: Checkout updated code
         uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.bump-version.outputs.new_version }}
 
       - name: Build project
         uses: nightstem/nightstem-web/.github/actions/build-project@main
