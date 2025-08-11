@@ -114,6 +114,7 @@ runs:
       with:
         apiToken: ${{ inputs.cloudflare-api-token }}
         accountId: ${{ inputs.cloudflare-account-id }}
+        gitHubToken: ${{ inputs.github-token }}
         command: pages deploy ${{ inputs.build-output-directory }} --project-name=${{ inputs.project-name }}
 
     - name: Extract deployment URLs
