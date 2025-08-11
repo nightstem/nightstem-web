@@ -16,4 +16,4 @@ runs:
 
     - name: Check coverage
       shell: bash
-      run: pnpm exec vitest --coverage --watch false
+      run: pnpm coverage

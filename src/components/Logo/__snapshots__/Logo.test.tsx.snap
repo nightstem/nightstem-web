@@ -1,0 +1,420 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with DISPLAY size and none animation 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-20 w-20"
+  />
+  <span
+    class="heading-display"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with DISPLAY size and pulse animation 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-20 w-20 animate-pulse"
+  />
+  <span
+    class="heading-display"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with body size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[14px] w-[14px]"
+  />
+  <span
+    class="text-body"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with caption size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[10px] w-[10px]"
+  />
+  <span
+    class="text-caption"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with display size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-20 w-20"
+  />
+  <span
+    class="heading-display"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with hint size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-2 w-2"
+  />
+  <span
+    class="text-hint"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with lg size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-8 w-8"
+  />
+  <span
+    class="heading-lg"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with md size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-6 w-6"
+  />
+  <span
+    class="heading-md"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with sm size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[18px] w-[18px]"
+  />
+  <span
+    class="heading-sm"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with xl size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-11 w-11"
+  />
+  <span
+    class="heading-xl"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for FULL mode with xxl size 1`] = `
+<div
+  class="inline-flex flex-col text-center items-end leading-none"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-14 w-14"
+  />
+  <span
+    class="heading-xxl"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with body size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-2"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[14px] w-[14px]"
+  />
+  <span
+    class="text-body"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with caption size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-1"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[10px] w-[10px]"
+  />
+  <span
+    class="text-caption"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with display size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-4"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-20 w-20"
+  />
+  <span
+    class="heading-display"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with hint size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-1"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-2 w-2"
+  />
+  <span
+    class="text-hint"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with lg size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-3"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-8 w-8"
+  />
+  <span
+    class="heading-lg"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with md size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-2"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-6 w-6"
+  />
+  <span
+    class="heading-md"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with sm size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-2"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[18px] w-[18px]"
+  />
+  <span
+    class="heading-sm"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with xl size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-3"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-11 w-11"
+  />
+  <span
+    class="heading-xl"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with xxl size 1`] = `
+<div
+  class="inline-flex items-center leading-none gap-3"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-14 w-14"
+  />
+  <span
+    class="heading-xxl"
+  >
+    Nightstem
+  </span>
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with body size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[14px] w-[14px]"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with caption size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[10px] w-[10px]"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with display size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-20 w-20"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with hint size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-2 w-2"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with lg size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-8 w-8"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with md size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-6 w-6"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with sm size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-[18px] w-[18px]"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with xl size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-11 w-11"
+  />
+</div>
+`;
+
+exports[`Logo > Snapshots > matches snapshot for ICON mode with xxl size 1`] = `
+<div
+  class="inline-flex"
+>
+  <img
+    alt="Nightstem icon"
+    class="object-contain h-14 w-14"
+  />
+</div>
+`;
