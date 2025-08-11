@@ -16,4 +16,4 @@ runs:
 
     - name: Run tests
       shell: bash
-      run: pnpm exec vitest --watch false
+      run: pnpm test
