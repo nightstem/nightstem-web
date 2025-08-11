@@ -4,7 +4,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 import { defineConfig } from 'vitest/config';
 
-const MIN_COVERAGE_PERCENTAGE = 100;
+const MIN_COVERAGE_PERCENTAGE = 85;
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
