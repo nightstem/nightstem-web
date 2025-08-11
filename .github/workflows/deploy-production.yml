@@ -167,6 +167,7 @@ jobs:
 
       - name: Delete release
         continue-on-error: true
+        if: ${{ needs.create-pre-release.result == 'success' }}
         uses: jhonny17/actions/delete-release@main
         with:
           github_token: ${{ steps.generate-token.outputs.token }}
@@ -174,6 +175,7 @@ jobs:
 
       - name: Delete tag
         continue-on-error: true
+        if: ${{ needs.bump-version.result == 'success' }}
         uses: jhonny17/actions/delete-tag@main
         with:
           github_token: ${{ steps.generate-token.outputs.token }}
@@ -181,6 +183,7 @@ jobs:
 
       - name: Revert version bump commit
         continue-on-error: true
+        if: ${{ needs.bump-version.result == 'success' }}
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
