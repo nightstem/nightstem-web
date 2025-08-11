@@ -100,7 +100,7 @@ jobs:
       - name: Checkout updated code
         uses: actions/checkout@v4
         with:
-          ref: ${{ needs.bump-version.outputs.new_version }}
+          ref: main
 
       - name: Build project
         uses: nightstem/nightstem-web/.github/actions/build-project@main
