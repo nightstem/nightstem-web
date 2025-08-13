@@ -59,6 +59,73 @@ jobs:
     outputs:
       release_id: ${{ steps.create-pre-release-step.outputs.result }}
     steps:
+      - name: Generate App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          repositories: nightstem-web
+
+      - name: Create pre-release
+        id: create-pre-release-step
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            const { data: release } = await github.rest.repos.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag_name: '${{ needs.bump-version.outputs.new_version }}',
+              name: '${{ needs.bump-version.outputs.new_version }}',
+              body: '🚀 Release in progress... commit details and deployment info will be added shortly.',
+              prerelease: true,
+              draft: false
+            });
+
+            console.log(`Pre-release created: ${release.html_url}`);
+            return release.id;
+          result-encoding: string
+
+  build-and-deploy:
+    name: '🚀 Build and deploy to production'
+    environment: production
+    permissions:
+      contents: read
+      deployments: write
+    runs-on: ubuntu-latest
+    needs: [bump-version, create-pre-release]
+    timeout-minutes: 20
+    outputs:
+      deployment-url: ${{ steps.deploy.outputs.deployment-url }}
+    steps:
+      - name: Checkout updated code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Build project
+        uses: nightstem/nightstem-web/.github/actions/build-project@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
+        with:
+          cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
+          environment: production
+
+  update-release-with-deployment:
+    name: '📝 Update pre-release with deployment info'
+    runs-on: ubuntu-latest
+    needs: [create-pre-release, build-and-deploy]
+    if: ${{ success() }}
+    timeout-minutes: 5
+    steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -72,8 +139,7 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           repositories: nightstem-web
 
-      - name: Create pre-release
-        id: create-pre-release-step
+      - name: Update pre-release with deployment URL
         uses: actions/github-script@v7
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
@@ -140,54 +206,30 @@ jobs:
               });
             }
 
-            const { data: release } = await github.rest.repos.createRelease({
+            // Add deployment information
+            const deploymentUrl = '${{ needs.build-and-deploy.outputs.deployment-url }}';
+            let deploymentInfo = '';
+            if (deploymentUrl) {
+              deploymentInfo = `\n\n## Deployment\n\n🚀 **Deployed to:** ${deploymentUrl}\n`;
+            }
+
+            const releaseBody = commitTable + deploymentInfo;
+
+            // Update the pre-release
+            const { data: updatedRelease } = await github.rest.repos.updateRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              tag_name: '${{ needs.bump-version.outputs.new_version }}',
-              name: '${{ needs.bump-version.outputs.new_version }}',
-              body: commitTable,
-              prerelease: true,
-              draft: false
+              release_id: '${{ needs.create-pre-release.outputs.release_id }}',
+              body: releaseBody
             });
 
-            console.log(`Pre-release created: ${release.html_url}`);
-            return release.id;
-          result-encoding: string
-
-  build-and-deploy:
-    name: '🚀 Build and deploy to production'
-    environment: production
-    permissions:
-      contents: read
-      deployments: write
-    runs-on: ubuntu-latest
-    needs: [bump-version, create-pre-release]
-    timeout-minutes: 20
-    steps:
-      - name: Checkout updated code
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Build project
-        uses: nightstem/nightstem-web/.github/actions/build-project@main
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy to Cloudflare Pages
-        uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
-        with:
-          cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
-          build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
-          environment: production
+            console.log(`Pre-release updated with deployment info: ${updatedRelease.html_url}`);
 
   publish_release_on_success:
     name: '✅ Publish final release'
     environment: production
     runs-on: ubuntu-latest
-    needs: [create-pre-release, build-and-deploy]
+    needs: [create-pre-release, update-release-with-deployment]
     if: ${{ success() }}
     timeout-minutes: 5
     steps:
@@ -213,7 +255,13 @@ jobs:
   delete_release_on_failure:
     name: '🧹 Cleanup on failure'
     runs-on: ubuntu-latest
-    needs: [bump-version, create-pre-release, build-and-deploy]
+    needs:
+      [
+        bump-version,
+        create-pre-release,
+        build-and-deploy,
+        update-release-with-deployment,
+      ]
     if: ${{ failure() || cancelled() }}
     timeout-minutes: 10
     steps:

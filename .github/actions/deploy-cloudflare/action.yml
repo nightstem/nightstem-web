@@ -27,10 +27,10 @@ inputs:
 outputs:
   deployment-url:
     description: 'URL of the deployed application'
-    value: ${{ steps.deploy.outputs.deployment-url }}
+    value: ${{ steps.extract-urls.outputs.deployment-url }}
   deployment-alias:
     description: 'Alias URL of the deployment'
-    value: ${{ steps.deploy.outputs.deployment-alias }}
+    value: ${{ steps.extract-urls.outputs.deployment-alias }}
 
 runs:
   using: 'composite'
@@ -113,11 +113,16 @@ runs:
         accountId: ${{ inputs.cloudflare-account-id }}
         command: pages deploy ${{ inputs.build-output-directory }} --project-name=${{ inputs.project-name }}
 
-    - name: Extract deployment URLs
+    - name: Set deployment URLs
       id: extract-urls
       shell: bash
       run: |
-        # Extract deployment URL from Wrangler output
-        # This is a placeholder - actual implementation would depend on Wrangler output format
-        echo "deployment-url=https://${{ inputs.project-name }}.pages.dev" >> $GITHUB_OUTPUT
-        echo "deployment-alias=https://${{ steps.extract_branch.outputs.branch_name }}.${{ inputs.project-name }}.pages.dev" >> $GITHUB_OUTPUT
+        # For production, always use the custom domain
+        if [[ "${{ inputs.environment }}" == "production" ]]; then
+          echo "deployment-url=https://nightstem.com/" >> $GITHUB_OUTPUT
+          echo "deployment-alias=https://nightstem.com/" >> $GITHUB_OUTPUT
+        else
+          # For staging/preview, use the actual deployment URL from wrangler-action
+          echo "deployment-url=${{ steps.deploy.outputs.deployment-url }}" >> $GITHUB_OUTPUT
+          echo "deployment-alias=${{ steps.deploy.outputs.deployment-url }}" >> $GITHUB_OUTPUT
+        fi
