@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches the snapshot 1`] = `
+<kbd
+  class="rounded shadow-2xl border border-foreground/20 px-1"
+>
+  Ctrl
+</kbd>
+`;
