@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NotFoundPage > renders correctly with snapshot 1`] = `
+<div
+  data-testid="not-found-component"
+>
+  NotFound Component
+</div>
+`;

@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
-import KbdComponet, { type KbdProps } from '@/components/Kbd';
+import KbdComponent, { type KbdProps } from '@/components/Kbd';
 
 const meta = {
-  component: KbdComponet,
+  component: KbdComponent,
   tags: ['autodocs'],
 } satisfies Meta<KbdProps>;
 

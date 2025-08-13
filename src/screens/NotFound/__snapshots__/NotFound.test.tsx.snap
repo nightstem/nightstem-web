@@ -1,0 +1,101 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NotFound > renders correctly with snapshot 1`] = `
+<main
+  class="min-h-dvh w-dvw grid place-items-center overflow-hidden"
+>
+  <article
+    aria-labelledby="nf-title"
+    class="grid gap-6 w-full max-w-[64ch] px-4"
+  >
+    <header
+      class="grid gap-4 w-full"
+    >
+      <div
+        class="inline-flex items-center leading-none gap-2"
+      >
+        <img
+          alt="Nightstem icon"
+          class="object-contain h-[18px] w-[18px] animate-pulse"
+        />
+        <span
+          class="heading-sm"
+        >
+          Nightstem
+        </span>
+      </div>
+      <h1
+        class="heading-lg"
+        id="nf-title"
+      >
+        CRT Afterimage
+      </h1>
+    </header>
+    <div
+      class="flex flex-col gap-12"
+    >
+      <p
+        class="text-neutral-400"
+      >
+        A ghost of content lingers, unreadable and green.
+      </p>
+      <div
+        class="w-full flex flex-col gap-4"
+      >
+        <div
+          class="flex gap-3"
+        >
+          <button
+            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
+            type="button"
+          >
+            Go home
+          </button>
+          <button
+            aria-label="Show another message (press R)"
+            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
+            title="Shuffle (R)"
+            type="button"
+          >
+            Shuffle
+          </button>
+        </div>
+        <div
+          class="flex gap-1 text-xs text-neutral-400"
+        >
+          <span>
+            Tip: press
+          </span>
+          <span
+            class="flex gap-1"
+          >
+            <kbd
+              class="rounded shadow-2xl border border-foreground/20 px-1"
+            >
+              Esc
+            </kbd>
+            <span>
+              to go home
+            </span>
+          </span>
+          <span>
+            •
+          </span>
+          <span
+            class="flex gap-1"
+          >
+            <kbd
+              class="rounded shadow-2xl border border-foreground/20 px-1"
+            >
+              R
+            </kbd>
+            <span>
+               to shuffle
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </article>
+</main>
+`;
