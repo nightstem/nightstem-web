@@ -1,7 +1,7 @@
 import { axe } from 'vitest-axe';
 import { render } from '@testing-library/react';
 
-import { MaintenanceMode } from '@/components/MaintenanceMode/MaintenanceMode';
+import { MaintenanceMode } from '@/screens/MaintenanceMode';
 
 const mockVersion = '1.0.0';
 const originalEnv = process.env;
