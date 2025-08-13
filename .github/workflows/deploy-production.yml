@@ -129,14 +129,14 @@ jobs:
             let commitTable = '';
             if (commits.length > 0) {
               commitTable = '\n\n## Commits since last release\n\n';
-              commitTable += '| Hash | Author | Description |\n';
-              commitTable += '|------|--------|-------------|\n';
+              commitTable += '| Author | Hash | Description |\n';
+              commitTable += '|--------|------|-------------|\n';
               
               commits.forEach(commit => {
                 const shortHash = commit.sha.substring(0, 7);
                 const author = commit.author ? `@${commit.author.login}` : 'Unknown';
                 const message = commit.commit.message.split('\n')[0].replace(/\|/g, '\\|');
-                commitTable += `| ${shortHash} | ${author} | ${message} |\n`;
+                commitTable += `| ${author} | ${shortHash} | ${message} |\n`;
               });
             }
 
