@@ -5,7 +5,7 @@ import {
   LOGO_SIZES,
   LOGO_ANIMATIONS,
 } from '@/components/Logo/constants';
-import { Logo, type LogoProps } from '@/components/Logo/Logo';
+import { Logo, type LogoProps } from '@/components/Logo';
 
 const meta = {
   component: Logo,

@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with DISPLAY size and none animation 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with DISPLAY size and none animation 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -16,7 +16,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with DISPLAY size and
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with DISPLAY size and pulse animation 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with DISPLAY size and pulse animation 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -32,7 +32,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with DISPLAY size and
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with body size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with body size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -48,7 +48,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with body size 1`] = 
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with caption size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with caption size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -64,7 +64,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with caption size 1`]
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with display size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with display size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -80,7 +80,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with display size 1`]
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with hint size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with hint size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -96,7 +96,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with hint size 1`] = 
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with lg size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with lg size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -112,7 +112,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with lg size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with md size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with md size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -128,7 +128,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with md size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with sm size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with sm size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -144,7 +144,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with sm size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with xl size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with xl size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -160,7 +160,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with xl size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for FULL mode with xxl size 1`] = `
+exports[`Snapshots > matches snapshot for FULL mode with xxl size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end leading-none"
 >
@@ -176,7 +176,7 @@ exports[`Logo > Snapshots > matches snapshot for FULL mode with xxl size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with body size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with body size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-2"
 >
@@ -192,7 +192,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with body size 
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with caption size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with caption size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-1"
 >
@@ -208,7 +208,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with caption si
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with display size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with display size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-4"
 >
@@ -224,7 +224,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with display si
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with hint size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with hint size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-1"
 >
@@ -240,7 +240,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with hint size 
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with lg size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with lg size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-3"
 >
@@ -256,7 +256,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with lg size 1`
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with md size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with md size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-2"
 >
@@ -272,7 +272,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with md size 1`
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with sm size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with sm size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-2"
 >
@@ -288,7 +288,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with sm size 1`
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with xl size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with xl size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-3"
 >
@@ -304,7 +304,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with xl size 1`
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with xxl size 1`] = `
+exports[`Snapshots > matches snapshot for HORIZONTAL mode with xxl size 1`] = `
 <div
   class="inline-flex items-center leading-none gap-3"
 >
@@ -320,7 +320,7 @@ exports[`Logo > Snapshots > matches snapshot for HORIZONTAL mode with xxl size 1
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with body size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with body size 1`] = `
 <div
   class="inline-flex"
 >
@@ -331,7 +331,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with body size 1`] = 
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with caption size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with caption size 1`] = `
 <div
   class="inline-flex"
 >
@@ -342,7 +342,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with caption size 1`]
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with display size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with display size 1`] = `
 <div
   class="inline-flex"
 >
@@ -353,7 +353,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with display size 1`]
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with hint size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with hint size 1`] = `
 <div
   class="inline-flex"
 >
@@ -364,7 +364,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with hint size 1`] = 
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with lg size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with lg size 1`] = `
 <div
   class="inline-flex"
 >
@@ -375,7 +375,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with lg size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with md size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with md size 1`] = `
 <div
   class="inline-flex"
 >
@@ -386,7 +386,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with md size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with sm size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with sm size 1`] = `
 <div
   class="inline-flex"
 >
@@ -397,7 +397,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with sm size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with xl size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with xl size 1`] = `
 <div
   class="inline-flex"
 >
@@ -408,7 +408,7 @@ exports[`Logo > Snapshots > matches snapshot for ICON mode with xl size 1`] = `
 </div>
 `;
 
-exports[`Logo > Snapshots > matches snapshot for ICON mode with xxl size 1`] = `
+exports[`Snapshots > matches snapshot for ICON mode with xxl size 1`] = `
 <div
   class="inline-flex"
 >
