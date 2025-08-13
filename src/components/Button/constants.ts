@@ -1,26 +1,26 @@
 export const BUTTON_SHAPE = {
-  SQUARE: 'SQUARE',
-  ROUNDED: 'ROUNDED',
-  CIRCLE: 'CIRCLE',
+  SQUARE: 'square',
+  ROUNDED: 'rounded',
+  CIRCLE: 'circle',
 } as const;
 
 export const BUTTON_VARIANT = {
-  SOLID: 'SOLID',
-  OUTLINED: 'OUTLINED',
-  GHOST: 'GHOST',
-  TEXT: 'TEXT',
+  SOLID: 'solid',
+  OUTLINED: 'outlined',
+  GHOST: 'ghost',
+  TEXT: 'text',
 } as const;
 
 export const BUTTON_SIZE = {
-  XS: 'XS',
-  SM: 'SM',
-  MD: 'MD',
-  LG: 'LG',
-  XL: 'XL',
+  XS: 'xs',
+  SM: 'sm',
+  MD: 'md',
+  LG: 'lg',
+  XL: 'xl',
 } as const;
 
 export const BUTTON_COLORS = {
-  PRIMARY: 'PRIMARY',
-  SECONDARY: 'SECONDARY',
-  NEUTRAL: 'NEUTRAL',
+  PRIMARY: 'primary',
+  SECONDARY: 'secondary',
+  NEUTRAL: 'neutral',
 } as const;

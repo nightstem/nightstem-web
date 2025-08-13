@@ -1,141 +1,151 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for disabled state 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
+  disabled=""
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, lg size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, lg size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, lg size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, md size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, md size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, md size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, sm size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, sm size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, sm size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, xl size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, xl size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, xl size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, xs size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with NEUTRAL color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, xs size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-500 bg-transparent hover:text-dark hover:bg-neutral-500/60 active:bg-neutral-500/60 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with neutral color, xs size, and square shape 1`] = `
+<button
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Snapshots > matches snapshot for ghost variant with primary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -144,7 +154,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, LG s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -153,7 +163,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, LG s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -162,7 +172,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, LG s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -171,7 +181,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, MD s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -180,7 +190,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, MD s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -189,7 +199,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, MD s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -198,7 +208,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, SM s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -207,7 +217,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, SM s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -216,7 +226,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, SM s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -225,7 +235,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XL s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -234,7 +244,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XL s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -243,7 +253,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XL s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -252,7 +262,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XS s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -261,7 +271,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XS s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with primary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -270,7 +280,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with PRIMARY color, XS s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -279,7 +289,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, LG
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -288,7 +298,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, LG
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -297,7 +307,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, LG
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -306,7 +316,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, MD
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -315,7 +325,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, MD
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -324,7 +334,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, MD
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -333,7 +343,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, SM
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -342,7 +352,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, SM
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -351,7 +361,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, SM
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -360,7 +370,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XL
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -369,7 +379,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XL
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -378,7 +388,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XL
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -387,7 +397,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XS
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -396,7 +406,7 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XS
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for ghost variant with secondary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -405,142 +415,142 @@ exports[`Snapshots > matches snapshot for GHOST variant with SECONDARY color, XS
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, lg size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, lg size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, lg size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, md size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, md size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, md size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, sm size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, sm size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, sm size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, xl size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, xl size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, xl size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, xs size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, xs size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with NEUTRAL color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with neutral color, xs size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-500 bg-transparent border border-neutral-500 hover:border-neutral-400 active:border-neutral-400 hover:bg-neutral-500/20 active:bg-neutral-500/20 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:border-neutral-500 disabled:active:border-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -549,7 +559,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, L
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -558,7 +568,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, L
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -567,7 +577,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, L
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -576,7 +586,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, M
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -585,7 +595,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, M
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -594,7 +604,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, M
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -603,7 +613,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, S
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -612,7 +622,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, S
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -621,7 +631,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, S
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -630,7 +640,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, X
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -639,7 +649,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, X
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -648,7 +658,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, X
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -657,7 +667,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, X
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -666,7 +676,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, X
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with primary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   type="button"
@@ -675,7 +685,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with PRIMARY color, X
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -684,7 +694,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -693,7 +703,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -702,7 +712,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -711,7 +721,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -720,7 +730,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -729,7 +739,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -738,7 +748,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -747,7 +757,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -756,7 +766,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -765,7 +775,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -774,7 +784,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -783,7 +793,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -792,7 +802,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -801,7 +811,7 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for outlined variant with secondary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   type="button"
@@ -810,142 +820,142 @@ exports[`Snapshots > matches snapshot for OUTLINED variant with SECONDARY color,
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, lg size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, lg size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, lg size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, md size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, md size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, md size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, sm size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, sm size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, sm size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, xl size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, xl size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, xl size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, xs size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, xs size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with NEUTRAL color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with neutral color, xs size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-dark bg-neutral-500 hover:bg-neutral-400 active:bg-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:bg-neutral-500 disabled:active:bg-neutral-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -954,7 +964,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, LG s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -963,7 +973,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, LG s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -972,7 +982,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, LG s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -981,7 +991,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, MD s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -990,7 +1000,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, MD s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -999,7 +1009,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, MD s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1008,7 +1018,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, SM s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1017,7 +1027,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, SM s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1026,7 +1036,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, SM s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1035,7 +1045,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XL s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1044,7 +1054,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XL s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1053,7 +1063,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XL s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1062,7 +1072,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XS s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1071,7 +1081,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XS s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with primary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   type="button"
@@ -1080,7 +1090,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with PRIMARY color, XS s
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1089,7 +1099,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, LG
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1098,7 +1108,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, LG
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1107,7 +1117,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, LG
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1116,7 +1126,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, MD
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1125,7 +1135,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, MD
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1134,7 +1144,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, MD
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1143,7 +1153,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, SM
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1152,7 +1162,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, SM
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1161,7 +1171,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, SM
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1170,7 +1180,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XL
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1179,7 +1189,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XL
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1188,7 +1198,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XL
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1197,7 +1207,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XS
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1206,7 +1216,7 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XS
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for solid variant with secondary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   type="button"
@@ -1215,142 +1225,142 @@ exports[`Snapshots > matches snapshot for SOLID variant with SECONDARY color, XS
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, lg size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, lg size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, lg size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, md size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, md size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, md size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, sm size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, sm size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, sm size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, xl size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, xl size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, xl size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, xs size, and circle shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, xs size, and rounded shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with NEUTRAL color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with neutral color, xs size, and square shape 1`] = `
 <button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-500 hover:text-neutral-400 active:text-neutral-400 focus-visible:ring-neutral-500 disabled:opacity-60 disabled:hover:text-neutral-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
 >
   Button
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1359,7 +1369,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, LG si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1368,7 +1378,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, LG si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1377,7 +1387,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, LG si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1386,7 +1396,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, MD si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1395,7 +1405,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, MD si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1404,7 +1414,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, MD si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1413,7 +1423,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, SM si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1422,7 +1432,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, SM si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1431,7 +1441,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, SM si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1440,7 +1450,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XL si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1449,7 +1459,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XL si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1458,7 +1468,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XL si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1467,7 +1477,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XS si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1476,7 +1486,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XS si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with primary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1485,7 +1495,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with PRIMARY color, XS si
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, LG size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, lg size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1494,7 +1504,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, LG 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, LG size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, lg size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1503,7 +1513,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, LG 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, LG size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, lg size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1512,7 +1522,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, LG 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, MD size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, md size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1521,7 +1531,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, MD 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, MD size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, md size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1530,7 +1540,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, MD 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, MD size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, md size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1539,7 +1549,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, MD 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, SM size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, sm size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1548,7 +1558,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, SM 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, SM size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, sm size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1557,7 +1567,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, SM 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, SM size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, sm size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1566,7 +1576,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, SM 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XL size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, xl size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1575,7 +1585,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XL 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XL size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, xl size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1584,7 +1594,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XL 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XL size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, xl size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1593,7 +1603,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XL 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XS size, and CIRCLE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, xs size, and circle shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1602,7 +1612,7 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XS 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XS size, and ROUNDED shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, xs size, and rounded shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   type="button"
@@ -1611,19 +1621,9 @@ exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XS 
 </button>
 `;
 
-exports[`Snapshots > matches snapshot for TEXT variant with SECONDARY color, XS size, and SQUARE shape 1`] = `
+exports[`Snapshots > matches snapshot for text variant with secondary color, xs size, and square shape 1`] = `
 <button
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
-  type="button"
->
-  Button
-</button>
-`;
-
-exports[`Snapshots > matches snapshot for disabled state 1`] = `
-<button
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
-  disabled=""
   type="button"
 >
   Button
