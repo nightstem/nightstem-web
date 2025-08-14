@@ -6,15 +6,15 @@ import type {
   ButtonShape,
   ButtonSize,
   ButtonVariant,
-} from '@/components/Button/types';
+} from '@/components/ui/Buttons/types';
 
 import {
   BUTTON_SIZE,
   BUTTON_SHAPE,
   BUTTON_VARIANT,
   BUTTON_COLORS,
-} from '@/components/Button/constants';
-import { THEME_VARIANT, THEME_SIZE, THEME_SHAPE } from './themes';
+} from '@/components/ui/Buttons/constants';
+import { THEME_VARIANT, THEME_SIZE, THEME_SHAPE } from '../themes';
 
 export type ButtonProps = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,

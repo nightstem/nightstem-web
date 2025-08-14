@@ -1,8 +1,8 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`MaintenanceMode > should match snapshot 1`] = `
-<main
-  class="relative w-dvw h-dvh grid place-content-center sm:items-center"
+<div
+  class="relative w-full h-full grid place-content-center sm:items-center"
 >
   <article
     class="relative flex flex-col gap-5 items-center text-center"
@@ -11,7 +11,7 @@ exports[`MaintenanceMode > should match snapshot 1`] = `
       class="flex flex-col text-center"
     >
       <div
-        class="inline-flex flex-col text-center items-end leading-none"
+        class="inline-flex flex-col text-center items-end"
       >
         <img
           alt="Nightstem icon"
@@ -41,5 +41,5 @@ exports[`MaintenanceMode > should match snapshot 1`] = `
     v
     1.0.0
   </span>
-</main>
+</div>
 `;

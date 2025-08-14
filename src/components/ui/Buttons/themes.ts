@@ -5,7 +5,7 @@ import type {
   ButtonShape,
   ButtonSize,
   ButtonVariant,
-} from '@/components/Button/types';
+} from '@/components/ui/Buttons/types';
 
 export const THEME_SIZE: Record<ButtonSize, string> = {
   xl: 'text-xl leading-[1.15] px-6 py-3',

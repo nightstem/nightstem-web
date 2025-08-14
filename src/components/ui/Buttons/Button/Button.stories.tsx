@@ -1,13 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
-import ButtonComponent, { type ButtonProps } from '@/components/Button';
+import ButtonComponent, {
+  type ButtonProps,
+} from '@/components/ui/Buttons/Button';
 
 import {
   BUTTON_SIZE,
   BUTTON_SHAPE,
   BUTTON_VARIANT,
   BUTTON_COLORS,
-} from '@/components/Button/constants';
+} from '@/components/ui/Buttons/constants';
 
 const meta = {
   component: ButtonComponent,

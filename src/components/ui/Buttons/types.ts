@@ -3,7 +3,7 @@ import {
   BUTTON_SHAPE,
   BUTTON_SIZE,
   BUTTON_VARIANT,
-} from '@/components/Button/constants';
+} from '@/components/ui/Buttons/constants';
 
 export type ButtonSize = (typeof BUTTON_SIZE)[keyof typeof BUTTON_SIZE];
 export type ButtonShape = (typeof BUTTON_SHAPE)[keyof typeof BUTTON_SHAPE];

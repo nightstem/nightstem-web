@@ -1,17 +1,17 @@
 import { axe } from 'vitest-axe';
 import { render } from '@testing-library/react';
 
-import { Logo } from '@/components/Logo';
+import { Logo } from '@/components/ui/Logo';
 import type {
   LogoMode,
   LogoSize,
   LogoAnimation,
-} from '@/components/Logo/types';
+} from '@/components/ui/Logo/types';
 import {
   LOGO_MODES,
   LOGO_SIZES,
   LOGO_ANIMATIONS,
-} from '@/components/Logo/constants';
+} from '@/components/ui/Logo/constants';
 
 const modes = Object.values(LOGO_MODES) as LogoMode[];
 const animations = Object.values(LOGO_ANIMATIONS) as LogoAnimation[];

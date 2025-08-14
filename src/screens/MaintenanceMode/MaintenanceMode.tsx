@@ -3,13 +3,13 @@ import {
   LOGO_MODES,
   LOGO_SIZES,
   LOGO_ANIMATIONS,
-} from '@/components/Logo';
+} from '@/components/ui/Logo';
 
 export const MaintenanceMode = () => {
   const version = process.env.NEXT_PUBLIC_APP_VERSION;
 
   return (
-    <main className="relative w-dvw h-dvh grid place-content-center sm:items-center">
+    <div className="relative w-full h-full grid place-content-center sm:items-center">
       <article className="relative flex flex-col gap-5 items-center text-center">
         <header className="flex flex-col text-center">
           <Logo
@@ -26,7 +26,7 @@ export const MaintenanceMode = () => {
       <span className="absolute bottom-4 right-4 text-caption text-neutral-400 font-mono">
         v{version}
       </span>
-    </main>
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@ import Logo, {
   LOGO_ANIMATIONS,
   LOGO_MODES,
   LOGO_SIZES,
-} from '@/components/Logo';
+} from '@/components/ui/Logo';
 
 import randomInt from '@/utils/randomInt';
 import hashIndex from '@/utils/hashIndex';
@@ -16,8 +16,8 @@ import {
   notFoundList,
   type NotFoundPhrase,
 } from '@/screens/NotFound/constants';
-import Kbd from '@/components/Kbd';
-import Button from '@/components/Button';
+import { Kbd } from '@/components/ui/Kbd';
+import { Button } from '@/components/ui/Buttons';
 
 export type NotFoundProps = {
   notFoundPhrases?: NotFoundPhrase[];
@@ -64,7 +64,7 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
   const { title, description } = notFoundPhrases[index] ?? defaultNotFound;
 
   return (
-    <main className="min-h-dvh w-dvw grid place-items-center overflow-hidden">
+    <main className="h-full w-full grid place-items-center overflow-hidden">
       <article
         aria-labelledby="nf-title"
         className="grid gap-6 w-full max-w-[64ch] px-4"
