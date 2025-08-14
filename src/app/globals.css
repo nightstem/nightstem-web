@@ -37,6 +37,8 @@
   --color-secondary-700: oklch(62% 0.18 78);
   --color-secondary-800: oklch(54% 0.16 78);
   --color-secondary-900: oklch(46% 0.14 78);
+
+  --spacing-8xl: 96rem;
 }
 
 @layer components {
@@ -74,6 +76,10 @@
 
   .text-hint {
     @apply text-[0.563rem] font-normal leading-none;
+  }
+
+  .screen-container {
+    @apply w-full max-w-8xl mx-auto;
   }
 }
 
