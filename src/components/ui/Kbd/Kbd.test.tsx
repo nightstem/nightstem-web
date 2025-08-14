@@ -1,7 +1,7 @@
 import { axe } from 'vitest-axe';
 import { render } from '@testing-library/react';
 
-import Kbd, { type KbdProps } from '@/components/Kbd';
+import Kbd, { type KbdProps } from '@/components/ui/Kbd';
 
 const defaultProps: KbdProps = {
   children: 'Ctrl',

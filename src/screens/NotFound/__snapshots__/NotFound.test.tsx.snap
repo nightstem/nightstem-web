@@ -2,7 +2,7 @@
 
 exports[`NotFound > renders correctly with snapshot 1`] = `
 <main
-  class="min-h-dvh w-dvw grid place-items-center overflow-hidden"
+  class="h-full w-full grid place-items-center overflow-hidden"
 >
   <article
     aria-labelledby="nf-title"
@@ -12,7 +12,7 @@ exports[`NotFound > renders correctly with snapshot 1`] = `
       class="grid gap-4 w-full"
     >
       <div
-        class="inline-flex items-center leading-none gap-2"
+        class="inline-flex items-center gap-2"
       >
         <img
           alt="Nightstem icon"

@@ -2,8 +2,47 @@
 
 exports[`NotFoundPage > renders correctly with snapshot 1`] = `
 <div
-  data-testid="not-found-component"
+  class="flex flex-col h-dvh w-dvw"
 >
-  NotFound Component
+  <nav
+    class="w-full flex justify-center shadow-sm shadow-neutral-500"
+  >
+    <div
+      class="screen-container px-2 py-2.5 flex items-center justify-between"
+    >
+      <div
+        class="inline-flex items-center gap-2"
+      >
+        <img
+          alt="Nightstem icon"
+          class="object-contain h-6 w-6"
+        />
+        <span
+          class="heading-md"
+        >
+          Nightstem
+        </span>
+      </div>
+      <ol>
+        <li>
+          <a
+            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+      </ol>
+    </div>
+  </nav>
+  <main
+    class="screen-container h-full max-h-full overflow-auto"
+  >
+    <div
+      data-testid="not-found-component"
+    >
+      NotFound Component
+    </div>
+  </main>
 </div>
 `;

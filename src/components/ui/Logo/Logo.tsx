@@ -6,13 +6,13 @@ import {
   LOGO_SIZE_CONFIG,
   LOGO_ANIMATIONS,
   LOGO_ANIMATION_CONFIG,
-} from '@/components/Logo/constants';
+} from '@/components/ui/Logo/constants';
 import LogoImage from '@/assets/images/core/logo.webp';
 import type {
   LogoMode,
   LogoSize,
   LogoAnimation,
-} from '@/components/Logo/types';
+} from '@/components/ui/Logo/types';
 
 export type LogoProps = {
   mode?: LogoMode;
@@ -40,11 +40,7 @@ export const Logo = ({
   switch (mode) {
     case LOGO_MODES.FULL: {
       return (
-        <div
-          className={cx(
-            'inline-flex flex-col text-center items-end leading-none',
-          )}
-        >
+        <div className="inline-flex flex-col text-center items-end">
           {logo}
           <span className={sizeConfig.textClass}>{appName}</span>
         </div>
@@ -53,12 +49,7 @@ export const Logo = ({
 
     case LOGO_MODES.HORIZONTAL: {
       return (
-        <div
-          className={cx(
-            'inline-flex items-center leading-none',
-            sizeConfig.gapClass,
-          )}
-        >
+        <div className={cx('inline-flex items-center', sizeConfig.gapClass)}>
           {logo}
           <span className={sizeConfig.textClass}>{appName}</span>
         </div>
@@ -67,7 +58,7 @@ export const Logo = ({
 
     case LOGO_MODES.ICON:
     default: {
-      return <div className={cx('inline-flex')}>{logo}</div>;
+      return <div className="inline-flex">{logo}</div>;
     }
   }
 };

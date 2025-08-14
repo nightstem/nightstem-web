@@ -1,6 +1,7 @@
-import { NotFound } from '@/screens/NotFound';
-
 import type { Metadata } from 'next';
+
+import { NotFound } from '@/screens/NotFound';
+import { BaseLayout } from '@/components/layout/BaseLayout';
 
 export const metadata: Metadata = {
   title: 'Page not found | Nightstem',
@@ -8,7 +9,11 @@ export const metadata: Metadata = {
 };
 
 export const NotFoundPage = () => {
-  return <NotFound />;
+  return (
+    <BaseLayout>
+      <NotFound />
+    </BaseLayout>
+  );
 };
 
 NotFoundPage.displayName = 'NotFoundPage';

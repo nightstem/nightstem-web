@@ -1,18 +1,18 @@
 import { render } from '@testing-library/react';
 
-import { Button } from '@/components/Button';
+import { ButtonLink } from '@/components/ui/Buttons';
 import type {
   ButtonColor,
   ButtonSize,
   ButtonShape,
   ButtonVariant,
-} from '@/components/Button/types';
+} from '@/components/ui/Buttons/types';
 import {
   BUTTON_COLORS,
   BUTTON_SIZE,
   BUTTON_SHAPE,
   BUTTON_VARIANT,
-} from '@/components/Button/constants';
+} from '@/components/ui/Buttons/constants';
 
 const variants = Object.values(BUTTON_VARIANT) as ButtonVariant[];
 const colors = Object.values(BUTTON_COLORS) as ButtonColor[];
@@ -32,16 +32,33 @@ describe('Snapshots', () => {
     'matches snapshot for %s variant with %s color, %s size, and %s shape',
     (variant, color, size, shape) => {
       const { container } = render(
-        <Button variant={variant} color={color} size={size} shape={shape}>
-          Button
-        </Button>,
+        <ButtonLink
+          variant={variant}
+          color={color}
+          size={size}
+          shape={shape}
+          href="#"
+        >
+          Button Link
+        </ButtonLink>,
       );
       expect(container.firstChild).toMatchSnapshot();
     },
   );
 
-  it('matches snapshot for disabled state', () => {
-    const { container } = render(<Button disabled>Button</Button>);
+  it('matches snapshot for external link', () => {
+    const { container } = render(
+      <ButtonLink href="https://example.com" isExternal>
+        External Link
+      </ButtonLink>,
+    );
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('matches snapshot for internal link', () => {
+    const { container } = render(
+      <ButtonLink href="/internal">Internal Link</ButtonLink>,
+    );
     expect(container.firstChild).toMatchSnapshot();
   });
 });

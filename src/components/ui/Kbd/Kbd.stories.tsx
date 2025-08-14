@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
-import KbdComponent, { type KbdProps } from '@/components/Kbd';
+import KbdComponent, { type KbdProps } from '@/components/ui/Kbd';
 
 const meta = {
   component: KbdComponent,

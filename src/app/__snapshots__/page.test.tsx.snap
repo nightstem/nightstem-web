@@ -3,44 +3,48 @@
 exports[`matches snapshot 1`] = `
 <div>
   <main
-    class="relative w-dvw h-dvh grid place-content-center sm:items-center"
+    class="h-dvh w-dvw"
   >
-    <article
-      class="relative flex flex-col gap-5 items-center text-center"
+    <div
+      class="relative w-full h-full grid place-content-center sm:items-center"
     >
-      <header
-        class="flex flex-col text-center"
+      <article
+        class="relative flex flex-col gap-5 items-center text-center"
       >
-        <div
-          class="inline-flex flex-col text-center items-end leading-none"
+        <header
+          class="flex flex-col text-center"
         >
-          <img
-            alt="Nightstem icon"
-            class="object-contain h-8 w-8 animate-pulse"
-          />
-          <span
-            class="heading-lg"
+          <div
+            class="inline-flex flex-col text-center items-end"
+          >
+            <img
+              alt="Nightstem icon"
+              class="object-contain h-8 w-8 animate-pulse"
+            />
+            <span
+              class="heading-lg"
+            >
+              Nightstem
+            </span>
+          </div>
+          <h1
+            class="sr-only"
           >
             Nightstem
-          </span>
-        </div>
-        <h1
-          class="sr-only"
+          </h1>
+        </header>
+        <p
+          class="text-neutral-400"
         >
-          Nightstem
-        </h1>
-      </header>
-      <p
-        class="text-neutral-400"
+          This page is under construction
+        </p>
+      </article>
+      <span
+        class="absolute bottom-4 right-4 text-caption text-neutral-400 font-mono"
       >
-        This page is under construction
-      </p>
-    </article>
-    <span
-      class="absolute bottom-4 right-4 text-caption text-neutral-400 font-mono"
-    >
-      v
-    </span>
+        v
+      </span>
+    </div>
   </main>
 </div>
 `;
