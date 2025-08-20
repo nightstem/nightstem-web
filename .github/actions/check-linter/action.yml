@@ -16,4 +16,4 @@ runs:
 
     - name: Check linter
       shell: bash
-      run: pnpm exec next lint
+      run: pnpm lint

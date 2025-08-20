@@ -48,7 +48,7 @@ echo "Linter check     ................................................."
 # Filter files for linter
 LINTER_FILES=$(echo "$STAGED_FILES" | grep -E '\.(js|jsx|ts|tsx)$' || true)
 if [ -n "$LINTER_FILES" ]; then
-    echo "$LINTER_FILES" | xargs pnpm exec next lint --fix --file
+    echo "$LINTER_FILES" | xargs pnpm exec eslint --fix
     LINT_EXIT_CODE=$?
     if [ $LINT_EXIT_CODE -ne 0 ]; then
         echo "❌ Linter failed with exit code $LINT_EXIT_CODE"
