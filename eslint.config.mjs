@@ -13,6 +13,15 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  {
+    ignores: [
+      'node_modules/**',
+      '.next/**',
+      'out/**',
+      'build/**',
+      'next-env.d.ts',
+    ],
+  },
   ...compat.config({
     extends: ['next/core-web-vitals', 'next/typescript', 'prettier'],
     rules: {
@@ -20,6 +29,12 @@ const eslintConfig = [
       '@typescript-eslint/no-empty-object-type': 'off',
     },
   }),
+  {
+    files: ['.storybook/**'],
+    rules: {
+      '@typescript-eslint/no-require-imports': 'off',
+    },
+  },
   ...storybook.configs['flat/recommended'],
 ];
 
