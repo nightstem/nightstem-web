@@ -14,7 +14,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -23,7 +23,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -32,7 +32,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -41,7 +41,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -50,7 +50,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -59,7 +59,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -68,7 +68,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -77,7 +77,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -86,7 +86,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -95,7 +95,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -104,7 +104,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -113,7 +113,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -122,7 +122,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -131,7 +131,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -140,7 +140,7 @@ exports[`Snapshots > matches snapshot for ghost variant with neutral color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -149,7 +149,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -158,7 +158,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -167,7 +167,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -176,7 +176,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -185,7 +185,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -194,7 +194,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -203,7 +203,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -212,7 +212,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -221,7 +221,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -230,7 +230,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -239,7 +239,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -248,7 +248,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -257,7 +257,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -266,7 +266,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -275,7 +275,7 @@ exports[`Snapshots > matches snapshot for ghost variant with primary color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-primary-500 bg-transparent hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -284,7 +284,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, lg
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -293,7 +293,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, lg
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -302,7 +302,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, lg
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -311,7 +311,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, md
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -320,7 +320,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, md
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -329,7 +329,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, md
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -338,7 +338,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, sm
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -347,7 +347,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, sm
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -356,7 +356,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, sm
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -365,7 +365,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, xl
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -374,7 +374,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, xl
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -383,7 +383,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, xl
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -392,7 +392,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, xs
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -401,7 +401,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, xs
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -410,7 +410,7 @@ exports[`Snapshots > matches snapshot for ghost variant with secondary color, xs
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-secondary-500 bg-transparent hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -428,7 +428,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, l
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -437,7 +437,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, l
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -446,7 +446,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, l
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -455,7 +455,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, m
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -464,7 +464,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, m
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -473,7 +473,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, m
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -482,7 +482,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -491,7 +491,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -500,7 +500,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -509,7 +509,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -518,7 +518,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -527,7 +527,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -536,7 +536,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -545,7 +545,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -554,7 +554,7 @@ exports[`Snapshots > matches snapshot for outlined variant with neutral color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-400 bg-transparent border border-neutral-400 hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:border-neutral-400 disabled:active:border-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -563,7 +563,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, l
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -572,7 +572,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, l
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -581,7 +581,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, l
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -590,7 +590,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, m
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -599,7 +599,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, m
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -608,7 +608,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, m
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -617,7 +617,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -626,7 +626,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -635,7 +635,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -644,7 +644,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -653,7 +653,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -662,7 +662,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -671,7 +671,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -680,7 +680,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -689,7 +689,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, x
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -698,7 +698,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -707,7 +707,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -716,7 +716,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -725,7 +725,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -734,7 +734,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -743,7 +743,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -752,7 +752,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -761,7 +761,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -770,7 +770,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -779,7 +779,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -788,7 +788,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -797,7 +797,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -806,7 +806,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -815,7 +815,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -824,7 +824,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -833,7 +833,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -842,7 +842,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -851,7 +851,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -860,7 +860,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -869,7 +869,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -878,7 +878,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -887,7 +887,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -896,7 +896,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -905,7 +905,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -914,7 +914,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -923,7 +923,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -932,7 +932,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -941,7 +941,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -950,7 +950,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -959,7 +959,7 @@ exports[`Snapshots > matches snapshot for solid variant with neutral color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-dark bg-neutral-400 hover:bg-neutral-300 active:bg-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:bg-neutral-400 disabled:active:bg-neutral-400"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -968,7 +968,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -977,7 +977,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -986,7 +986,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, lg s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -995,7 +995,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1004,7 +1004,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1013,7 +1013,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, md s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1022,7 +1022,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1031,7 +1031,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1040,7 +1040,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, sm s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1049,7 +1049,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1058,7 +1058,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1067,7 +1067,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, xl s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1076,7 +1076,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1085,7 +1085,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1094,7 +1094,7 @@ exports[`Snapshots > matches snapshot for solid variant with primary color, xs s
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1103,7 +1103,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, lg
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1112,7 +1112,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, lg
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1121,7 +1121,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, lg
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1130,7 +1130,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, md
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1139,7 +1139,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, md
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1148,7 +1148,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, md
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1157,7 +1157,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, sm
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1166,7 +1166,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, sm
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1175,7 +1175,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, sm
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1184,7 +1184,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, xl
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1193,7 +1193,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, xl
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1202,7 +1202,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, xl
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1211,7 +1211,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, xs
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1220,7 +1220,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, xs
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1229,7 +1229,7 @@ exports[`Snapshots > matches snapshot for solid variant with secondary color, xs
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-dark bg-secondary-500 hover:bg-secondary-400 active:bg-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1238,7 +1238,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, lg si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1247,7 +1247,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, lg si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1256,7 +1256,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, lg si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1265,7 +1265,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, md si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1274,7 +1274,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, md si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1283,7 +1283,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, md si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1292,7 +1292,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, sm si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1301,7 +1301,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, sm si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1310,7 +1310,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, sm si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1319,7 +1319,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, xl si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1328,7 +1328,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, xl si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1337,7 +1337,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, xl si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1346,7 +1346,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, xs si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1355,7 +1355,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, xs si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1364,7 +1364,7 @@ exports[`Snapshots > matches snapshot for text variant with neutral color, xs si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1373,7 +1373,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, lg si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1382,7 +1382,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, lg si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1391,7 +1391,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, lg si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1400,7 +1400,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, md si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1409,7 +1409,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, md si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1418,7 +1418,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, md si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1427,7 +1427,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, sm si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1436,7 +1436,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, sm si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1445,7 +1445,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, sm si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1454,7 +1454,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, xl si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1463,7 +1463,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, xl si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1472,7 +1472,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, xl si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1481,7 +1481,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, xs si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1490,7 +1490,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, xs si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1499,7 +1499,7 @@ exports[`Snapshots > matches snapshot for text variant with primary color, xs si
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-primary-500 hover:text-primary-400 active:text-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1508,7 +1508,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, lg 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1517,7 +1517,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, lg 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1526,7 +1526,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, lg 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg leading-[1.15] px-5 py-2.5 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1535,7 +1535,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, md 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1544,7 +1544,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, md 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1553,7 +1553,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, md 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base leading-[1.15] px-4 py-2 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1562,7 +1562,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, sm 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1571,7 +1571,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, sm 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1580,7 +1580,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, sm 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm leading-[1.15] px-3 py-1.5 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1589,7 +1589,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, xl 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1598,7 +1598,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, xl 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1607,7 +1607,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, xl 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-xl leading-[1.15] px-6 py-3 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1616,7 +1616,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, xs 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-full text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1625,7 +1625,7 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, xs 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-2xl text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;
 
@@ -1634,6 +1634,6 @@ exports[`Snapshots > matches snapshot for text variant with secondary color, xs 
   class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-[0.75rem] leading-[1.15] px-2 py-1 rounded-md text-secondary-500 hover:text-secondary-400 active:text-secondary-400 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent"
   href="#"
 >
-  Button Link
+  Link Button
 </a>
 `;

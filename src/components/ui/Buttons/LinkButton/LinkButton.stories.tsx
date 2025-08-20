@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
-import ButtonLinkComponent, {
-  type ButtonLinkProps,
-} from '@/components/ui/Buttons/ButtonLink';
+import LinkButtonComponent, {
+  type LinkButtonProps,
+} from '@/components/ui/Buttons/LinkButton';
 
 import {
   BUTTON_SIZE,
@@ -12,7 +12,7 @@ import {
 } from '@/components/ui/Buttons/constants';
 
 const meta = {
-  component: ButtonLinkComponent,
+  component: LinkButtonComponent,
   tags: ['autodocs'],
   argTypes: {
     color: {
@@ -41,14 +41,14 @@ const meta = {
       control: { type: 'text' },
     },
   },
-} satisfies Meta<ButtonLinkProps>;
+} satisfies Meta<LinkButtonProps>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    children: 'Button Link',
+    children: 'Link Button',
     href: '#',
   },
 };

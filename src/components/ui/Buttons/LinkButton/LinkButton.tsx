@@ -21,7 +21,7 @@ import {
   THEME_SHAPE,
 } from '@/components/ui/Buttons/themes';
 
-export type ButtonLinkProps = DetailedHTMLProps<
+export type LinkButtonProps = DetailedHTMLProps<
   AnchorHTMLAttributes<HTMLAnchorElement>,
   HTMLAnchorElement
 > & {
@@ -32,7 +32,7 @@ export type ButtonLinkProps = DetailedHTMLProps<
   variant?: ButtonVariant;
 };
 
-export const ButtonLink = ({
+export const LinkButton = ({
   className,
   href,
   isExternal = false,
@@ -41,7 +41,7 @@ export const ButtonLink = ({
   shape = BUTTON_SHAPE.SQUARE,
   variant = BUTTON_VARIANT.SOLID,
   ...props
-}: ButtonLinkProps) => {
+}: LinkButtonProps) => {
   const sizeClassNames = THEME_SIZE[size];
   const shapeClassNames = THEME_SHAPE[shape];
   const colorClassNames = THEME_VARIANT[variant][color];
@@ -64,5 +64,5 @@ export const ButtonLink = ({
   );
 };
 
-ButtonLink.displayName = 'ButtonLink';
-export default ButtonLink;
+LinkButton.displayName = 'LinkButton';
+export default LinkButton;

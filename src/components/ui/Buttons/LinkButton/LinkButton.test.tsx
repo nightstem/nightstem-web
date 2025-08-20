@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import { ButtonLink } from '@/components/ui/Buttons';
+import { LinkButton } from '@/components/ui/Buttons';
 import type {
   ButtonColor,
   ButtonSize,
@@ -32,15 +32,15 @@ describe('Snapshots', () => {
     'matches snapshot for %s variant with %s color, %s size, and %s shape',
     (variant, color, size, shape) => {
       const { container } = render(
-        <ButtonLink
+        <LinkButton
           variant={variant}
           color={color}
           size={size}
           shape={shape}
           href="#"
         >
-          Button Link
-        </ButtonLink>,
+          Link Button
+        </LinkButton>,
       );
       expect(container.firstChild).toMatchSnapshot();
     },
@@ -48,16 +48,16 @@ describe('Snapshots', () => {
 
   it('matches snapshot for external link', () => {
     const { container } = render(
-      <ButtonLink href="https://example.com" isExternal>
+      <LinkButton href="https://example.com" isExternal>
         External Link
-      </ButtonLink>,
+      </LinkButton>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
 
   it('matches snapshot for internal link', () => {
     const { container } = render(
-      <ButtonLink href="/internal">Internal Link</ButtonLink>,
+      <LinkButton href="/internal">Internal Link</LinkButton>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });

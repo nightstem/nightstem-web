@@ -1,6 +1,6 @@
 import cx from 'classnames';
 
-import { ButtonLink } from '@/components/ui/Buttons';
+import { LinkButton } from '@/components/ui/Buttons';
 import Logo, { LOGO_MODES, LOGO_SIZES } from '@/components/ui/Logo';
 
 export type NavbarProps = {};
@@ -23,9 +23,9 @@ export const Navbar = () => {
 
         <ol>
           <li>
-            <ButtonLink href="/" variant="text" color="neutral">
+            <LinkButton href="/" variant="text" color="neutral">
               Home
-            </ButtonLink>
+            </LinkButton>
           </li>
         </ol>
       </div>
