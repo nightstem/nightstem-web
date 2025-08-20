@@ -4,10 +4,26 @@ exports[`Snapshots > matches snapshot for FULL mode with DISPLAY size and none a
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-20 w-20"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-display"
   >
@@ -20,10 +36,26 @@ exports[`Snapshots > matches snapshot for FULL mode with DISPLAY size and pulse 
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-20 w-20 animate-pulse"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] animate-pulse shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-display"
   >
@@ -36,10 +68,26 @@ exports[`Snapshots > matches snapshot for full mode with body size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[14px] w-[14px]"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[0.8rem] w-[0.8rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="text-body"
   >
@@ -52,10 +100,26 @@ exports[`Snapshots > matches snapshot for full mode with caption size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[10px] w-[10px]"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[0.6rem] w-[0.6rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="text-caption"
   >
@@ -68,10 +132,26 @@ exports[`Snapshots > matches snapshot for full mode with display size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-20 w-20"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-display"
   >
@@ -84,10 +164,26 @@ exports[`Snapshots > matches snapshot for full mode with hint size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-2 w-2"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[0.45rem] w-[0.45rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="text-hint"
   >
@@ -100,10 +196,26 @@ exports[`Snapshots > matches snapshot for full mode with lg size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-8 w-8"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[1.895rem] w-[1.895rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-lg"
   >
@@ -116,10 +228,26 @@ exports[`Snapshots > matches snapshot for full mode with md size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-6 w-6"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[1.422rem] w-[1.422rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-md"
   >
@@ -132,10 +260,26 @@ exports[`Snapshots > matches snapshot for full mode with sm size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[18px] w-[18px]"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-sm"
   >
@@ -148,10 +292,26 @@ exports[`Snapshots > matches snapshot for full mode with xl size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-11 w-11"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[2.526rem] w-[2.526rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-xl"
   >
@@ -164,10 +324,26 @@ exports[`Snapshots > matches snapshot for full mode with xxl size 1`] = `
 <div
   class="inline-flex flex-col text-center items-end"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-14 w-14"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[3.367rem] w-[3.367rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-xxl"
   >
@@ -180,10 +356,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with body size 1`] = `
 <div
   class="inline-flex items-center gap-2"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[14px] w-[14px]"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[0.8rem] w-[0.8rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="text-body"
   >
@@ -196,10 +388,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with caption size 1`] 
 <div
   class="inline-flex items-center gap-1"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[10px] w-[10px]"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[0.6rem] w-[0.6rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="text-caption"
   >
@@ -212,10 +420,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with display size 1`] 
 <div
   class="inline-flex items-center gap-4"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-20 w-20"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-display"
   >
@@ -228,10 +452,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with hint size 1`] = `
 <div
   class="inline-flex items-center gap-1"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-2 w-2"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[0.45rem] w-[0.45rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="text-hint"
   >
@@ -244,10 +484,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with lg size 1`] = `
 <div
   class="inline-flex items-center gap-3"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-8 w-8"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[1.895rem] w-[1.895rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-lg"
   >
@@ -260,10 +516,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with md size 1`] = `
 <div
   class="inline-flex items-center gap-2"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-6 w-6"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[1.422rem] w-[1.422rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-md"
   >
@@ -276,10 +548,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with sm size 1`] = `
 <div
   class="inline-flex items-center gap-2"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[18px] w-[18px]"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-sm"
   >
@@ -292,10 +580,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with xl size 1`] = `
 <div
   class="inline-flex items-center gap-3"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-11 w-11"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[2.526rem] w-[2.526rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-xl"
   >
@@ -308,10 +612,26 @@ exports[`Snapshots > matches snapshot for horizontal mode with xxl size 1`] = `
 <div
   class="inline-flex items-center gap-3"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-14 w-14"
-  />
+  <svg
+    aria-hidden="true"
+    class="text-primary-500 h-[3.367rem] w-[3.367rem] shrink-0"
+    fill="none"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
   <span
     class="heading-xxl"
   >
@@ -324,10 +644,27 @@ exports[`Snapshots > matches snapshot for icon mode with body size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[14px] w-[14px]"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[0.8rem] w-[0.8rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -335,10 +672,27 @@ exports[`Snapshots > matches snapshot for icon mode with caption size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[10px] w-[10px]"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[0.6rem] w-[0.6rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -346,10 +700,27 @@ exports[`Snapshots > matches snapshot for icon mode with display size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-20 w-20"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -357,10 +728,27 @@ exports[`Snapshots > matches snapshot for icon mode with hint size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-2 w-2"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[0.45rem] w-[0.45rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -368,10 +756,27 @@ exports[`Snapshots > matches snapshot for icon mode with lg size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-8 w-8"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[1.895rem] w-[1.895rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -379,10 +784,27 @@ exports[`Snapshots > matches snapshot for icon mode with md size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-6 w-6"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[1.422rem] w-[1.422rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -390,10 +812,27 @@ exports[`Snapshots > matches snapshot for icon mode with sm size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-[18px] w-[18px]"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -401,10 +840,27 @@ exports[`Snapshots > matches snapshot for icon mode with xl size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-11 w-11"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[2.526rem] w-[2.526rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;
 
@@ -412,9 +868,26 @@ exports[`Snapshots > matches snapshot for icon mode with xxl size 1`] = `
 <div
   class="inline-flex"
 >
-  <img
-    alt="Nightstem icon"
-    class="object-contain h-14 w-14"
-  />
+  <svg
+    aria-label="Nightstem logo"
+    class="text-primary-500 h-[3.367rem] w-[3.367rem] shrink-0"
+    fill="none"
+    role="img"
+    viewBox="0 0 500 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      fill="currentColor"
+      height="192.283"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      width="219.719"
+    />
+    <rect
+      fill="currentColor"
+      height="428.961"
+      transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      width="188.959"
+    />
+  </svg>
 </div>
 `;

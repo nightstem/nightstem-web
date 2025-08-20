@@ -13,12 +13,28 @@ exports[`NotFoundPage > renders correctly with snapshot 1`] = `
       <div
         class="inline-flex items-center gap-2"
       >
-        <img
-          alt="Nightstem icon"
-          class="object-contain h-6 w-6"
-        />
+        <svg
+          aria-hidden="true"
+          class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+          fill="none"
+          viewBox="0 0 500 500"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            fill="currentColor"
+            height="192.283"
+            transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+            width="219.719"
+          />
+          <rect
+            fill="currentColor"
+            height="428.961"
+            transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+            width="188.959"
+          />
+        </svg>
         <span
-          class="heading-md"
+          class="heading-sm"
         >
           Nightstem
         </span>

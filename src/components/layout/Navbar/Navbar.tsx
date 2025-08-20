@@ -19,7 +19,7 @@ export const Navbar = () => {
           'flex items-center justify-between',
         )}
       >
-        <Logo mode={LOGO_MODES.HORIZONTAL} size={LOGO_SIZES.MD} />
+        <Logo mode={LOGO_MODES.HORIZONTAL} size={LOGO_SIZES.SM} />
 
         <ol>
           <li>

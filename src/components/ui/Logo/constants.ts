@@ -28,48 +28,48 @@ export const LOGO_ANIMATION_CONFIG = {
 
 export const LOGO_SIZE_CONFIG = {
   [LOGO_SIZES.DISPLAY]: {
-    textClass: 'heading-display',
-    logoClass: 'h-20 w-20', // ~76px for 5.61rem
+    textClass: 'heading-display', // 5.61rem
+    logoClass: 'h-[4.488rem] w-[4.488rem]', // 5.61 * 0.8
     gapClass: 'gap-4',
   },
   [LOGO_SIZES.XXL]: {
-    textClass: 'heading-xxl',
-    logoClass: 'h-14 w-14', // ~57px for 4.209rem
+    textClass: 'heading-xxl', // 4.209rem
+    logoClass: 'h-[3.367rem] w-[3.367rem]', // 4.209 * 0.8
     gapClass: 'gap-3',
   },
   [LOGO_SIZES.XL]: {
-    textClass: 'heading-xl',
-    logoClass: 'h-11 w-11', // ~43px for 3.157rem
+    textClass: 'heading-xl', // 3.157rem
+    logoClass: 'h-[2.526rem] w-[2.526rem]', // 3.157 * 0.8
     gapClass: 'gap-3',
   },
   [LOGO_SIZES.LG]: {
-    textClass: 'heading-lg',
-    logoClass: 'h-8 w-8', // 32px for 2.369rem (matches MaintenanceMode)
+    textClass: 'heading-lg', // 2.369rem
+    logoClass: 'h-[1.895rem] w-[1.895rem]', // 2.369 * 0.8
     gapClass: 'gap-3',
   },
   [LOGO_SIZES.MD]: {
-    textClass: 'heading-md',
-    logoClass: 'h-6 w-6', // ~24px for 1.777rem
+    textClass: 'heading-md', // 1.777rem
+    logoClass: 'h-[1.422rem] w-[1.422rem]', // 1.777 * 0.8
     gapClass: 'gap-2',
   },
   [LOGO_SIZES.SM]: {
-    textClass: 'heading-sm',
-    logoClass: 'h-[18px] w-[18px]', // ~18px for 1.333rem
+    textClass: 'heading-sm', // 1.333rem
+    logoClass: 'h-[1.066rem] w-[1.066rem]', // 1.333 * 0.8
     gapClass: 'gap-2',
   },
   [LOGO_SIZES.BODY]: {
-    textClass: 'text-body',
-    logoClass: 'h-[14px] w-[14px]', // ~14px for 1rem
+    textClass: 'text-body', // 1rem
+    logoClass: 'h-[0.8rem] w-[0.8rem]', // 1 * 0.8
     gapClass: 'gap-2',
   },
   [LOGO_SIZES.CAPTION]: {
-    textClass: 'text-caption',
-    logoClass: 'h-[10px] w-[10px]', // ~10px for 0.75rem
+    textClass: 'text-caption', // 0.75rem
+    logoClass: 'h-[0.6rem] w-[0.6rem]', // 0.75 * 0.8
     gapClass: 'gap-1',
   },
   [LOGO_SIZES.HINT]: {
-    textClass: 'text-hint',
-    logoClass: 'h-2 w-2', // ~8px for 0.563rem
+    textClass: 'text-hint', // 0.563rem
+    logoClass: 'h-[0.45rem] w-[0.45rem]', // 0.563 * 0.8
     gapClass: 'gap-1',
   },
 } as const;

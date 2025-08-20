@@ -1,5 +1,13 @@
 import cx from 'classnames';
 
+import LogoMark from '@/assets/svgs/LogoMark';
+
+import type {
+  LogoMode,
+  LogoSize,
+  LogoAnimation,
+} from '@/components/ui/Logo/types';
+
 import {
   LOGO_MODES,
   LOGO_SIZES,
@@ -7,12 +15,6 @@ import {
   LOGO_ANIMATIONS,
   LOGO_ANIMATION_CONFIG,
 } from '@/components/ui/Logo/constants';
-import LogoImage from '@/assets/images/core/logo.webp';
-import type {
-  LogoMode,
-  LogoSize,
-  LogoAnimation,
-} from '@/components/ui/Logo/types';
 
 export type LogoProps = {
   mode?: LogoMode;
@@ -30,10 +32,10 @@ export const Logo = ({
   const animationClass = LOGO_ANIMATION_CONFIG[animation];
 
   const logo = (
-    <img
-      src={LogoImage.src}
-      alt={`${appName} icon`}
-      className={cx('object-contain', sizeConfig.logoClass, animationClass)}
+    <LogoMark
+      title={`${appName} logo`}
+      decorative={mode !== LOGO_MODES.ICON}
+      className={cx(sizeConfig.logoClass, animationClass, 'shrink-0')}
     />
   );
 

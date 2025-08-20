@@ -50,9 +50,11 @@ describe('NotFound', () => {
   it('displays logo with correct attributes', () => {
     render(<NotFound />);
 
-    const logoIcon = screen.getByAltText('Nightstem icon');
+    const logoContainer = screen.getByText('Nightstem').parentElement;
+    const logoSvg = logoContainer?.querySelector('svg');
     const logoText = screen.getByText('Nightstem');
-    expect(logoIcon).toBeInTheDocument();
+
+    expect(logoSvg).toBeInTheDocument();
     expect(logoText).toBeInTheDocument();
   });
 
