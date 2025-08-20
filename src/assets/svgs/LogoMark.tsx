@@ -17,22 +17,18 @@ export const LogoMark = ({
 
   return (
     <svg
-      viewBox="0 0 500 500"
       fill="none"
+      viewBox="0 0 500 500"
       xmlns="http://www.w3.org/2000/svg"
       className={cx('text-primary-500', className)}
       {...ariaProps}
     >
-      <rect
-        width="219.719"
-        height="192.283"
-        transform="matrix(0.814781 0.579768 -0.80486 0.593464 154.761 0)"
+      <path
+        d="M346.04 135.875L500 245.427L161.185 495.252C157.629 497.874 151.828 497.923 148.228 495.362L0.786259 390.448L346.04 135.875Z"
         fill="currentColor"
       />
-      <rect
-        width="188.959"
-        height="428.961"
-        transform="matrix(0.814781 0.579768 -0.80486 0.593464 346.04 135.875)"
+      <path
+        d="M148.322 4.74771C151.878 2.12562 157.68 2.07657 161.279 4.63814L333.785 127.386L179.023 241.499L9.54552e-05 114.113L148.322 4.74771Z"
         fill="currentColor"
       />
     </svg>
