@@ -102,20 +102,16 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
               </Button>
             </div>
 
-            <div className="flex gap-1 text-caption text-neutral-400">
+            <div className="flex items-center gap-1.5 text-caption text-neutral-400">
               <span>Tip: press</span>
 
-              <span className="flex gap-1">
-                <Kbd>Esc</Kbd>
-                <span>to go home</span>
-              </span>
+              <Kbd>Esc</Kbd>
+              <span>to go home</span>
 
               <span>{'\u2022'}</span>
 
-              <span className="flex gap-1">
-                <Kbd>R</Kbd>
-                <span> to shuffle</span>
-              </span>
+              <Kbd>R</Kbd>
+              <span> to shuffle</span>
             </div>
           </div>
         </div>

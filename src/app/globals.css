@@ -39,6 +39,17 @@
   --color-secondary-900: oklch(46% 0.14 78);
 
   --spacing-8xl: 96rem;
+
+  --text-sm: 0.563rem;
+  --text-sm-line-height: 1.5;
+
+  --text-base-line-height: 1.5;
+
+  --text-lg: 2.369rem;
+  --text-lg-line-height: 1.15;
+
+  --text-xl: 3.157rem;
+  --text-xl-line-height: 1.15;
 }
 
 @layer components {
@@ -67,15 +78,15 @@
   }
 
   .text-body {
-    @apply text-base font-normal leading-none;
+    @apply text-base font-normal leading-1.5;
   }
 
   .text-caption {
-    @apply text-[0.75rem] font-normal leading-none;
+    @apply text-[0.75rem] font-normal leading-1.5;
   }
 
   .text-hint {
-    @apply text-[0.563rem] font-normal leading-none;
+    @apply text-[0.563rem] font-normal leading-1.5;
   }
 
   .screen-container {
@@ -86,5 +97,4 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  @apply text-base font-normal leading-none;
 }

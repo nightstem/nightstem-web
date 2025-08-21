@@ -10,7 +10,7 @@ export const Kbd = ({ className, ...props }: KbdProps) => (
   <kbd
     {...props}
     className={cx(
-      'rounded shadow-2xl border border-foreground/20 px-1',
+      'rounded shadow-2xl border border-foreground/20 p-1.5',
       className,
     )}
   />
