@@ -8,16 +8,13 @@ import type {
 } from '@/components/ui/Buttons/types';
 
 export const THEME_SIZE: Record<ButtonSize, string> = {
-  xl: 'text-xl leading-[1.15] px-6 py-3',
-  lg: 'text-lg leading-[1.15] px-5 py-2.5',
-  md: 'text-base leading-[1.5] px-4 py-2',
-  sm: 'text-sm leading-[1.5] px-3 py-1.5',
-  xs: 'text-[0.75rem] leading-[1.5] px-2 py-1',
+  lg: 'text-lg px-5 py-2.5',
+  md: 'text-base px-4 py-2',
+  sm: 'text-sm px-3 py-1.5',
 } as const;
 
 export const THEME_SHAPE: Record<ButtonShape, string> = {
   circle: 'rounded-full',
-  rounded: 'rounded-2xl',
   square: 'rounded-md',
 } as const;
 
