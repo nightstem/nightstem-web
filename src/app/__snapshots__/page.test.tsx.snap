@@ -19,7 +19,7 @@ exports[`matches snapshot 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="text-primary-500 h-[1.895rem] w-[1.895rem] animate-pulse shrink-0"
+              class="text-primary-500 h-[1.895rem] w-[1.895rem] animate-pulse motion-reduce:animate-none shrink-0"
               fill="none"
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg"

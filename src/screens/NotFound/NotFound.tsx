@@ -17,7 +17,7 @@ import {
   type NotFoundPhrase,
 } from '@/screens/NotFound/constants';
 import { Kbd } from '@/components/ui/Kbd';
-import { Button } from '@/components/ui/Buttons';
+import { Button, LinkButton } from '@/components/ui/Buttons';
 
 export type NotFoundProps = {
   notFoundPhrases?: NotFoundPhrase[];
@@ -30,46 +30,34 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
   const [index, setIndex] = useState(() =>
     hashIndex(pathname, notFoundPhrases.length),
   );
-
-  const shuffle = useCallback(
-    () => setIndex(randomInt(notFoundPhrases.length)),
-    [notFoundPhrases.length],
-  );
+  const shuffle = useCallback(() => {
+    if (notFoundPhrases.length <= 1) return;
+    let next = randomInt(notFoundPhrases.length);
+    if (next === index) next = (next + 1) % notFoundPhrases.length;
+    setIndex(next);
+  }, [index, notFoundPhrases.length]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      switch (e.key) {
-        case 'r':
-        case 'R':
-          shuffle();
-          break;
-
-        case 'Escape':
-          router.push('/');
-          break;
-
-        default:
-          break;
-      }
+      if (e.key === 'r' || e.key === 'R') shuffle();
+      if (e.key === 'Escape') router.push('/');
     };
-
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [shuffle, router]);
 
-  const goHome = () => {
-    router.push('/');
-  };
-
   const { title, description } = notFoundPhrases[index] ?? defaultNotFound;
 
   return (
-    <main className="h-full w-full grid place-items-center overflow-hidden">
-      <article
+    <div className="h-full w-full grid place-items-center overflow-hidden">
+      <h1 className="sr-only">Page not found</h1>
+
+      <section
         aria-labelledby="nf-title"
-        className="grid gap-6 w-full max-w-[64ch] px-4"
+        aria-describedby="nf-desc"
+        className="grid gap-8 w-full max-w-prose px-6"
       >
-        <header className="grid">
+        <header className="grid gap-2">
           <Logo
             size={LOGO_SIZES.SM}
             mode={LOGO_MODES.HORIZONTAL}
@@ -77,19 +65,20 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
             aria-label="Nightstem"
           />
 
-          <h1 id="nf-title" className="heading-lg">
-            {title}
-          </h1>
+          <div className="grid gap-8" aria-live="polite" aria-atomic="true">
+            <h2 id="nf-title" className="heading-lg">
+              {title}
+            </h2>
+
+            <p id="nf-desc" className="text-sm md:text-base text-neutral-400">
+              {description}
+            </p>
+          </div>
         </header>
 
-        <p className="text-neutral-400">{description}</p>
-
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-6">
           <div className="flex gap-3">
-            <Button variant="outlined" onClick={goHome}>
-              Go home
-            </Button>
-
+            <LinkButton href="/">Go home</LinkButton>
             <Button
               onClick={shuffle}
               variant="ghost"
@@ -101,20 +90,17 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
             </Button>
           </div>
 
-          <div className="flex items-center gap-1.5 text-caption text-neutral-400">
+          <div className="flex items-center gap-1.5 text-caption text-neutral-400 border-t border-neutral-700 pt-3">
             <span>Tip: press</span>
-
             <Kbd>Esc</Kbd>
             <span>to go home</span>
-
-            <span>{'\u2022'}</span>
-
+            <span>•</span>
             <Kbd>R</Kbd>
-            <span> to shuffle</span>
+            <span>to shuffle</span>
           </div>
         </div>
-      </article>
-    </main>
+      </section>
+    </div>
   );
 };
 

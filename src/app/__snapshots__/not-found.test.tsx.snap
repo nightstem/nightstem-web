@@ -15,7 +15,7 @@ exports[`NotFoundPage > renders correctly with snapshot 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+          class="text-primary-500 h-[1.066rem] w-[1.066rem] motion-reduce:animate-none shrink-0"
           fill="none"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg"

@@ -42,7 +42,7 @@ describe('NotFound', () => {
   it('displays title and description from notFound list', () => {
     render(<NotFound />);
 
-    const title = screen.getByRole('heading', { level: 1 });
+    const title = screen.getByRole('heading', { level: 2 });
     expect(title).toBeInTheDocument();
     expect(title.textContent).toBeTruthy();
   });
@@ -58,15 +58,15 @@ describe('NotFound', () => {
     expect(logoText).toBeInTheDocument();
   });
 
-  it('displays go home and shuffle buttons', () => {
+  it('displays go home link and shuffle button', () => {
     render(<NotFound />);
 
-    const goHomeButton = screen.getByRole('button', { name: 'Go home' });
+    const goHomeLink = screen.getByRole('link', { name: 'Go home' });
     const shuffleButton = screen.getByRole('button', {
       name: /show another message/i,
     });
 
-    expect(goHomeButton).toBeInTheDocument();
+    expect(goHomeLink).toBeInTheDocument();
     expect(shuffleButton).toBeInTheDocument();
   });
 
@@ -81,14 +81,14 @@ describe('NotFound', () => {
   });
 
   describe('Click functionality', () => {
-    it('navigates to home when go home button is clicked', async () => {
+    it('navigates to home when go home link is clicked', async () => {
       const user = userEvent.setup();
       render(<NotFound />);
 
-      const goHomeButton = screen.getByRole('button', { name: 'Go home' });
-      await user.click(goHomeButton);
+      const goHomeLink = screen.getByRole('link', { name: 'Go home' });
+      await user.click(goHomeLink);
 
-      expect(mockPush).toHaveBeenCalledWith('/');
+      expect(goHomeLink).toHaveAttribute('href', '/');
     });
 
     it('shuffles content when shuffle button is clicked', async () => {
@@ -100,7 +100,25 @@ describe('NotFound', () => {
       });
       await user.click(shuffleButton);
 
-      expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+      expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
+    });
+
+    it('shuffles content multiple times to test collision handling', async () => {
+      const phrases = [
+        { title: 'First', description: 'First desc' },
+        { title: 'Second', description: 'Second desc' },
+      ];
+      const user = userEvent.setup();
+      render(<NotFound notFoundPhrases={phrases} />);
+
+      const shuffleButton = screen.getByRole('button', {
+        name: /show another message/i,
+      });
+
+      for (let i = 0; i < 10; i++) {
+        await user.click(shuffleButton);
+        expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
+      }
     });
   });
 
@@ -120,7 +138,7 @@ describe('NotFound', () => {
 
       await user.keyboard('r');
 
-      expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+      expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
     });
 
     it('shuffles content when uppercase R key is pressed', async () => {
@@ -129,7 +147,7 @@ describe('NotFound', () => {
 
       await user.keyboard('R');
 
-      expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+      expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
     });
 
     it('ignores other key presses', async () => {
@@ -141,17 +159,42 @@ describe('NotFound', () => {
       await user.keyboard(' ');
 
       expect(mockPush).not.toHaveBeenCalled();
-      expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+      expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
     });
   });
 
   describe('Edge cases and error scenarios', () => {
+    it('handles single phrase array - shuffle should not change content', async () => {
+      const singlePhrase = [
+        { title: 'Single Title', description: 'Single Description' },
+      ];
+      const user = userEvent.setup();
+
+      render(<NotFound notFoundPhrases={singlePhrase} />);
+
+      expect(screen.getByText('Single Title')).toBeInTheDocument();
+      expect(screen.getByText('Single Description')).toBeInTheDocument();
+
+      const shuffleButton = screen.getByRole('button', {
+        name: /show another message/i,
+      });
+      await user.click(shuffleButton);
+
+      expect(screen.getByText('Single Title')).toBeInTheDocument();
+      expect(screen.getByText('Single Description')).toBeInTheDocument();
+
+      await user.keyboard('R');
+
+      expect(screen.getByText('Single Title')).toBeInTheDocument();
+      expect(screen.getByText('Single Description')).toBeInTheDocument();
+    });
+
     it('handles undefined pathname', () => {
       vi.mocked(usePathname).mockReturnValue(undefined as unknown as string);
 
       render(<NotFound />);
 
-      expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+      expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
     });
 
     it('handles null pathname', () => {
@@ -159,14 +202,16 @@ describe('NotFound', () => {
 
       render(<NotFound />);
 
-      expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+      expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
     });
 
     it('falls back to defaultNotFound when index is out of bounds', () => {
       // Create empty array to force fallback to defaultNotFound
       render(<NotFound notFoundPhrases={[]} />);
 
-      expect(screen.getByText(defaultNotFound.title)).toBeInTheDocument();
+      expect(
+        screen.getByRole('heading', { level: 2, name: defaultNotFound.title }),
+      ).toBeInTheDocument();
       expect(screen.getByText(defaultNotFound.description)).toBeInTheDocument();
     });
 
@@ -184,13 +229,12 @@ describe('NotFound', () => {
     it('has proper ARIA attributes for accessibility', () => {
       render(<NotFound />);
 
-      const main = screen.getByRole('main');
-      const article = screen.getByRole('article');
-      const heading = screen.getByRole('heading', { level: 1 });
+      const section = screen.getByRole('region');
+      const heading = screen.getByRole('heading', { level: 2 });
 
-      expect(main).toBeInTheDocument();
-      expect(article).toBeInTheDocument();
-      expect(article).toHaveAttribute('aria-labelledby', 'nf-title');
+      expect(section).toBeInTheDocument();
+      expect(section).toHaveAttribute('aria-labelledby', 'nf-title');
+      expect(section).toHaveAttribute('aria-describedby', 'nf-desc');
       expect(heading).toHaveAttribute('id', 'nf-title');
     });
 
@@ -213,7 +257,7 @@ describe('NotFound', () => {
     it('displays content from notFoundList or default', () => {
       render(<NotFound />);
 
-      const title = screen.getByRole('heading', { level: 1 }).textContent!;
+      const title = screen.getByRole('heading', { level: 2 }).textContent!;
       const description = screen.getByText(/.*/, {
         selector: 'p',
       }).textContent!;
@@ -231,12 +275,12 @@ describe('NotFound', () => {
     it('can display different content based on pathname hash', () => {
       vi.mocked(usePathname).mockReturnValue('/path1');
       const { unmount } = render(<NotFound />);
-      const title1 = screen.getByRole('heading', { level: 1 }).textContent;
+      const title1 = screen.getByRole('heading', { level: 2 }).textContent;
       unmount();
 
       vi.mocked(usePathname).mockReturnValue('/path2');
       render(<NotFound />);
-      const title2 = screen.getByRole('heading', { level: 1 }).textContent;
+      const title2 = screen.getByRole('heading', { level: 2 }).textContent;
 
       expect(title1).toBeTruthy();
       expect(title2).toBeTruthy();

@@ -6,7 +6,7 @@ exports[`Snapshots > matches snapshot for FULL mode with DISPLAY size and none a
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ exports[`Snapshots > matches snapshot for FULL mode with DISPLAY size and pulse 
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[4.488rem] w-[4.488rem] animate-pulse shrink-0"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] animate-pulse motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ exports[`Snapshots > matches snapshot for full mode with body size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[0.8rem] w-[0.8rem] shrink-0"
+    class="text-primary-500 h-[0.8rem] w-[0.8rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ exports[`Snapshots > matches snapshot for full mode with caption size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[0.6rem] w-[0.6rem] shrink-0"
+    class="text-primary-500 h-[0.6rem] w-[0.6rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ exports[`Snapshots > matches snapshot for full mode with display size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ exports[`Snapshots > matches snapshot for full mode with hint size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[0.45rem] w-[0.45rem] shrink-0"
+    class="text-primary-500 h-[0.45rem] w-[0.45rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +174,7 @@ exports[`Snapshots > matches snapshot for full mode with lg size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[1.895rem] w-[1.895rem] shrink-0"
+    class="text-primary-500 h-[1.895rem] w-[1.895rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +202,7 @@ exports[`Snapshots > matches snapshot for full mode with md size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[1.422rem] w-[1.422rem] shrink-0"
+    class="text-primary-500 h-[1.422rem] w-[1.422rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -230,7 +230,7 @@ exports[`Snapshots > matches snapshot for full mode with sm size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+    class="text-primary-500 h-[1.066rem] w-[1.066rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -258,7 +258,7 @@ exports[`Snapshots > matches snapshot for full mode with xl size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[2.526rem] w-[2.526rem] shrink-0"
+    class="text-primary-500 h-[2.526rem] w-[2.526rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -286,7 +286,7 @@ exports[`Snapshots > matches snapshot for full mode with xxl size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[3.367rem] w-[3.367rem] shrink-0"
+    class="text-primary-500 h-[3.367rem] w-[3.367rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -314,7 +314,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with body size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[0.8rem] w-[0.8rem] shrink-0"
+    class="text-primary-500 h-[0.8rem] w-[0.8rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -342,7 +342,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with caption size 1`] 
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[0.6rem] w-[0.6rem] shrink-0"
+    class="text-primary-500 h-[0.6rem] w-[0.6rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -370,7 +370,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with display size 1`] 
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -398,7 +398,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with hint size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[0.45rem] w-[0.45rem] shrink-0"
+    class="text-primary-500 h-[0.45rem] w-[0.45rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -426,7 +426,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with lg size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[1.895rem] w-[1.895rem] shrink-0"
+    class="text-primary-500 h-[1.895rem] w-[1.895rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -454,7 +454,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with md size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[1.422rem] w-[1.422rem] shrink-0"
+    class="text-primary-500 h-[1.422rem] w-[1.422rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -482,7 +482,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with sm size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+    class="text-primary-500 h-[1.066rem] w-[1.066rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -510,7 +510,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with xl size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[2.526rem] w-[2.526rem] shrink-0"
+    class="text-primary-500 h-[2.526rem] w-[2.526rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -538,7 +538,7 @@ exports[`Snapshots > matches snapshot for horizontal mode with xxl size 1`] = `
 >
   <svg
     aria-hidden="true"
-    class="text-primary-500 h-[3.367rem] w-[3.367rem] shrink-0"
+    class="text-primary-500 h-[3.367rem] w-[3.367rem] motion-reduce:animate-none shrink-0"
     fill="none"
     viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
@@ -566,7 +566,7 @@ exports[`Snapshots > matches snapshot for icon mode with body size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[0.8rem] w-[0.8rem] shrink-0"
+    class="text-primary-500 h-[0.8rem] w-[0.8rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -590,7 +590,7 @@ exports[`Snapshots > matches snapshot for icon mode with caption size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[0.6rem] w-[0.6rem] shrink-0"
+    class="text-primary-500 h-[0.6rem] w-[0.6rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -614,7 +614,7 @@ exports[`Snapshots > matches snapshot for icon mode with display size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[4.488rem] w-[4.488rem] shrink-0"
+    class="text-primary-500 h-[4.488rem] w-[4.488rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -638,7 +638,7 @@ exports[`Snapshots > matches snapshot for icon mode with hint size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[0.45rem] w-[0.45rem] shrink-0"
+    class="text-primary-500 h-[0.45rem] w-[0.45rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -662,7 +662,7 @@ exports[`Snapshots > matches snapshot for icon mode with lg size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[1.895rem] w-[1.895rem] shrink-0"
+    class="text-primary-500 h-[1.895rem] w-[1.895rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -686,7 +686,7 @@ exports[`Snapshots > matches snapshot for icon mode with md size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[1.422rem] w-[1.422rem] shrink-0"
+    class="text-primary-500 h-[1.422rem] w-[1.422rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -710,7 +710,7 @@ exports[`Snapshots > matches snapshot for icon mode with sm size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[1.066rem] w-[1.066rem] shrink-0"
+    class="text-primary-500 h-[1.066rem] w-[1.066rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -734,7 +734,7 @@ exports[`Snapshots > matches snapshot for icon mode with xl size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[2.526rem] w-[2.526rem] shrink-0"
+    class="text-primary-500 h-[2.526rem] w-[2.526rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"
@@ -758,7 +758,7 @@ exports[`Snapshots > matches snapshot for icon mode with xxl size 1`] = `
 >
   <svg
     aria-label="Nightstem logo"
-    class="text-primary-500 h-[3.367rem] w-[3.367rem] shrink-0"
+    class="text-primary-500 h-[3.367rem] w-[3.367rem] motion-reduce:animate-none shrink-0"
     fill="none"
     role="img"
     viewBox="0 0 500 500"

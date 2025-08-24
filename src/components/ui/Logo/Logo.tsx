@@ -35,7 +35,12 @@ export const Logo = ({
     <LogoMark
       title={`${appName} logo`}
       decorative={mode !== LOGO_MODES.ICON}
-      className={cx(sizeConfig.logoClass, animationClass, 'shrink-0')}
+      className={cx(
+        sizeConfig.logoClass,
+        animationClass,
+        'motion-reduce:animate-none',
+        'shrink-0',
+      )}
     />
   );
 
