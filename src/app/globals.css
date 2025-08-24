@@ -40,69 +40,85 @@
 
   --spacing-8xl: 96rem;
 
-  --text-xs: 0.563rem;
-  --text-xs--line-height: 1.5;
+  /* Small text */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 160%;
+  --text-xs--letter-spacing: 0.025em;
+  --text-xs--font-weight: 400;
 
-  --text-sm: 0.75rem;
-  --text-sm-line-height: 1.5;
-
+  /* Base body */
   --text-base: 1rem;
-  --text-base-line-height: 1.5;
+  --text-base--line-height: 150%;
+  --text-base--letter-spacing: 0em;
+  --text-base--font-weight: 400;
 
+  /* Headings mapped into scale */
   --text-lg: 1.333rem;
-  --text-lg-line-height: 1.15;
+  --text-lg--line-height: 125%;
+  --text-lg--letter-spacing: 0em;
+  --text-lg--font-weight: 600;
 
   --text-xl: 1.777rem;
-  --text-xl-line-height: 1.15;
+  --text-xl--line-height: 125%;
+  --text-xl--letter-spacing: 0em;
+  --text-xl--font-weight: 600;
 
   --text-2xl: 2.369rem;
-  --text-2xl-line-height: 1.15;
+  --text-2xl--line-height: 120%;
+  --text-2xl--letter-spacing: -0.025em;
+  --text-2xl--font-weight: 600;
 
   --text-3xl: 3.157rem;
-  --text-3xl-line-height: 1.15;
+  --text-3xl--line-height: 120%;
+  --text-3xl--letter-spacing: -0.025em;
+  --text-3xl--font-weight: 600;
 
   --text-4xl: 4.209rem;
-  --text-4xl-line-height: 1.15;
+  --text-4xl--line-height: 122%;
+  --text-4xl--letter-spacing: -0.025em;
+  --text-4xl--font-weight: 700;
 
   --text-5xl: 5.61rem;
-  --text-5xl-line-height: 1.15;
+  --text-5xl--line-height: 124%;
+  --text-5xl--letter-spacing: -0.025em;
+  --text-5xl--font-weight: 700;
 }
 
 @layer components {
-  .heading-display {
-    @apply text-[5.61rem] font-bold leading-[1.15];
-  }
-
-  .heading-xxl {
-    @apply text-[4.209rem] font-bold  leading-[1.15];
-  }
-
-  .heading-xl {
-    @apply text-[3.157rem] font-semibold leading-[1.15];
-  }
-
-  .heading-lg {
-    @apply text-[2.369rem] font-semibold leading-[1.15];
-  }
-
-  .heading-md {
-    @apply text-[1.777rem] font-medium leading-[1.15];
-  }
-
-  .heading-sm {
-    @apply text-[1.333rem] font-medium leading-[1.15];
-  }
-
-  .text-body {
-    @apply text-base font-normal leading-1.5;
+  .text-hint {
+    @apply text-[0.563rem] font-normal leading-[160%] tracking-wide;
   }
 
   .text-caption {
-    @apply text-[0.75rem] font-normal leading-1.5;
+    @apply text-[0.75rem] font-normal leading-[160%] tracking-wide;
   }
 
-  .text-hint {
-    @apply text-[0.563rem] font-normal leading-1.5;
+  .text-body {
+    @apply text-base font-normal leading-[150%];
+  }
+
+  .heading-sm {
+    @apply text-[1.333rem] font-semibold leading-[125%];
+  }
+
+  .heading-md {
+    @apply text-[1.777rem] font-semibold leading-[125%];
+  }
+
+  .heading-lg {
+    @apply text-[2.369rem] font-semibold leading-[120%] tracking-tight;
+  }
+
+  .heading-xl {
+    @apply text-[3.157rem] font-semibold leading-[120%] tracking-tight;
+  }
+
+  .heading-xxl {
+    @apply text-[4.209rem] font-bold leading-[122%] tracking-tight;
+  }
+
+  .heading-display {
+    @apply text-[5.61rem] font-bold leading-[124%] tracking-tight;
   }
 
   .screen-container {

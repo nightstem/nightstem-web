@@ -69,7 +69,7 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
         aria-labelledby="nf-title"
         className="grid gap-6 w-full max-w-[64ch] px-4"
       >
-        <header className="grid gap-4 w-full">
+        <header className="grid">
           <Logo
             size={LOGO_SIZES.SM}
             mode={LOGO_MODES.HORIZONTAL}
@@ -82,37 +82,35 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
           </h1>
         </header>
 
-        <div className="flex flex-col gap-12">
-          <p className="text-neutral-400">{description}</p>
+        <p className="text-neutral-400">{description}</p>
 
-          <div className="w-full flex flex-col gap-4">
-            <div className="flex gap-3">
-              <Button variant="outlined" onClick={goHome}>
-                Go home
-              </Button>
+        <div className="flex flex-col gap-4">
+          <div className="flex gap-3">
+            <Button variant="outlined" onClick={goHome}>
+              Go home
+            </Button>
 
-              <Button
-                onClick={shuffle}
-                variant="ghost"
-                color="neutral"
-                aria-label="Show another message (press R)"
-                title="Shuffle (R)"
-              >
-                Shuffle
-              </Button>
-            </div>
+            <Button
+              onClick={shuffle}
+              variant="ghost"
+              color="neutral"
+              aria-label="Show another message (press R)"
+              title="Shuffle (R)"
+            >
+              Shuffle
+            </Button>
+          </div>
 
-            <div className="flex items-center gap-1.5 text-caption text-neutral-400">
-              <span>Tip: press</span>
+          <div className="flex items-center gap-1.5 text-caption text-neutral-400">
+            <span>Tip: press</span>
 
-              <Kbd>Esc</Kbd>
-              <span>to go home</span>
+            <Kbd>Esc</Kbd>
+            <span>to go home</span>
 
-              <span>{'\u2022'}</span>
+            <span>{'\u2022'}</span>
 
-              <Kbd>R</Kbd>
-              <span> to shuffle</span>
-            </div>
+            <Kbd>R</Kbd>
+            <span> to shuffle</span>
           </div>
         </div>
       </article>

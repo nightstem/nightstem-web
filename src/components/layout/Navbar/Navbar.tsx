@@ -7,12 +7,7 @@ export type NavbarProps = {};
 
 export const Navbar = () => {
   return (
-    <nav
-      className={cx(
-        'w-full flex justify-center',
-        'shadow-sm shadow-neutral-500',
-      )}
-    >
+    <nav className="w-full flex justify-center">
       <div
         className={cx(
           'screen-container px-2 py-2.5',
@@ -23,7 +18,7 @@ export const Navbar = () => {
 
         <ol>
           <li>
-            <LinkButton href="/" variant="text" color="neutral">
+            <LinkButton href="/" variant="text" color="neutral" size="sm">
               Home
             </LinkButton>
           </li>

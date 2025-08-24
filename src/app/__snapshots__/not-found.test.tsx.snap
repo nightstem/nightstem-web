@@ -5,7 +5,7 @@ exports[`NotFoundPage > renders correctly with snapshot 1`] = `
   class="flex flex-col h-dvh w-dvw"
 >
   <nav
-    class="w-full flex justify-center shadow-sm shadow-neutral-500"
+    class="w-full flex justify-center"
   >
     <div
       class="screen-container px-2 py-2.5 flex items-center justify-between"
@@ -38,7 +38,7 @@ exports[`NotFoundPage > renders correctly with snapshot 1`] = `
       <ol>
         <li>
           <a
-            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
+            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm px-3 py-1.5 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
             href="/"
           >
             Home

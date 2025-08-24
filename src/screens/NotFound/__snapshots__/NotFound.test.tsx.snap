@@ -9,7 +9,7 @@ exports[`NotFound > renders correctly with snapshot 1`] = `
     class="grid gap-6 w-full max-w-[64ch] px-4"
   >
     <header
-      class="grid gap-4 w-full"
+      class="grid"
     >
       <div
         class="inline-flex items-center gap-2"
@@ -43,61 +43,57 @@ exports[`NotFound > renders correctly with snapshot 1`] = `
         CRT Afterimage
       </h1>
     </header>
-    <div
-      class="flex flex-col gap-12"
+    <p
+      class="text-neutral-400"
     >
-      <p
-        class="text-neutral-400"
-      >
-        A ghost of content lingers, unreadable and green.
-      </p>
+      A ghost of content lingers, unreadable and green.
+    </p>
+    <div
+      class="flex flex-col gap-4"
+    >
       <div
-        class="w-full flex flex-col gap-4"
+        class="flex gap-3"
       >
-        <div
-          class="flex gap-3"
+        <button
+          class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
+          type="button"
         >
-          <button
-            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-primary-500 bg-transparent border border-primary-500 hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500"
-            type="button"
-          >
-            Go home
-          </button>
-          <button
-            aria-label="Show another message (press R)"
-            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
-            title="Shuffle (R)"
-            type="button"
-          >
-            Shuffle
-          </button>
-        </div>
-        <div
-          class="flex items-center gap-1.5 text-caption text-neutral-400"
+          Go home
+        </button>
+        <button
+          aria-label="Show another message (press R)"
+          class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-neutral-400 bg-transparent hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
+          title="Shuffle (R)"
+          type="button"
         >
-          <span>
-            Tip: press
-          </span>
-          <kbd
-            class="rounded shadow-2xl border border-foreground/20 p-1.5"
-          >
-            Esc
-          </kbd>
-          <span>
-            to go home
-          </span>
-          <span>
-            •
-          </span>
-          <kbd
-            class="rounded shadow-2xl border border-foreground/20 p-1.5"
-          >
-            R
-          </kbd>
-          <span>
-             to shuffle
-          </span>
-        </div>
+          Shuffle
+        </button>
+      </div>
+      <div
+        class="flex items-center gap-1.5 text-caption text-neutral-400"
+      >
+        <span>
+          Tip: press
+        </span>
+        <kbd
+          class="rounded shadow-2xl border border-foreground/20 p-1.5 leading-[50%]"
+        >
+          Esc
+        </kbd>
+        <span>
+          to go home
+        </span>
+        <span>
+          •
+        </span>
+        <kbd
+          class="rounded shadow-2xl border border-foreground/20 p-1.5 leading-[50%]"
+        >
+          R
+        </kbd>
+        <span>
+           to shuffle
+        </span>
       </div>
     </div>
   </article>

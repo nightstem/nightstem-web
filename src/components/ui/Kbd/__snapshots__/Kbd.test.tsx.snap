@@ -2,7 +2,7 @@
 
 exports[`matches the snapshot 1`] = `
 <kbd
-  class="rounded shadow-2xl border border-foreground/20 p-1.5"
+  class="rounded shadow-2xl border border-foreground/20 p-1.5 leading-[50%]"
 >
   Ctrl
 </kbd>
