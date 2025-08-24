@@ -4,28 +4,53 @@ import {
   LOGO_SIZES,
   LOGO_ANIMATIONS,
 } from '@/components/ui/Logo';
+import { LinkButton } from '@/components/ui/Buttons';
 
 export const MaintenanceMode = () => {
   const version = process.env.NEXT_PUBLIC_APP_VERSION;
 
   return (
-    <div className="relative w-full h-full grid place-content-center sm:items-center">
-      <article className="relative flex flex-col gap-5 items-center text-center">
-        <header className="flex flex-col text-center">
+    <div className="relative min-h-dvh w-full grid place-items-center">
+      <section
+        aria-labelledby="mm-title"
+        aria-describedby="mm-desc"
+        className="grid gap-8 w-full max-w-prose px-6"
+      >
+        <header className="grid gap-2">
           <Logo
-            mode={LOGO_MODES.FULL}
-            size={LOGO_SIZES.LG}
+            mode={LOGO_MODES.HORIZONTAL}
+            size={LOGO_SIZES.SM}
             animation={LOGO_ANIMATIONS.PULSE}
+            aria-label="Nightstem"
           />
-          <h1 className="sr-only">Nightstem</h1>
+
+          <h1 id="mm-title" className="heading-lg">
+            We’ll be back soon
+          </h1>
         </header>
 
-        <p className="text-neutral-400">This page is under construction</p>
-      </article>
+        <p id="mm-desc" className="text-foreground/70">
+          We’re making quiet upgrades. Thanks for your patience.
+        </p>
 
-      <span className="absolute bottom-4 right-4 text-caption text-neutral-400 font-mono">
-        v{version}
-      </span>
+        <div className="flex gap-3">
+          <LinkButton href="." isExternal>
+            Try again
+          </LinkButton>
+        </div>
+
+        <div className="flex items-center gap-1.5 text-caption text-foreground/60 border-t border-foreground/10 pt-3">
+          <span>Service unavailable (503)</span>
+          <span>•</span>
+          <span>Please try again shortly.</span>
+        </div>
+      </section>
+
+      {version && (
+        <span className="absolute bottom-4 right-4 text-caption text-foreground/60 font-mono">
+          v{version}
+        </span>
+      )}
     </div>
   );
 };

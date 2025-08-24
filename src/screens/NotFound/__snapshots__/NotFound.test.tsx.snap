@@ -2,7 +2,7 @@
 
 exports[`NotFound > renders correctly with snapshot 1`] = `
 <div
-  class="h-full w-full grid place-items-center overflow-hidden"
+  class="h-full w-full grid place-items-center"
 >
   <h1
     class="sr-only"
@@ -54,7 +54,7 @@ exports[`NotFound > renders correctly with snapshot 1`] = `
           CRT Afterimage
         </h2>
         <p
-          class="text-sm md:text-base text-neutral-400"
+          class="text-sm md:text-base text-foreground/60"
           id="nf-desc"
         >
           A ghost of content lingers, unreadable and green.
@@ -83,7 +83,7 @@ exports[`NotFound > renders correctly with snapshot 1`] = `
         </button>
       </div>
       <div
-        class="flex items-center gap-1.5 text-caption text-neutral-400 border-t border-neutral-700 pt-3"
+        class="flex items-center gap-1.5 text-caption text-foreground/60 border-t border-foreground/10 pt-3"
       >
         <span>
           Tip: press

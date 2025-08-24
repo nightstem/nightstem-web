@@ -49,7 +49,7 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
   const { title, description } = notFoundPhrases[index] ?? defaultNotFound;
 
   return (
-    <div className="h-full w-full grid place-items-center overflow-hidden">
+    <div className="h-full w-full grid place-items-center">
       <h1 className="sr-only">Page not found</h1>
 
       <section
@@ -70,7 +70,7 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
               {title}
             </h2>
 
-            <p id="nf-desc" className="text-sm md:text-base text-neutral-400">
+            <p id="nf-desc" className="text-sm md:text-base text-foreground/60">
               {description}
             </p>
           </div>
@@ -90,7 +90,7 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
             </Button>
           </div>
 
-          <div className="flex items-center gap-1.5 text-caption text-neutral-400 border-t border-neutral-700 pt-3">
+          <div className="flex items-center gap-1.5 text-caption text-foreground/60 border-t border-foreground/10 pt-3">
             <span>Tip: press</span>
             <Kbd>Esc</Kbd>
             <span>to go home</span>
