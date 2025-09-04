@@ -1,5 +1,5 @@
 import userEvent from '@testing-library/user-event';
-import { render, screen } from '@testing-library/react';
+import { render, screen, act } from '@testing-library/react';
 import { usePathname, useRouter } from 'next/navigation';
 import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest';
 import { axe } from 'vitest-axe';
@@ -34,8 +34,12 @@ describe('NotFound', () => {
   });
 
   it('has no accessibility violations', async () => {
-    const { container } = render(<NotFound />);
-    const results = await axe(container);
+    let container: Element;
+    await act(async () => {
+      const rendered = render(<NotFound />);
+      container = rendered.container;
+    });
+    const results = await axe(container!);
     expect(results).toHaveNoViolations();
   });
 

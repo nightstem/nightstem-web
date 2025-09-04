@@ -1,6 +1,6 @@
 import { axe } from 'vitest-axe';
 import { describe, expect, it, vi } from 'vitest';
-import { render } from '@testing-library/react';
+import { render, screen, act } from '@testing-library/react';
 
 import Layout, { metadata, viewport } from './layout';
 import type { Metadata, Viewport } from 'next';
@@ -13,6 +13,18 @@ vi.mock('next/font/google', () => {
     Geist_Mono: vi.fn().mockReturnValue({ variable: 'geist_mono' }),
   };
 });
+
+vi.mock('@growthbook/growthbook-react', () => ({
+  GrowthBook: vi.fn().mockImplementation(() => ({
+    init: vi.fn().mockResolvedValue(undefined),
+    destroy: vi.fn(),
+    isReady: vi.fn().mockReturnValue(true),
+    ready: vi.fn().mockResolvedValue(undefined),
+    getFeatureValue: vi.fn().mockReturnValue(false),
+  })),
+  GrowthBookProvider: ({ children }: { children: React.ReactNode }) => children,
+  useFeatureValue: vi.fn().mockReturnValue(false),
+}));
 
 describe('metadata', () => {
   it('has the correct information', () => {
@@ -36,19 +48,28 @@ describe('viewport', () => {
 describe('Layout', () => {
   const childrenText = 'Default Children Text';
 
-  it('matches snapshot', () => {
-    const { container } = render(<Layout>{childrenText}</Layout>);
-    expect(container.firstChild).toMatchSnapshot();
+  it('matches snapshot', async () => {
+    let container;
+    await act(async () => {
+      const rendered = render(<Layout>{childrenText}</Layout>);
+      container = rendered.container;
+    });
+    expect(container).toMatchSnapshot();
   });
 
-  it('renders children correctly', () => {
-    const { getByText } = render(<Layout>{childrenText}</Layout>);
-    expect(getByText(childrenText)).toBeInTheDocument();
+  it('renders children correctly', async () => {
+    await act(async () => render(<Layout>{childrenText}</Layout>));
+
+    expect(await screen.findByText(childrenText)).toBeInTheDocument();
   });
 
   it('does not have accessibility violations', async () => {
-    const { container } = render(<Layout>{childrenText}</Layout>);
-    const result = await axe(container);
+    let container: Element;
+    await act(async () => {
+      const rendered = render(<Layout>{childrenText}</Layout>);
+      container = rendered.container;
+    });
+    const result = await axe(container!);
     expect(result).toHaveNoViolations();
   });
 });
