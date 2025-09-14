@@ -3,6 +3,13 @@
   "version": "0.1.16",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@10.16.1",
+  "engines": {
+    "node": ">=22.18.0",
+    "pnpm": ">=10.16.1",
+    "npm": "Please use pnpm",
+    "yarn": "Please use pnpm"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
