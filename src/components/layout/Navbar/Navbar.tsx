@@ -2,6 +2,7 @@ import cx from 'classnames';
 
 import { LinkButton } from '@/components/ui/Buttons';
 import Logo, { LOGO_MODES, LOGO_SIZES } from '@/components/ui/Logo';
+import Link from 'next/link';
 
 export type NavbarProps = {};
 
@@ -14,7 +15,9 @@ export const Navbar = () => {
           'flex items-center justify-between',
         )}
       >
-        <Logo mode={LOGO_MODES.HORIZONTAL} size={LOGO_SIZES.SM} />
+        <Link href="/">
+          <Logo mode={LOGO_MODES.HORIZONTAL} size={LOGO_SIZES.SM} />
+        </Link>
 
         <ol>
           <li>
