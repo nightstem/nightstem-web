@@ -172,7 +172,3 @@ The application uses GrowthBook for feature flag management:
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-**Powered by**: Next.js 15, React 19, TailwindCSS 4.x
