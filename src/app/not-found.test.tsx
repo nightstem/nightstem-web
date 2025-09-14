@@ -32,13 +32,13 @@ describe('NotFoundPage', () => {
     it('exports correct metadata object', () => {
       expect(metadata).toBeDefined();
       expect(metadata).toEqual({
-        title: 'Page not found | Nightstem',
+        title: 'Not found | Nightstem',
         robots: 'noindex',
       });
     });
 
     it('has correct title for SEO', () => {
-      expect(metadata.title).toBe('Page not found | Nightstem');
+      expect(metadata.title).toBe('Not found | Nightstem');
     });
 
     it('has noindex robots directive', () => {

@@ -1,0 +1,211 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ErrorPage > Rendering > renders correctly with snapshot 1`] = `
+<div
+  class="h-full w-full grid place-items-center"
+>
+  <div
+    aria-describedby="nf-desc"
+    aria-labelledby="nf-title"
+    class="grid gap-8 w-full max-w-prose px-6"
+  >
+    <header
+      class="grid gap-2"
+    >
+      <div
+        class="inline-flex items-center gap-2"
+      >
+        <svg
+          aria-hidden="true"
+          class="text-primary-500 h-[1.066rem] w-[1.066rem] animate-pulse motion-reduce:animate-none shrink-0"
+          fill="none"
+          viewBox="0 0 500 500"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M346.04 135.875L500 245.427L161.185 495.252C157.629 497.874 151.828 497.923 148.228 495.362L0.786259 390.448L346.04 135.875Z"
+            fill="currentColor"
+          />
+          <path
+            d="M148.322 4.74771C151.878 2.12562 157.68 2.07657 161.279 4.63814L333.785 127.386L179.023 241.499L9.54552e-05 114.113L148.322 4.74771Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="heading-sm"
+        >
+          Nightstem
+        </span>
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="polite"
+        class="grid gap-8"
+      >
+        <h1
+          class="heading-lg"
+          id="nf-title"
+        >
+          Something went wrong
+        </h1>
+        <p
+          class="text-sm md:text-base text-foreground/60"
+          id="nf-desc"
+        >
+          An unexpected error occurred. Don't worry, we're on it.
+        </p>
+      </div>
+    </header>
+    <div
+      class="flex gap-3"
+    >
+      <button
+        class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
+        type="button"
+      >
+        Try again
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ErrorPage > Rendering > renders with error containing digest 1`] = `
+<div
+  class="h-full w-full grid place-items-center"
+>
+  <div
+    aria-describedby="nf-desc"
+    aria-labelledby="nf-title"
+    class="grid gap-8 w-full max-w-prose px-6"
+  >
+    <header
+      class="grid gap-2"
+    >
+      <div
+        class="inline-flex items-center gap-2"
+      >
+        <svg
+          aria-hidden="true"
+          class="text-primary-500 h-[1.066rem] w-[1.066rem] animate-pulse motion-reduce:animate-none shrink-0"
+          fill="none"
+          viewBox="0 0 500 500"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M346.04 135.875L500 245.427L161.185 495.252C157.629 497.874 151.828 497.923 148.228 495.362L0.786259 390.448L346.04 135.875Z"
+            fill="currentColor"
+          />
+          <path
+            d="M148.322 4.74771C151.878 2.12562 157.68 2.07657 161.279 4.63814L333.785 127.386L179.023 241.499L9.54552e-05 114.113L148.322 4.74771Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="heading-sm"
+        >
+          Nightstem
+        </span>
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="polite"
+        class="grid gap-8"
+      >
+        <h1
+          class="heading-lg"
+          id="nf-title"
+        >
+          Something went wrong
+        </h1>
+        <p
+          class="text-sm md:text-base text-foreground/60"
+          id="nf-desc"
+        >
+          An unexpected error occurred. Don't worry, we're on it.
+        </p>
+      </div>
+    </header>
+    <div
+      class="flex gap-3"
+    >
+      <button
+        class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
+        type="button"
+      >
+        Try again
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ErrorPage > renders correctly with snapshot 1`] = `
+<div
+  class="h-full w-full grid place-items-center"
+>
+  <div
+    aria-describedby="nf-desc"
+    aria-labelledby="nf-title"
+    class="grid gap-8 w-full max-w-prose px-6"
+  >
+    <header
+      class="grid gap-2"
+    >
+      <div
+        class="inline-flex items-center gap-2"
+      >
+        <svg
+          aria-hidden="true"
+          class="text-primary-500 h-[1.066rem] w-[1.066rem] animate-pulse motion-reduce:animate-none shrink-0"
+          fill="none"
+          viewBox="0 0 500 500"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M346.04 135.875L500 245.427L161.185 495.252C157.629 497.874 151.828 497.923 148.228 495.362L0.786259 390.448L346.04 135.875Z"
+            fill="currentColor"
+          />
+          <path
+            d="M148.322 4.74771C151.878 2.12562 157.68 2.07657 161.279 4.63814L333.785 127.386L179.023 241.499L9.54552e-05 114.113L148.322 4.74771Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="heading-sm"
+        >
+          Nightstem
+        </span>
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="polite"
+        class="grid gap-8"
+      >
+        <h1
+          class="heading-lg"
+          id="nf-title"
+        >
+          Something went wrong
+        </h1>
+        <p
+          class="text-sm md:text-base text-foreground/60"
+          id="nf-desc"
+        >
+          An unexpected error occurred. Don't worry, we're on it.
+        </p>
+      </div>
+    </header>
+    <div
+      class="flex gap-3"
+    >
+      <button
+        class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
+        type="button"
+      >
+        Try again
+      </button>
+    </div>
+  </div>
+</div>
+`;
