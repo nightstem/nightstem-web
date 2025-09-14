@@ -136,12 +136,19 @@ Interactive component documentation and development environment:
 
 ## 🚀 Deployment
 
-This application is configured for **Cloudflare Pages** deployment:
+This application is configured for **Cloudflare Pages** deployment via GitHub Actions:
 
 - **Static Export**: Next.js configured for static generation
 - **Build Command**: `pnpm build`
 - **Output Directory**: `out/`
-- **Environment Variables**: Configure in Cloudflare Pages dashboard
+- **Environment Variables**: Configure as GitHub repository variables in Settings → Environments → [environment] → Environment variables:
+  - `NEXT_PUBLIC_FEATURE_FLAG_HOST`
+  - `NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY`
+
+### Deployment Environments
+
+- **Production**: Deploys from `main` branch via manual workflow dispatch
+- **Staging**: Deploys automatically on pull requests for preview
 
 ## 🤝 Contributing
 
