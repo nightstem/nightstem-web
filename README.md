@@ -1,38 +1,178 @@
 # Nightstem
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A modern web application built with Next.js 15, featuring a comprehensive design system, robust testing framework, and advanced feature management capabilities.
 
-## Getting Started
+## 🚀 Tech Stack
 
-First, run the development server:
+- **Framework**: Next.js 15 with App Router
+- **Runtime**: React 19 + TypeScript
+- **Styling**: TailwindCSS 4.x with custom design tokens
+- **Testing**: Vitest + React Testing Library + Playwright
+- **Documentation**: Storybook 9
+- **Feature Flags**: GrowthBook integration
+- **Package Manager**: PNPM with workspace configuration
+- **Fonts**: Inter Variable (via Fontsource)
+
+## 🏁 Quick Start
+
+### Prerequisites
+
+- Node.js 18+
+- PNPM (recommended package manager)
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the repository
+git clone <repository-url>
+cd nightstem-web
+
+# Install dependencies
+pnpm install
+
+# Set up environment variables
+cp .env.local.example .env.local
+# Edit .env.local with your configuration
+
+# Start development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file in the root directory:
 
-## Learn More
+```env
+# Feature Flags (GrowthBook)
+NEXT_PUBLIC_FEATURE_FLAG_HOST="https://cdn.growthbook.io"
+NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY="your-growthbook-client-key"
 
-To learn more about Next.js, take a look at the following resources:
+# Add other environment variables as needed
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📜 Available Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Development
 
-## Deploy on Vercel
+- `pnpm dev` - Start development server on <http://localhost:3000>
+- `pnpm build` - Build production static export
+- `pnpm start` - Start production server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Testing & Quality
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `pnpm test` - Run tests once with Vitest
+- `pnpm test:watch` - Run tests in watch mode
+- `pnpm coverage` - Generate test coverage report (100% coverage required)
+- `pnpm lint` - Run ESLint
+- `pnpm lint:ts` - Run TypeScript type checking
+- `pnpm prettier:check` - Check code formatting
+- `pnpm prettier:write` - Format code
+
+### Storybook
+
+- `pnpm storybook` - Start Storybook dev server on port 6006
+- `pnpm build-storybook` - Build Storybook for production
+
+## 🏗️ Project Structure
+
+```sh
+src/
+├── app/                   # Next.js App Router pages
+├── components/            # Reusable UI components
+│   ├── ui/                # Core UI components
+│   └── layout/            # Layout components
+├── contexts/              # React contexts
+├── screens/               # Page-level components
+├── utils/                 # Utility functions
+└── assets/                # Static assets (SVGs, images)
+```
+
+### Component Architecture
+
+Each component follows a consistent structure:
+
+```sh
+ComponentName/
+├── ComponentName.tsx         # Main component
+├── ComponentName.test.tsx    # Test file
+├── ComponentName.stories.tsx # Storybook stories
+├── types.ts                  # TypeScript types
+├── constants.ts              # Component constants
+├── themes.ts                 # Theming configuration
+└── index.ts                  # Barrel export
+```
+
+## 🧪 Testing Strategy
+
+- **Framework**: Vitest with jsdom environment
+- **Library**: React Testing Library for component testing
+- **Coverage**: 100% test coverage requirement enforced
+- **Accessibility**: Automated a11y testing with vitest-axe
+- **Snapshots**: Comprehensive snapshot testing for UI consistency
+- **Timeout**: 10s test timeout for reliable CI/CD
+
+## 🎨 Design System
+
+### Styling Approach
+
+- **TailwindCSS 4.x** with custom configuration
+- **CSS Variables** for design tokens and theming
+- **Classnames utility** for conditional styling
+- **Systematic color palette**: primary, secondary, and neutral variants
+
+### Component Theming
+
+Components use centralized theme configuration via `themes.ts` files, ensuring consistency across the design system.
+
+## 📖 Storybook
+
+Interactive component documentation and development environment:
+
+- **Development**: `pnpm storybook` (<http://localhost:6006>)
+- **Features**: Component playground, accessibility testing, responsive testing
+- **Documentation**: Auto-generated docs from component props and JSDoc
+
+## 🚀 Deployment
+
+This application is configured for **Cloudflare Pages** deployment:
+
+- **Static Export**: Next.js configured for static generation
+- **Build Command**: `pnpm build`
+- **Output Directory**: `out/`
+- **Environment Variables**: Configure in Cloudflare Pages dashboard
+
+## 🤝 Contributing
+
+### Development Workflow
+
+1. **Setup**: Follow the Quick Start guide
+2. **Development**: Use `pnpm dev` for development server
+3. **Testing**: Ensure `pnpm test` and `pnpm coverage` pass (100% coverage required)
+4. **Quality**: Run `pnpm lint` and `pnpm lint:ts` before committing
+5. **Storybook**: Document new components with stories
+
+### Code Standards
+
+- **TypeScript**: Strict mode enabled throughout
+- **Testing**: Every component must have comprehensive tests
+- **Accessibility**: Components must pass a11y audits
+- **Formatting**: Prettier for consistent code formatting
+- **Git Hooks**: Husky configured for pre-commit quality checks
+
+### Feature Flags
+
+The application uses GrowthBook for feature flag management:
+
+- Configure flags in your GrowthBook dashboard
+- Use the `FeatureFlagContext` to access feature flags in components
+- Environment-based flag configuration via `.env.local`
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+**Powered by**: Next.js 15, React 19, TailwindCSS 4.x
