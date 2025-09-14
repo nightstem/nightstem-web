@@ -2,10 +2,10 @@
 
 exports[`matches snapshot 1`] = `
 <div>
-  <main
-    class="h-dvh w-dvw"
+  <div
+    class="w-full h-full"
   >
     Homepage
-  </main>
+  </div>
 </div>
 `;
