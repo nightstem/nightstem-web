@@ -25,12 +25,12 @@ export const MaintenanceMode = () => {
           />
 
           <h1 id="mm-title" className="heading-lg">
-            We’ll be back soon
+            We&apos;ll be back soon
           </h1>
         </header>
 
         <p id="mm-desc" className="text-foreground/70">
-          We’re making quiet upgrades. Thanks for your patience.
+          We&apos;re making quiet upgrades. Thanks for your patience.
         </p>
 
         <div className="flex gap-3">

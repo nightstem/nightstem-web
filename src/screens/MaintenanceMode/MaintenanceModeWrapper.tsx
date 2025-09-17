@@ -2,24 +2,15 @@
 
 import { ReactNode } from 'react';
 import { MaintenanceMode } from './MaintenanceMode';
-import { useFeatureFlag } from '@/contexts/FeatureFlagContext';
 
-interface MaintenanceModeWrapperProps {
+type MaintenanceModeWrapperProps = {
   children: ReactNode;
-}
+  isMaintenanceModeOn?: boolean;
+};
 
 export const MaintenanceModeWrapper = ({
   children,
+  isMaintenanceModeOn = false,
 }: MaintenanceModeWrapperProps) => {
-  const [isMaintenanceMode, isReady] = useFeatureFlag('maintenance:global');
-
-  if (!isReady) {
-    return (
-      <div className="min-h-dvh w-full grid place-items-center">
-        <div className="animate-pulse text-foreground/60">Loading...</div>
-      </div>
-    );
-  }
-
-  return isMaintenanceMode ? <MaintenanceMode /> : <>{children}</>;
+  return isMaintenanceModeOn ? <MaintenanceMode /> : <>{children}</>;
 };

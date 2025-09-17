@@ -41,14 +41,14 @@ exports[`MaintenanceMode > should match snapshot 1`] = `
         class="heading-lg"
         id="mm-title"
       >
-        We’ll be back soon
+        We'll be back soon
       </h1>
     </header>
     <p
       class="text-foreground/70"
       id="mm-desc"
     >
-      We’re making quiet upgrades. Thanks for your patience.
+      We're making quiet upgrades. Thanks for your patience.
     </p>
     <div
       class="flex gap-3"
