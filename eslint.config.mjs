@@ -2,6 +2,8 @@
 /* eslint-disable no-underscore-dangle */
 import storybook from 'eslint-plugin-storybook';
 import js from '@eslint/js';
+import security from 'eslint-plugin-security';
+import reactPerfPlugin from 'eslint-plugin-react-perf';
 
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -28,6 +30,8 @@ const eslintConfig = [
     ],
   },
   js.configs.all,
+  security.configs.recommended,
+  reactPerfPlugin.configs.flat.all,
   ...compat.config({
     extends: ['next/core-web-vitals', 'next/typescript', 'prettier'],
     rules: {
@@ -44,6 +48,7 @@ const eslintConfig = [
       'max-lines-per-function': 'off',
       'max-statements': ['error', 15],
       '@next/next/no-img-element': 'off',
+      'security/detect-object-injection': 'off',
       '@typescript-eslint/no-empty-object-type': 'off',
     },
   }),

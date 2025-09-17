@@ -65,6 +65,7 @@ describe(NotFound, () => {
     });
 
     it('shuffles content multiple times to test collision handling', async () => {
+      // eslint-disable-next-line react-perf/jsx-no-new-array-as-prop
       const phrases = [
         { title: 'First', description: 'First desc' },
         { title: 'Second', description: 'Second desc' },
@@ -145,6 +146,7 @@ describe(NotFound, () => {
 
     it('falls back to defaultNotFound when index is out of bounds', () => {
       // Create empty array to force fallback to defaultNotFound
+      // eslint-disable-next-line react-perf/jsx-no-new-array-as-prop
       render(<NotFound notFoundPhrases={[]} />);
 
       expect(
@@ -154,6 +156,7 @@ describe(NotFound, () => {
     });
 
     it('handles custom notFoundPhrases prop', () => {
+      // eslint-disable-next-line react-perf/jsx-no-new-array-as-prop
       const customPhrases = [
         { title: 'Custom Title', description: 'Custom Description' },
       ];
