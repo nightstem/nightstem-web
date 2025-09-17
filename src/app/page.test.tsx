@@ -2,7 +2,7 @@ import { axe } from 'vitest-axe';
 import { expect, it } from 'vitest';
 import { render } from '@testing-library/react';
 
-import Page from './page';
+import Page from '@/app/page';
 
 it('matches snapshot', () => {
   const { container } = render(<Page />);

@@ -1,11 +1,12 @@
-import { render, screen, waitFor, act } from '@testing-library/react';
 import { describe, expect, it, vi, beforeEach } from 'vitest';
+import { useFeatureValue } from '@growthbook/growthbook-react';
+import { render, screen, waitFor, act } from '@testing-library/react';
+
 import {
   FeatureFlagProvider,
   useFeatureFlag,
   useFeatureFlagState,
-} from './FeatureFlagContext';
-import { useFeatureValue } from '@growthbook/growthbook-react';
+} from '@/contexts/FeatureFlagContext';
 
 // Mock GrowthBook to be synchronously ready
 const mockInit = vi.fn().mockResolvedValue(undefined);

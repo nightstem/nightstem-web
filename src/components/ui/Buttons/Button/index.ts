@@ -1,2 +1,2 @@
-export * from './Button';
-export { default } from './Button';
+export * from '@/components/ui/Buttons/Button/Button';
+export { default } from '@/components/ui/Buttons/Button/Button';

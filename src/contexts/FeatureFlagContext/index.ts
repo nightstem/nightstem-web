@@ -1,6 +1,12 @@
-export * from './FeatureFlagContext';
+export * from '@/contexts/FeatureFlagContext/FeatureFlagContext';
 
-export type { FeatureFlagState, FeatureFlagProviderProps } from './types';
+export type {
+  FeatureFlagState,
+  FeatureFlagProviderProps,
+} from '@/contexts/FeatureFlagContext/types';
 
-export type { FeatureFlagKey, FeatureFlagValues } from './constants';
-export { FEATURE_FLAGS } from './constants';
+export type {
+  FeatureFlagKey,
+  FeatureFlagValues,
+} from '@/contexts/FeatureFlagContext/constants';
+export { FEATURE_FLAGS } from '@/contexts/FeatureFlagContext/constants';

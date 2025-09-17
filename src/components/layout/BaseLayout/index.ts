@@ -1,2 +1,2 @@
-export * from './BaseLayout';
-export { default } from './BaseLayout';
+export * from '@/components/layout/BaseLayout/BaseLayout';
+export { default } from '@/components/layout/BaseLayout/BaseLayout';

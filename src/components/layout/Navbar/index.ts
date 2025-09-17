@@ -1,2 +1,2 @@
-export * from './Navbar';
-export { default } from './Navbar';
+export * from '@/components/layout/Navbar/Navbar';
+export { default } from '@/components/layout/Navbar/Navbar';

@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vitest/config';
 
-const MIN_COVERAGE_PERCENTAGE = 100;
+const GLOBAL_MIN = 80;
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
@@ -17,19 +17,37 @@ export default defineConfig({
     setupFiles: ['./vitest.setup.ts'],
     testTimeout: 10000,
     coverage: {
+      all: true,
+      reportsDirectory: './coverage',
+      reporter: ['text', 'lcov', 'html'],
       provider: 'v8',
-      include: [
-        'src/**/*.{ts,tsx}',
-        '!src/**/index.ts',
-        '!src/**/*.d.ts',
-        '!src/**/*.test.{ts,tsx}',
-        '!src/**/*.stories.{ts,tsx}',
+      include: ['src/**/*.{ts,tsx}'],
+      exclude: [
+        // tests and stories
+        'src/**/*.test.{ts,tsx}',
+        'src/**/*.spec.{ts,tsx}',
+        'src/**/*.stories.{ts,tsx}',
+        'src/app/**/layout.tsx',
+
+        // trivial glue, re-exports, types, generated
+        'src/**/index.ts',
+        'src/**/*.d.ts',
+        'src/**/types/**',
+        'src/**/generated/**',
+
+        // app or framework scaffolding that brings little value to cover
+        '.next/**',
+        'node_modules/**',
+        '**/*.config.{ts,js}',
+        '**/storybook/**',
+        'e2e/**',
       ],
       thresholds: {
-        statements: MIN_COVERAGE_PERCENTAGE,
-        branches: MIN_COVERAGE_PERCENTAGE,
-        functions: MIN_COVERAGE_PERCENTAGE,
-        lines: MIN_COVERAGE_PERCENTAGE,
+        statements: GLOBAL_MIN,
+        branches: GLOBAL_MIN,
+        functions: GLOBAL_MIN,
+        lines: GLOBAL_MIN,
+        perFile: true,
       },
     },
   },

@@ -1,2 +1,2 @@
-export * from './randomInt';
-export { default } from './randomInt';
+export * from '@/utils/randomInt/randomInt';
+export { default } from '@/utils/randomInt/randomInt';

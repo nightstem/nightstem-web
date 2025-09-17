@@ -14,7 +14,11 @@ import {
   BUTTON_VARIANT,
   BUTTON_COLORS,
 } from '@/components/ui/Buttons/constants';
-import { THEME_VARIANT, THEME_SIZE, THEME_SHAPE } from '../themes';
+import {
+  THEME_VARIANT,
+  THEME_SIZE,
+  THEME_SHAPE,
+} from '@/components/ui/Buttons/themes';
 
 export type ButtonProps = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,

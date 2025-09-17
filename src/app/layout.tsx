@@ -1,9 +1,12 @@
+import '@/app/globals.css';
+
 import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import './globals.css';
 import { FeatureFlagProvider } from '@/contexts/FeatureFlagContext';
 import { MaintenanceModeWrapper } from '@/screens/MaintenanceMode';
 import BaseLayout from '@/components/layout/BaseLayout';
+
+const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -37,7 +40,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <FeatureFlagProvider>
-          <MaintenanceModeWrapper>
+          <MaintenanceModeWrapper isMaintenanceModeOn={IS_PRODUCTION}>
             <BaseLayout>{children}</BaseLayout>
           </MaintenanceModeWrapper>
         </FeatureFlagProvider>

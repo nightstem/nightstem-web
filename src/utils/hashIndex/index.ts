@@ -1,2 +1,2 @@
-export * from './hashIndex';
-export { default } from './hashIndex';
+export * from '@/utils/hashIndex/hashIndex';
+export { default } from '@/utils/hashIndex/hashIndex';

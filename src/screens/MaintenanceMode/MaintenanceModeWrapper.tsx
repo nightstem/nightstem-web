@@ -1,7 +1,7 @@
 'use client';
 
 import { ReactNode } from 'react';
-import { MaintenanceMode } from './MaintenanceMode';
+import { MaintenanceMode } from '@/screens/MaintenanceMode/MaintenanceMode';
 
 type MaintenanceModeWrapperProps = {
   children: ReactNode;
