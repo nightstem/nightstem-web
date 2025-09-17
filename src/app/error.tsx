@@ -22,6 +22,7 @@ export type ErrorPageProps = {
 
 export const ErrorPage = ({ error, reset }: ErrorPageProps) => {
   useEffect(() => {
+    // eslint-disable-next-line no-console
     console.error(error);
   }, [error]);
 

@@ -1,5 +1,7 @@
 // For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
+/* eslint-disable no-underscore-dangle */
 import storybook from 'eslint-plugin-storybook';
+import js from '@eslint/js';
 
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -16,15 +18,29 @@ const eslintConfig = [
   {
     ignores: [
       'node_modules/**',
+      'coverage/**',
       '.next/**',
       'out/**',
       'build/**',
-      'next-env.d.ts',
+      '**/*.d.ts',
     ],
   },
+  js.configs.all,
   ...compat.config({
     extends: ['next/core-web-vitals', 'next/typescript', 'prettier'],
     rules: {
+      'id-length': 'off',
+      'sort-keys': 'off',
+      'func-style': 'off',
+      'no-ternary': 'off',
+      'no-undefined': 'off',
+      'sort-imports': 'off',
+      'no-magic-numbers': 'off',
+      'no-inline-comments': 'off',
+      'one-var': ['error', 'never'],
+      'capitalized-comments': 'off',
+      'max-lines-per-function': 'off',
+      'max-statements': ['error', 15],
       '@next/next/no-img-element': 'off',
       '@typescript-eslint/no-empty-object-type': 'off',
     },

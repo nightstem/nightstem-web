@@ -1,7 +1,7 @@
 import type {
+  LOGO_ANIMATIONS,
   LOGO_MODES,
   LOGO_SIZES,
-  LOGO_ANIMATIONS,
 } from '@/components/ui/Logo/constants';
 
 export type LogoMode = (typeof LOGO_MODES)[keyof typeof LOGO_MODES];

@@ -1,11 +1,11 @@
 import userEvent from '@testing-library/user-event';
-import { render, screen, act } from '@testing-library/react';
+import { act, render, screen } from '@testing-library/react';
 import { usePathname, useRouter } from 'next/navigation';
-import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { axe } from 'vitest-axe';
 
 import NotFound from '@/screens/NotFound/NotFound';
-import { notFoundList, defaultNotFound } from '@/screens/NotFound/constants';
+import { defaultNotFound, notFoundList } from '@/screens/NotFound/constants';
 
 vi.mock('next/navigation', () => ({
   usePathname: vi.fn(),
@@ -35,7 +35,7 @@ describe('NotFound', () => {
 
   it('has no accessibility violations', async () => {
     const { container } = render(<NotFound />);
-    const results = await act(async () => axe(container!));
+    const results = await act(() => axe(container!));
     expect(results).toHaveNoViolations();
   });
 
@@ -55,7 +55,7 @@ describe('NotFound', () => {
       render(<NotFound />);
 
       const shuffleButton = screen.getByRole('button', {
-        name: /show another message/i,
+        name: /show another message/iu,
       });
       await user.click(shuffleButton);
 
@@ -71,10 +71,11 @@ describe('NotFound', () => {
       render(<NotFound notFoundPhrases={phrases} />);
 
       const shuffleButton = screen.getByRole('button', {
-        name: /show another message/i,
+        name: /show another message/iu,
       });
 
-      for (let i = 0; i < 10; i++) {
+      for (let i = 0; i < 10; i += 1) {
+        // eslint-disable-next-line no-await-in-loop
         await user.click(shuffleButton);
         expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
       }
@@ -135,7 +136,7 @@ describe('NotFound', () => {
       expect(screen.getByText('Single Description')).toBeInTheDocument();
 
       const shuffleButton = screen.getByRole('button', {
-        name: /show another message/i,
+        name: /show another message/iu,
       });
       await user.click(shuffleButton);
 
@@ -201,7 +202,7 @@ describe('NotFound', () => {
       render(<NotFound />);
 
       const shuffleButton = screen.getByRole('button', {
-        name: /show another message/i,
+        name: /show another message/iu,
       });
 
       expect(shuffleButton).toHaveAttribute(
@@ -217,7 +218,7 @@ describe('NotFound', () => {
       render(<NotFound />);
 
       const title = screen.getByRole('heading', { level: 2 }).textContent!;
-      const description = screen.getByText(/.*/, {
+      const description = screen.getByText(/.*/u, {
         selector: 'p',
       }).textContent!;
 

@@ -1,8 +1,8 @@
 import {
-  Logo,
+  LOGO_ANIMATIONS,
   LOGO_MODES,
   LOGO_SIZES,
-  LOGO_ANIMATIONS,
+  Logo,
 } from '@/components/ui/Logo';
 import { LinkButton } from '@/components/ui/Buttons';
 

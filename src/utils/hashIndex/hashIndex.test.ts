@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
 
 import { hashIndex } from '@/utils/hashIndex';
 
@@ -40,7 +40,7 @@ describe('deterministic behavior', () => {
 
     testCases.forEach(({ seed, max }) => {
       const results = Array.from({ length: 10 }, () => hashIndex(seed, max));
-      const firstResult = results[0];
+      const [firstResult] = results;
 
       expect(results.every((result) => result === firstResult)).toBe(true);
     });

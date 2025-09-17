@@ -1,6 +1,7 @@
-import { describe, expect, it, vi, beforeEach } from 'vitest';
+/* eslint-disable no-empty-function */
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { useFeatureValue } from '@growthbook/growthbook-react';
-import { render, screen, waitFor, act } from '@testing-library/react';
+import { act, render, screen, waitFor } from '@testing-library/react';
 
 import {
   FeatureFlagProvider,
@@ -16,15 +17,13 @@ const mockGrowthBook = {
   destroy: mockDestroy,
 };
 
-vi.mock('@growthbook/growthbook-react', () => {
-  return {
-    GrowthBook: vi.fn(() => mockGrowthBook),
-    GrowthBookProvider: ({ children }: { children: React.ReactNode }) => (
-      <div>{children}</div>
-    ),
-    useFeatureValue: vi.fn().mockReturnValue(false),
-  };
-});
+vi.mock('@growthbook/growthbook-react', () => ({
+  GrowthBook: vi.fn(() => mockGrowthBook),
+  GrowthBookProvider: ({ children }: { children: React.ReactNode }) => (
+    <div>{children}</div>
+  ),
+  useFeatureValue: vi.fn().mockReturnValue(false),
+}));
 
 const TestComponent = () => {
   const state = useFeatureFlagState();
@@ -59,7 +58,7 @@ describe('FeatureFlagContext', () => {
 
   describe('FeatureFlagProvider', () => {
     it('should render children', async () => {
-      await act(async () =>
+      await act(() =>
         render(
           <FeatureFlagProvider>
             <div data-testid="child">Test Child</div>
@@ -71,7 +70,7 @@ describe('FeatureFlagContext', () => {
     });
 
     it('should initialize and provide context', async () => {
-      await act(async () =>
+      await act(() =>
         render(
           <FeatureFlagProvider>
             <TestComponent />
@@ -94,7 +93,7 @@ describe('FeatureFlagContext', () => {
       const testError = new Error('GrowthBook init failed');
       mockInit.mockRejectedValue(testError);
 
-      await act(async () =>
+      await act(() =>
         render(
           <FeatureFlagProvider>
             <TestComponent />
@@ -124,7 +123,7 @@ describe('FeatureFlagContext', () => {
         .mockImplementation(() => {});
       mockInit.mockRejectedValue('String error');
 
-      await act(async () =>
+      await act(() =>
         render(
           <FeatureFlagProvider>
             <TestComponent />
@@ -146,7 +145,7 @@ describe('FeatureFlagContext', () => {
 
   describe('useFeatureFlag', () => {
     it('should return feature flag value and ready state', async () => {
-      await act(async () =>
+      await act(() =>
         render(
           <FeatureFlagProvider>
             <TestFeatureFlagComponent />
@@ -163,7 +162,7 @@ describe('FeatureFlagContext', () => {
     it('should use default value when useFeatureValue returns null', async () => {
       vi.mocked(useFeatureValue).mockReturnValue(null);
 
-      await act(async () =>
+      await act(() =>
         render(
           <FeatureFlagProvider>
             <TestFeatureFlagComponent />
@@ -188,7 +187,7 @@ describe('FeatureFlagContext', () => {
 
   describe('useFeatureFlagState', () => {
     it('should return context state', async () => {
-      await act(async () =>
+      await act(() =>
         render(
           <FeatureFlagProvider>
             <TestComponent />

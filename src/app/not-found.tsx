@@ -7,9 +7,7 @@ export const metadata: Metadata = {
   robots: 'noindex',
 };
 
-export const NotFoundPage = () => {
-  return <NotFound />;
-};
+export const NotFoundPage = () => <NotFound />;
 
 NotFoundPage.displayName = 'NotFoundPage';
 export default NotFoundPage;

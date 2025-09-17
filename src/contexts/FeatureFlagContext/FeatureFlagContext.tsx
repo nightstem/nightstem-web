@@ -2,10 +2,10 @@
 
 import {
   createContext,
+  useCallback,
   useContext,
   useEffect,
   useState,
-  useCallback,
 } from 'react';
 
 import {
@@ -20,9 +20,9 @@ import {
 } from '@/contexts/FeatureFlagContext/types';
 
 import {
+  FEATURE_FLAGS,
   FeatureFlagKey,
   FeatureFlagValues,
-  FEATURE_FLAGS,
 } from '@/contexts/FeatureFlagContext/constants';
 
 const FeatureFlagStateContext = createContext<FeatureFlagState | null>(null);
@@ -98,6 +98,7 @@ export const FeatureFlagProvider = ({
 
       // In development, log the error for debugging
       if (process.env.NODE_ENV === 'development') {
+        // eslint-disable-next-line no-console
         console.error('Failed to initialize feature flags:', errorMessage);
       }
     }

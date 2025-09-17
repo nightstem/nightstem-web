@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import {
+  LOGO_ANIMATIONS,
   LOGO_MODES,
   LOGO_SIZES,
-  LOGO_ANIMATIONS,
 } from '@/components/ui/Logo/constants';
 import { Logo, type LogoProps } from '@/components/ui/Logo';
 

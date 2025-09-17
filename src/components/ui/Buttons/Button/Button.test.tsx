@@ -3,14 +3,14 @@ import { render } from '@testing-library/react';
 import { Button } from '@/components/ui/Buttons';
 import type {
   ButtonColor,
-  ButtonSize,
   ButtonShape,
+  ButtonSize,
   ButtonVariant,
 } from '@/components/ui/Buttons/types';
 import {
   BUTTON_COLORS,
-  BUTTON_SIZE,
   BUTTON_SHAPE,
+  BUTTON_SIZE,
   BUTTON_VARIANT,
 } from '@/components/ui/Buttons/constants';
 
@@ -30,6 +30,7 @@ describe('Snapshots', () => {
     ),
   )(
     'matches snapshot for %s variant with %s color, %s size, and %s shape',
+    // eslint-disable-next-line max-params
     (variant, color, size, shape) => {
       const { container } = render(
         <Button variant={variant} color={color} size={size} shape={shape}>

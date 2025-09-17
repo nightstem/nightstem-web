@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { describe, expect, it, vi, beforeEach } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { MaintenanceModeWrapper } from '@/screens/MaintenanceMode/MaintenanceModeWrapper';
 
@@ -17,7 +17,7 @@ describe('MaintenanceModeWrapper', () => {
 
     expect(screen.getByTestId('child')).toBeInTheDocument();
     expect(
-      screen.queryByRole('heading', { level: 1, name: /We*ll be back soon/ }),
+      screen.queryByRole('heading', { level: 1, name: /We'll be back soon/iu }),
     ).not.toBeInTheDocument();
   });
 
@@ -29,7 +29,7 @@ describe('MaintenanceModeWrapper', () => {
     );
 
     expect(
-      screen.getByRole('heading', { level: 1, name: /We\'ll be back soon/ }),
+      screen.getByRole('heading', { level: 1, name: /We'll be back soon/iu }),
     ).toBeInTheDocument();
     expect(screen.queryByTestId('child')).not.toBeInTheDocument();
   });

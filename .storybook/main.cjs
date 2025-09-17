@@ -15,14 +15,14 @@ const config = {
     name: '@storybook/nextjs-vite',
     options: {},
   },
-  viteFinal: async (config) => {
+  viteFinal: (vitestConfig) => {
     // Configure for ES modules compatibility
-    config.define = {
-      ...config.define,
+    vitestConfig.define = {
+      ...vitestConfig.define,
       global: 'globalThis',
     };
 
-    return config;
+    return vitestConfig;
   },
   staticDirs: [path.join(__dirname, '..', 'public')],
 };

@@ -1,6 +1,6 @@
 'use client';
 import { usePathname, useRouter } from 'next/navigation';
-import { useEffect, useState, useCallback } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 import Logo, {
   LOGO_ANIMATIONS,
@@ -12,9 +12,9 @@ import randomInt from '@/utils/randomInt';
 import hashIndex from '@/utils/hashIndex';
 
 import {
+  type NotFoundPhrase,
   defaultNotFound,
   notFoundList,
-  type NotFoundPhrase,
 } from '@/screens/NotFound/constants';
 import { Kbd } from '@/components/ui/Kbd';
 import { Button, LinkButton } from '@/components/ui/Buttons';

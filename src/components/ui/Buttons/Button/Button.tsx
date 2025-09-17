@@ -9,15 +9,15 @@ import type {
 } from '@/components/ui/Buttons/types';
 
 import {
-  BUTTON_SIZE,
-  BUTTON_SHAPE,
-  BUTTON_VARIANT,
   BUTTON_COLORS,
+  BUTTON_SHAPE,
+  BUTTON_SIZE,
+  BUTTON_VARIANT,
 } from '@/components/ui/Buttons/constants';
 import {
-  THEME_VARIANT,
-  THEME_SIZE,
   THEME_SHAPE,
+  THEME_SIZE,
+  THEME_VARIANT,
 } from '@/components/ui/Buttons/themes';
 
 export type ButtonProps = DetailedHTMLProps<

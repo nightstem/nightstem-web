@@ -1,10 +1,10 @@
+/* eslint-disable no-console */
 import { render, screen } from '@testing-library/react';
-import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { axe } from 'vitest-axe';
 import userEvent from '@testing-library/user-event';
 
-import ErrorPage, { metadata } from '@/app/error';
-import type { ErrorPageProps } from '@/app/error';
+import ErrorPage, { type ErrorPageProps, metadata } from '@/app/error';
 
 describe('ErrorPage', () => {
   const mockReset = vi.fn();

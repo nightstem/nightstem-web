@@ -5,10 +5,10 @@ import ButtonComponent, {
 } from '@/components/ui/Buttons/Button';
 
 import {
-  BUTTON_SIZE,
-  BUTTON_SHAPE,
-  BUTTON_VARIANT,
   BUTTON_COLORS,
+  BUTTON_SHAPE,
+  BUTTON_SIZE,
+  BUTTON_VARIANT,
 } from '@/components/ui/Buttons/constants';
 
 const meta = {

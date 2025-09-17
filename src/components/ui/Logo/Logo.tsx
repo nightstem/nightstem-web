@@ -3,17 +3,17 @@ import cx from 'classnames';
 import LogoMark from '@/assets/svgs/LogoMark';
 
 import type {
+  LogoAnimation,
   LogoMode,
   LogoSize,
-  LogoAnimation,
 } from '@/components/ui/Logo/types';
 
 import {
+  LOGO_ANIMATIONS,
+  LOGO_ANIMATION_CONFIG,
   LOGO_MODES,
   LOGO_SIZES,
   LOGO_SIZE_CONFIG,
-  LOGO_ANIMATIONS,
-  LOGO_ANIMATION_CONFIG,
 } from '@/components/ui/Logo/constants';
 
 export type LogoProps = {

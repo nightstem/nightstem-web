@@ -11,6 +11,5 @@ type MaintenanceModeWrapperProps = {
 export const MaintenanceModeWrapper = ({
   children,
   isMaintenanceModeOn = false,
-}: MaintenanceModeWrapperProps) => {
-  return isMaintenanceModeOn ? <MaintenanceMode /> : <>{children}</>;
-};
+}: MaintenanceModeWrapperProps) =>
+  isMaintenanceModeOn ? <MaintenanceMode /> : <>{children}</>;

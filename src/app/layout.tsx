@@ -1,3 +1,4 @@
+/* eslint-disable new-cap,camelcase */
 import '@/app/globals.css';
 
 import type { Metadata, Viewport } from 'next';
