@@ -8,7 +8,7 @@ it('matches the snapshot', () => {
   expect(container).toMatchSnapshot();
 });
 
-it.only('does not have accessibility violations', async () => {
+it('does not have accessibility violations', async () => {
   const { container } = render(<Navbar />);
   const result = await act(() => axe(container));
   expect(result).toHaveNoViolations();
