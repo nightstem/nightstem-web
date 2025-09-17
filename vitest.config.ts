@@ -31,9 +31,9 @@ export default defineConfig({
 
         // trivial glue, re-exports, types, generated
         'src/**/index.ts',
+        'src/**/types.ts',
+        'src/**/constants.ts',
         'src/**/*.d.ts',
-        'src/**/types/**',
-        'src/**/generated/**',
 
         // app or framework scaffolding that brings little value to cover
         '.next/**',

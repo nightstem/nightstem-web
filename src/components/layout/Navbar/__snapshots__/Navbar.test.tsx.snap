@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches the snapshot 1`] = `
+<div>
+  <nav
+    class="w-full flex justify-center"
+  >
+    <div
+      class="screen-container px-2 py-2.5 flex items-center justify-between"
+    >
+      <a
+        href="/"
+      >
+        <div
+          class="inline-flex items-center gap-2"
+        >
+          <svg
+            aria-hidden="true"
+            class="text-primary-500 h-[1.066rem] w-[1.066rem] motion-reduce:animate-none shrink-0"
+            fill="none"
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M346.04 135.875L500 245.427L161.185 495.252C157.629 497.874 151.828 497.923 148.228 495.362L0.786259 390.448L346.04 135.875Z"
+              fill="currentColor"
+            />
+            <path
+              d="M148.322 4.74771C151.878 2.12562 157.68 2.07657 161.279 4.63814L333.785 127.386L179.023 241.499L9.54552e-05 114.113L148.322 4.74771Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="heading-sm"
+          >
+            Nightstem
+          </span>
+        </div>
+      </a>
+      <ol>
+        <li>
+          <a
+            class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm px-3 py-1.5 rounded-md text-neutral-400 hover:text-neutral-300 active:text-neutral-300 focus-visible:ring-neutral-400 disabled:opacity-60 disabled:hover:text-neutral-400 disabled:hover:bg-transparent disabled:active:bg-transparent"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+      </ol>
+    </div>
+  </nav>
+</div>
+`;
