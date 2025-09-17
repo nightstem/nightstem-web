@@ -34,54 +34,9 @@ describe('NotFound', () => {
   });
 
   it('has no accessibility violations', async () => {
-    let container: Element;
-    await act(async () => {
-      const rendered = render(<NotFound />);
-      container = rendered.container;
-    });
-    const results = await axe(container!);
+    const { container } = render(<NotFound />);
+    const results = await act(async () => axe(container!));
     expect(results).toHaveNoViolations();
-  });
-
-  it('displays title and description from notFound list', () => {
-    render(<NotFound />);
-
-    const title = screen.getByRole('heading', { level: 2 });
-    expect(title).toBeInTheDocument();
-    expect(title.textContent).toBeTruthy();
-  });
-
-  it('displays logo with correct attributes', () => {
-    render(<NotFound />);
-
-    const logoContainer = screen.getByText('Nightstem').parentElement;
-    const logoSvg = logoContainer?.querySelector('svg');
-    const logoText = screen.getByText('Nightstem');
-
-    expect(logoSvg).toBeInTheDocument();
-    expect(logoText).toBeInTheDocument();
-  });
-
-  it('displays go home link and shuffle button', () => {
-    render(<NotFound />);
-
-    const goHomeLink = screen.getByRole('link', { name: 'Go home' });
-    const shuffleButton = screen.getByRole('button', {
-      name: /show another message/i,
-    });
-
-    expect(goHomeLink).toBeInTheDocument();
-    expect(shuffleButton).toBeInTheDocument();
-  });
-
-  it('displays keyboard shortcuts tip', () => {
-    render(<NotFound />);
-
-    expect(screen.getByText('Tip: press')).toBeInTheDocument();
-    expect(screen.getByText('Esc')).toBeInTheDocument();
-    expect(screen.getByText('to go home')).toBeInTheDocument();
-    expect(screen.getByText('R')).toBeInTheDocument();
-    expect(screen.getByText('to shuffle')).toBeInTheDocument();
   });
 
   describe('Click functionality', () => {

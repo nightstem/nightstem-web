@@ -53,14 +53,13 @@ const TestFeatureFlagComponent = () => {
 
 describe('FeatureFlagContext', () => {
   beforeEach(() => {
-    vi.clearAllMocks();
     mockInit.mockResolvedValue(undefined);
     vi.mocked(useFeatureValue).mockReturnValue(false);
   });
 
   describe('FeatureFlagProvider', () => {
     it('should render children', async () => {
-      await act(() =>
+      await act(async () =>
         render(
           <FeatureFlagProvider>
             <div data-testid="child">Test Child</div>
@@ -72,7 +71,7 @@ describe('FeatureFlagContext', () => {
     });
 
     it('should initialize and provide context', async () => {
-      await act(() =>
+      await act(async () =>
         render(
           <FeatureFlagProvider>
             <TestComponent />
@@ -95,7 +94,7 @@ describe('FeatureFlagContext', () => {
       const testError = new Error('GrowthBook init failed');
       mockInit.mockRejectedValue(testError);
 
-      await act(() =>
+      await act(async () =>
         render(
           <FeatureFlagProvider>
             <TestComponent />
@@ -125,7 +124,7 @@ describe('FeatureFlagContext', () => {
         .mockImplementation(() => {});
       mockInit.mockRejectedValue('String error');
 
-      await act(() =>
+      await act(async () =>
         render(
           <FeatureFlagProvider>
             <TestComponent />
@@ -147,7 +146,7 @@ describe('FeatureFlagContext', () => {
 
   describe('useFeatureFlag', () => {
     it('should return feature flag value and ready state', async () => {
-      await act(() =>
+      await act(async () =>
         render(
           <FeatureFlagProvider>
             <TestFeatureFlagComponent />
@@ -164,7 +163,7 @@ describe('FeatureFlagContext', () => {
     it('should use default value when useFeatureValue returns null', async () => {
       vi.mocked(useFeatureValue).mockReturnValue(null);
 
-      await act(() =>
+      await act(async () =>
         render(
           <FeatureFlagProvider>
             <TestFeatureFlagComponent />
@@ -189,7 +188,7 @@ describe('FeatureFlagContext', () => {
 
   describe('useFeatureFlagState', () => {
     it('should return context state', async () => {
-      await act(() =>
+      await act(async () =>
         render(
           <FeatureFlagProvider>
             <TestComponent />
