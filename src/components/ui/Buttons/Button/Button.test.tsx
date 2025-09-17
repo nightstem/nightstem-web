@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { render } from '@testing-library/react';
 
 import { Button } from '@/components/ui/Buttons';
@@ -37,12 +38,14 @@ describe('Snapshots', () => {
           Button
         </Button>,
       );
+
       expect(container.firstChild).toMatchSnapshot();
     },
   );
 
   it('matches snapshot for disabled state', () => {
     const { container } = render(<Button disabled>Button</Button>);
+
     expect(container.firstChild).toMatchSnapshot();
   });
 });

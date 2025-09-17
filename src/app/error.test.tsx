@@ -6,7 +6,7 @@ import userEvent from '@testing-library/user-event';
 
 import ErrorPage, { type ErrorPageProps, metadata } from '@/app/error';
 
-describe('ErrorPage', () => {
+describe(ErrorPage, () => {
   const mockReset = vi.fn();
   const mockError = new Error('Test error message');
 
@@ -18,7 +18,9 @@ describe('ErrorPage', () => {
   const originalConsoleError = console.error;
 
   beforeEach(() => {
-    console.error = vi.fn();
+    vi.spyOn(console, 'error').mockImplementation(() => {
+      /* Nothing */
+    });
   });
 
   afterEach(() => {
@@ -28,11 +30,13 @@ describe('ErrorPage', () => {
   it('does not have any accessibility violations', async () => {
     const { container } = render(<ErrorPage {...defaultProps} />);
     const results = await axe(container);
+
     expect(results).toHaveNoViolations();
   });
 
   it('renders correctly with snapshot', () => {
     const { container } = render(<ErrorPage {...defaultProps} />);
+
     expect(container.firstChild).toMatchSnapshot();
   });
 
@@ -80,7 +84,7 @@ describe('ErrorPage', () => {
 describe('metadata', () => {
   it('exports correct metadata object', () => {
     expect(metadata).toBeDefined();
-    expect(metadata).toEqual({
+    expect(metadata).toStrictEqual({
       title: 'Unexpected error | Nightstem',
       robots: 'noindex',
     });

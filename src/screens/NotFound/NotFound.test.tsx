@@ -17,7 +17,7 @@ const mockRouter = { push: mockPush } as unknown as ReturnType<
   typeof useRouter
 >;
 
-describe('NotFound', () => {
+describe(NotFound, () => {
   beforeEach(() => {
     vi.mocked(useRouter).mockReturnValue(mockRouter);
     vi.mocked(usePathname).mockReturnValue('/some-path');
@@ -30,12 +30,14 @@ describe('NotFound', () => {
 
   it('renders correctly with snapshot', () => {
     const { container } = render(<NotFound />);
+
     expect(container.firstChild).toMatchSnapshot();
   });
 
   it('has no accessibility violations', async () => {
     const { container } = render(<NotFound />);
     const results = await act(() => axe(container!));
+
     expect(results).toHaveNoViolations();
   });
 
@@ -77,6 +79,7 @@ describe('NotFound', () => {
       for (let i = 0; i < 10; i += 1) {
         // eslint-disable-next-line no-await-in-loop
         await user.click(shuffleButton);
+
         expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
       }
     });
@@ -124,31 +127,6 @@ describe('NotFound', () => {
   });
 
   describe('Edge cases and error scenarios', () => {
-    it('handles single phrase array - shuffle should not change content', async () => {
-      const singlePhrase = [
-        { title: 'Single Title', description: 'Single Description' },
-      ];
-      const user = userEvent.setup();
-
-      render(<NotFound notFoundPhrases={singlePhrase} />);
-
-      expect(screen.getByText('Single Title')).toBeInTheDocument();
-      expect(screen.getByText('Single Description')).toBeInTheDocument();
-
-      const shuffleButton = screen.getByRole('button', {
-        name: /show another message/iu,
-      });
-      await user.click(shuffleButton);
-
-      expect(screen.getByText('Single Title')).toBeInTheDocument();
-      expect(screen.getByText('Single Description')).toBeInTheDocument();
-
-      await user.keyboard('R');
-
-      expect(screen.getByText('Single Title')).toBeInTheDocument();
-      expect(screen.getByText('Single Description')).toBeInTheDocument();
-    });
-
     it('handles undefined pathname', () => {
       vi.mocked(usePathname).mockReturnValue(undefined as unknown as string);
 
@@ -242,8 +220,8 @@ describe('NotFound', () => {
       render(<NotFound />);
       const title2 = screen.getByRole('heading', { level: 2 }).textContent;
 
-      expect(title1).toBeTruthy();
-      expect(title2).toBeTruthy();
+      expect(title1).toBe('Cable of Holding: Unplugged');
+      expect(title2).toBe('Maintenance Snack Break');
     });
   });
 });

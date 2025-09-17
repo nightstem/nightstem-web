@@ -10,9 +10,10 @@ vi.mock('@/screens/NotFound', () => ({
   )),
 }));
 
-describe('NotFoundPage', () => {
+describe(NotFoundPage, () => {
   it('renders correctly with snapshot', () => {
     const { container } = render(<NotFoundPage />);
+
     expect(container.firstChild).toMatchSnapshot();
   });
 
@@ -20,6 +21,7 @@ describe('NotFoundPage', () => {
     render(<NotFoundPage />);
 
     const notFoundComponent = screen.getByTestId('not-found-component');
+
     expect(notFoundComponent).toBeInTheDocument();
     expect(notFoundComponent).toHaveTextContent('NotFound Component');
   });
@@ -31,7 +33,7 @@ describe('NotFoundPage', () => {
   describe('metadata', () => {
     it('exports correct metadata object', () => {
       expect(metadata).toBeDefined();
-      expect(metadata).toEqual({
+      expect(metadata).toStrictEqual({
         title: 'Not found | Nightstem',
         robots: 'noindex',
       });

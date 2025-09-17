@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { render } from '@testing-library/react';
 
 import { LinkButton } from '@/components/ui/Buttons';
@@ -43,6 +44,7 @@ describe('Snapshots', () => {
           Link Button
         </LinkButton>,
       );
+
       expect(container.firstChild).toMatchSnapshot();
     },
   );
@@ -53,6 +55,7 @@ describe('Snapshots', () => {
         External Link
       </LinkButton>,
     );
+
     expect(container.firstChild).toMatchSnapshot();
   });
 
@@ -60,6 +63,7 @@ describe('Snapshots', () => {
     const { container } = render(
       <LinkButton href="/internal">Internal Link</LinkButton>,
     );
+
     expect(container.firstChild).toMatchSnapshot();
   });
 });

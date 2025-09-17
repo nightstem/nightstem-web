@@ -58,6 +58,7 @@ describe('range constraints', () => {
 
     testCases.forEach(({ seed, max }) => {
       const result = hashIndex(seed, max);
+
       expect(result).toBeGreaterThanOrEqual(0);
       expect(result).toBeLessThan(max);
       expect(Number.isInteger(result)).toBe(true);

@@ -56,7 +56,7 @@ describe('FeatureFlagContext', () => {
     vi.mocked(useFeatureValue).mockReturnValue(false);
   });
 
-  describe('FeatureFlagProvider', () => {
+  describe(FeatureFlagProvider, () => {
     it('should render children', async () => {
       await act(() =>
         render(
@@ -81,6 +81,7 @@ describe('FeatureFlagContext', () => {
       await waitFor(() => {
         expect(screen.getByTestId('state-ready')).toHaveTextContent('true');
       });
+
       expect(screen.getByTestId('state-loading')).toHaveTextContent('false');
     });
 
@@ -104,6 +105,7 @@ describe('FeatureFlagContext', () => {
       await waitFor(() => {
         expect(screen.getByTestId('state-ready')).toHaveTextContent('false');
       });
+
       expect(screen.getByTestId('state-loading')).toHaveTextContent('false');
       expect(screen.getByTestId('state-error')).toHaveTextContent(
         'GrowthBook init failed',
@@ -134,6 +136,7 @@ describe('FeatureFlagContext', () => {
       await waitFor(() => {
         expect(screen.getByTestId('state-ready')).toHaveTextContent('false');
       });
+
       expect(screen.getByTestId('state-loading')).toHaveTextContent('false');
       expect(screen.getByTestId('state-error')).toHaveTextContent(
         'Unknown error occurred',
@@ -143,7 +146,7 @@ describe('FeatureFlagContext', () => {
     });
   });
 
-  describe('useFeatureFlag', () => {
+  describe(useFeatureFlag, () => {
     it('should return feature flag value and ready state', async () => {
       await act(() =>
         render(
@@ -156,6 +159,7 @@ describe('FeatureFlagContext', () => {
       await waitFor(() => {
         expect(screen.getByTestId('flag-ready')).toHaveTextContent('true');
       });
+
       expect(screen.getByTestId('flag-value')).toHaveTextContent('false');
     });
 
@@ -173,6 +177,7 @@ describe('FeatureFlagContext', () => {
       await waitFor(() => {
         expect(screen.getByTestId('flag-ready')).toHaveTextContent('true');
       });
+
       expect(screen.getByTestId('flag-value')).toHaveTextContent('false');
     });
 
@@ -185,7 +190,7 @@ describe('FeatureFlagContext', () => {
     });
   });
 
-  describe('useFeatureFlagState', () => {
+  describe(useFeatureFlagState, () => {
     it('should return context state', async () => {
       await act(() =>
         render(
@@ -198,6 +203,7 @@ describe('FeatureFlagContext', () => {
       await waitFor(() => {
         expect(screen.getByTestId('state-ready')).toHaveTextContent('true');
       });
+
       expect(screen.getByTestId('state-loading')).toHaveTextContent('false');
       expect(screen.getByTestId('state-error')).toHaveTextContent('null');
     });

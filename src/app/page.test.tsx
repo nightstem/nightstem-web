@@ -1,16 +1,20 @@
 import { axe } from 'vitest-axe';
-import { expect, it } from 'vitest';
+import { expect, it, describe } from 'vitest';
 import { render } from '@testing-library/react';
 
 import Page from '@/app/page';
 
-it('matches snapshot', () => {
-  const { container } = render(<Page />);
-  expect(container).toMatchSnapshot();
-});
+describe(Page, () => {
+  it('matches snapshot', () => {
+    const { container } = render(<Page />);
 
-it('does not have violations', async () => {
-  const { container } = render(<Page />);
-  const result = await axe(container);
-  expect(result).toHaveNoViolations();
+    expect(container).toMatchSnapshot();
+  });
+
+  it('does not have violations', async () => {
+    const { container } = render(<Page />);
+    const result = await axe(container);
+
+    expect(result).toHaveNoViolations();
+  });
 });

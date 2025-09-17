@@ -7,6 +7,8 @@ import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { FlatCompat } from '@eslint/eslintrc';
 
+import vitest from '@vitest/eslint-plugin';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -52,6 +54,32 @@ const eslintConfig = [
     },
   },
   ...storybook.configs['flat/recommended'],
+  {
+    files: ['**/*.{test,spec}.{ts,tsx}'],
+    plugins: {
+      vitest,
+    },
+    languageOptions: {
+      globals: {
+        ...vitest.environments.env.globals,
+      },
+      parserOptions: {
+        project: true,
+      },
+    },
+    settings: {
+      vitest: {
+        typecheck: true,
+      },
+    },
+    rules: {
+      ...vitest.configs.all.rules,
+      'vitest/no-hooks': 'off',
+      'vitest/prefer-lowercase-title': 'off',
+      'vitest/prefer-expect-assertions': 'off',
+      'vitest/require-mock-type-parameters': 'off',
+    },
+  },
 ];
 
 export default eslintConfig;

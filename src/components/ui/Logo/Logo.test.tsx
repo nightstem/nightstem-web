@@ -1,3 +1,4 @@
+import { describe, expect } from 'vitest';
 import { axe } from 'vitest-axe';
 import { render } from '@testing-library/react';
 
@@ -22,6 +23,7 @@ describe('Accessibility', () => {
     async (mode) => {
       const { container } = render(<Logo mode={mode} />);
       const results = await axe(container);
+
       expect(results).toHaveNoViolations();
     },
   );
@@ -34,6 +36,7 @@ describe('Snapshots', () => {
     'matches snapshot for %s mode with %s size',
     (mode, size) => {
       const { container } = render(<Logo mode={mode} size={size} />);
+
       expect(container.firstChild).toMatchSnapshot();
     },
   );
@@ -48,6 +51,7 @@ describe('Snapshots', () => {
           animation={animation}
         />,
       );
+
       expect(container.firstChild).toMatchSnapshot();
     },
   );

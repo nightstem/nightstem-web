@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { MaintenanceModeWrapper } from '@/screens/MaintenanceMode/MaintenanceModeWrapper';
 
-describe('MaintenanceModeWrapper', () => {
+describe(MaintenanceModeWrapper, () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });

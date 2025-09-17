@@ -1,3 +1,4 @@
+import { it, expect, describe } from 'vitest';
 import { axe } from 'vitest-axe';
 import { render } from '@testing-library/react';
 
@@ -7,13 +8,17 @@ const defaultProps: KbdProps = {
   children: 'Ctrl',
 };
 
-it('does not have any accessibility violations', async () => {
-  const { container } = render(<Kbd {...defaultProps} />);
-  const results = await axe(container);
-  expect(results).toHaveNoViolations();
-});
+describe(Kbd, () => {
+  it('does not have any accessibility violations', async () => {
+    const { container } = render(<Kbd {...defaultProps} />);
+    const results = await axe(container);
 
-it('matches the snapshot', () => {
-  const { container } = render(<Kbd {...defaultProps} />);
-  expect(container.firstChild).toMatchSnapshot();
+    expect(results).toHaveNoViolations();
+  });
+
+  it('matches the snapshot', () => {
+    const { container } = render(<Kbd {...defaultProps} />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });
