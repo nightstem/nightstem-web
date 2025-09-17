@@ -42,10 +42,3 @@ export const Horizontal: Story = {
     size: LOGO_SIZES.DISPLAY,
   },
 };
-
-export const Full: Story = {
-  args: {
-    mode: LOGO_MODES.FULL,
-    size: LOGO_SIZES.DISPLAY,
-  },
-};

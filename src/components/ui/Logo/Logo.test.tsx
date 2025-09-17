@@ -39,11 +39,11 @@ describe('Snapshots', () => {
   );
 
   it.each(animations)(
-    'matches snapshot for FULL mode with DISPLAY size and %s animation',
+    'matches snapshot for HORIZONTAL mode with DISPLAY size and %s animation',
     (animation) => {
       const { container } = render(
         <Logo
-          mode={LOGO_MODES.FULL}
+          mode={LOGO_MODES.HORIZONTAL}
           size={LOGO_SIZES.DISPLAY}
           animation={animation}
         />,

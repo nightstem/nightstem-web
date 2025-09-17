@@ -45,15 +45,6 @@ export const Logo = ({
   );
 
   switch (mode) {
-    case LOGO_MODES.FULL: {
-      return (
-        <div className="inline-flex flex-col text-center items-end">
-          {logo}
-          <span className={sizeConfig.textClass}>{appName}</span>
-        </div>
-      );
-    }
-
     case LOGO_MODES.HORIZONTAL: {
       return (
         <div className={cx('inline-flex items-center', sizeConfig.gapClass)}>

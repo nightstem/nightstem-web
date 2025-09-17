@@ -1,7 +1,6 @@
 export const LOGO_MODES = {
   ICON: 'icon',
   HORIZONTAL: 'horizontal',
-  FULL: 'full',
 } as const;
 
 export const LOGO_SIZES = {
