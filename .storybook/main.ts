@@ -1,16 +1,16 @@
-const path = require('path');
+import path from 'path';
+import type { StorybookConfig } from '@storybook/nextjs-vite';
 
-/** @type { import('@storybook/nextjs-vite').StorybookConfig } */
-const config = {
-  stories: [
-    // '../src/**/*.mdx',
-    '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
-  ],
+const config: StorybookConfig = {
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: [
     '@storybook/addon-docs',
     '@storybook/addon-onboarding',
     '@storybook/addon-a11y',
   ],
+  core: {
+    disableTelemetry: true,
+  },
   framework: {
     name: '@storybook/nextjs-vite',
     options: {},
@@ -27,4 +27,4 @@ const config = {
   staticDirs: [path.join(__dirname, '..', 'public')],
 };
 
-module.exports = config;
+export default config;
