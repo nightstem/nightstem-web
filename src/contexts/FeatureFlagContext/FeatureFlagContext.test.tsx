@@ -8,7 +8,6 @@ import {
   useFeatureFlagState,
 } from '@/contexts/FeatureFlagContext';
 
-// Mock GrowthBook to be synchronously ready
 const mockInit = vi.fn().mockResolvedValue(undefined);
 const mockDestroy = vi.fn();
 const mockGrowthBook = {
@@ -87,9 +86,6 @@ describe('FeatureFlagContext', () => {
     it('should handle Error instance initialization failure', async () => {
       vi.stubEnv('NODE_ENV', 'development');
 
-      const consoleErrorSpy = vi
-        .spyOn(console, 'error')
-        .mockImplementation(() => {});
       const testError = new Error('GrowthBook init failed');
       mockInit.mockRejectedValue(testError);
 
@@ -109,12 +105,7 @@ describe('FeatureFlagContext', () => {
       expect(screen.getByTestId('state-error')).toHaveTextContent(
         'GrowthBook init failed',
       );
-      expect(consoleErrorSpy).toHaveBeenCalledWith(
-        'Failed to initialize feature flags:',
-        testError,
-      );
 
-      consoleErrorSpy.mockRestore();
       vi.unstubAllEnvs();
     });
 

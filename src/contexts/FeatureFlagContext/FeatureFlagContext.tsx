@@ -1,12 +1,6 @@
 'use client';
 
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useState,
-} from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 
 import {
   GrowthBook,
@@ -67,51 +61,44 @@ export const FeatureFlagProvider = ({
     error: null,
   });
 
-  const initializeFeatureFlags = useCallback(async () => {
-    try {
-      setState((prev) => ({ ...prev, isLoading: true, error: null }));
-
-      const growthbook = new GrowthBook({
-        apiHost,
-        clientKey,
-        enableDevMode,
-      });
-
-      await growthbook.init();
-
-      setState({
-        client: growthbook,
-        isLoading: false,
-        isReady: true,
-        error: null,
-      });
-    } catch (error) {
-      const errorMessage =
-        error instanceof Error ? error : new Error('Unknown error occurred');
-
-      setState({
-        client: new GrowthBook({}),
-        isLoading: false,
-        isReady: false,
-        error: errorMessage,
-      });
-
-      // In development, log the error for debugging
-      if (process.env.NODE_ENV === 'development') {
-        // eslint-disable-next-line no-console
-        console.error('Failed to initialize feature flags:', errorMessage);
-      }
-    }
-  }, [apiHost, clientKey, enableDevMode]);
-
   useEffect(() => {
+    setState((prev) => ({ ...prev, isLoading: true, error: null }));
+
+    const growthbook = new GrowthBook({
+      apiHost,
+      clientKey,
+      enableDevMode,
+    });
+
+    const initializeFeatureFlags = async () => {
+      try {
+        await growthbook.init();
+
+        setState({
+          client: growthbook,
+          isLoading: false,
+          isReady: true,
+          error: null,
+        });
+      } catch (error) {
+        const errorMessage =
+          error instanceof Error ? error : new Error('Unknown error occurred');
+
+        setState({
+          client: new GrowthBook({}),
+          isLoading: false,
+          isReady: false,
+          error: errorMessage,
+        });
+      }
+    };
+
     initializeFeatureFlags();
 
     return () => {
-      state.client?.destroy?.();
+      growthbook?.destroy?.();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [initializeFeatureFlags]);
+  }, [apiHost, clientKey, enableDevMode]);
 
   return (
     <FeatureFlagStateContext.Provider value={state}>

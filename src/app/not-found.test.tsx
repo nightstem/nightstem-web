@@ -3,7 +3,6 @@ import { describe, expect, it, vi } from 'vitest';
 
 import NotFoundPage, { metadata } from '@/app/not-found';
 
-// Mock the NotFound component to isolate testing of not-found.tsx
 vi.mock('@/screens/NotFound', () => ({
   default: vi.fn(() => (
     <div data-testid="not-found-component">NotFound Component</div>
