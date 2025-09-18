@@ -16,14 +16,14 @@ import {
   defaultNotFound,
   notFoundList,
 } from '@/screens/NotFound/constants';
-import { Kbd } from '@/components/ui/Kbd';
+import Kbd from '@/components/ui/Kbd';
 import { Button, LinkButton } from '@/components/ui/Buttons';
 
 export type NotFoundProps = {
   notFoundPhrases?: NotFoundPhrase[];
 };
 
-export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
+const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
   const pathname = usePathname() ?? '/404';
   const router = useRouter();
 
@@ -49,13 +49,13 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
   const { title, description } = notFoundPhrases[index] ?? defaultNotFound;
 
   return (
-    <div className="h-full w-full grid place-items-center">
+    <div className="grid h-full w-full place-items-center">
       <h1 className="sr-only">Page not found</h1>
 
       <section
         aria-labelledby="nf-title"
         aria-describedby="nf-desc"
-        className="grid gap-8 w-full max-w-prose px-6"
+        className="grid w-full max-w-prose gap-8 px-6"
       >
         <header className="grid gap-2">
           <Logo
@@ -70,7 +70,7 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
               {title}
             </h2>
 
-            <p id="nf-desc" className="text-sm md:text-base text-foreground/60">
+            <p id="nf-desc" className="text-sm text-foreground/60 md:text-base">
               {description}
             </p>
           </div>
@@ -90,7 +90,7 @@ export const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
             </Button>
           </div>
 
-          <div className="flex items-center gap-1.5 text-caption text-foreground/60 border-t border-foreground/10 pt-3">
+          <div className="text-caption flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-foreground/60">
             <span>Tip: press</span>
             <Kbd>Esc</Kbd>
             <span>to go home</span>

@@ -1,5 +1,5 @@
 export * from '@/components/ui/Logo/Logo';
-export { Logo as default } from '@/components/ui/Logo/Logo';
+export { default } from '@/components/ui/Logo/Logo';
 export type {
   LogoMode,
   LogoSize,

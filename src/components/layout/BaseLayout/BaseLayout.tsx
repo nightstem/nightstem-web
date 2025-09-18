@@ -6,8 +6,8 @@ export type BaseLayoutProps = {
   children?: ReactNode;
 };
 
-export const BaseLayout = ({ children }: BaseLayoutProps) => (
-  <div className="flex flex-col h-dvh w-dvw">
+const BaseLayout = ({ children }: BaseLayoutProps) => (
+  <div className="flex h-dvh w-dvw flex-col">
     <Navbar />
     <main className="screen-container h-full max-h-full overflow-auto">
       {children}

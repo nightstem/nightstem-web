@@ -3,7 +3,7 @@
 exports[`Navbar > matches the snapshot 1`] = `
 <div>
   <nav
-    class="w-full flex justify-center"
+    class="flex w-full justify-center"
   >
     <div
       class="screen-container px-2 py-2.5 flex items-center justify-between"

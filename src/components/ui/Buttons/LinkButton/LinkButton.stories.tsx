@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
-import LinkButtonComponent, {
+import {
+  LinkButton,
   type LinkButtonProps,
 } from '@/components/ui/Buttons/LinkButton';
 
@@ -12,7 +13,7 @@ import {
 } from '@/components/ui/Buttons/constants';
 
 const meta = {
-  component: LinkButtonComponent,
+  component: LinkButton,
   tags: ['autodocs'],
   argTypes: {
     color: {

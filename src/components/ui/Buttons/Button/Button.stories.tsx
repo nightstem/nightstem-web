@@ -1,8 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
-import ButtonComponent, {
-  type ButtonProps,
-} from '@/components/ui/Buttons/Button';
+import { type ButtonProps, Button } from '@/components/ui/Buttons/Button';
 
 import {
   BUTTON_COLORS,
@@ -12,7 +10,7 @@ import {
 } from '@/components/ui/Buttons/constants';
 
 const meta = {
-  component: ButtonComponent,
+  component: Button,
   tags: ['autodocs'],
   argTypes: {
     color: {

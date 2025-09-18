@@ -5,7 +5,7 @@ import {
   LOGO_MODES,
   LOGO_SIZES,
 } from '@/components/ui/Logo/constants';
-import { Logo, type LogoProps } from '@/components/ui/Logo';
+import Logo, { type LogoProps } from '@/components/ui/Logo';
 
 const meta = {
   component: Logo,

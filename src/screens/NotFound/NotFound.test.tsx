@@ -5,6 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { axe } from 'vitest-axe';
 
 import NotFound from '@/screens/NotFound/NotFound';
+
 import {
   defaultNotFound,
   notFoundList,

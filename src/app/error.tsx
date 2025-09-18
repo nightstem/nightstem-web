@@ -19,13 +19,13 @@ export type ErrorPageProps = {
   reset: () => void;
 };
 
-export const ErrorPage = ({ reset }: ErrorPageProps) => {
+const ErrorPage = ({ reset }: ErrorPageProps) => {
   return (
-    <div className="h-full w-full grid place-items-center">
+    <div className="grid h-full w-full place-items-center">
       <div
         aria-labelledby="nf-title"
         aria-describedby="nf-desc"
-        className="grid gap-8 w-full max-w-prose px-6"
+        className="grid w-full max-w-prose gap-8 px-6"
       >
         <header className="grid gap-2">
           <Logo
@@ -40,7 +40,7 @@ export const ErrorPage = ({ reset }: ErrorPageProps) => {
               Something went wrong
             </h1>
 
-            <p id="nf-desc" className="text-sm md:text-base text-foreground/60">
+            <p id="nf-desc" className="text-sm text-foreground/60 md:text-base">
               An unexpected error occurred. Don&apos;t worry, we&apos;re on it.
             </p>
           </div>

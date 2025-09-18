@@ -18,7 +18,7 @@ A modern web application built with Next.js 15, featuring a comprehensive design
 ### Prerequisites
 
 - [Node.js 22.18.0](https://nodejs.org/en/download/) (required)
-- [PNPM 10.16.1](https://pnpm.io/installation) (required package manager)
+- [PNPM 10.17.0](https://pnpm.io/installation) (required package manager)
 
 ### Installation
 

@@ -1,6 +1,6 @@
 import cx from 'classnames';
 
-import LogoMark from '@/assets/svgs/LogoMark';
+import { LogoMark } from '@/assets/svgs/LogoMark';
 
 import type {
   LogoAnimation,
@@ -22,7 +22,7 @@ export type LogoProps = {
   animation?: LogoAnimation;
 };
 
-export const Logo = ({
+const Logo = ({
   mode = LOGO_MODES.ICON,
   size = LOGO_SIZES.BODY,
   animation = LOGO_ANIMATIONS.NONE,

@@ -2,7 +2,7 @@ import { describe, expect } from 'vitest';
 import { axe } from 'vitest-axe';
 import { render } from '@testing-library/react';
 
-import { Logo } from '@/components/ui/Logo';
+import Logo from '@/components/ui/Logo';
 import type {
   LogoAnimation,
   LogoMode,

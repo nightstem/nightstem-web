@@ -86,43 +86,43 @@
 
 @layer components {
   .text-hint {
-    @apply text-[0.563rem] font-normal leading-[160%] tracking-wide;
+    @apply text-[0.563rem] leading-[160%] font-normal tracking-wide;
   }
 
   .text-caption {
-    @apply text-[0.75rem] font-normal leading-[160%] tracking-wide;
+    @apply text-[0.75rem] leading-[160%] font-normal tracking-wide;
   }
 
   .text-body {
-    @apply text-base font-normal leading-[150%];
+    @apply text-base leading-[150%] font-normal;
   }
 
   .heading-sm {
-    @apply text-[1.333rem] font-semibold leading-[125%];
+    @apply text-[1.333rem] leading-[125%] font-semibold;
   }
 
   .heading-md {
-    @apply text-[1.777rem] font-semibold leading-[125%];
+    @apply text-[1.777rem] leading-[125%] font-semibold;
   }
 
   .heading-lg {
-    @apply text-[2.369rem] font-semibold leading-[120%] tracking-tight;
+    @apply text-[2.369rem] leading-[120%] font-semibold tracking-tight;
   }
 
   .heading-xl {
-    @apply text-[3.157rem] font-semibold leading-[120%] tracking-tight;
+    @apply text-[3.157rem] leading-[120%] font-semibold tracking-tight;
   }
 
   .heading-xxl {
-    @apply text-[4.209rem] font-bold leading-[122%] tracking-tight;
+    @apply text-[4.209rem] leading-[122%] font-bold tracking-tight;
   }
 
   .heading-display {
-    @apply text-[5.61rem] font-bold leading-[124%] tracking-tight;
+    @apply text-[5.61rem] leading-[124%] font-bold tracking-tight;
   }
 
   .screen-container {
-    @apply w-full max-w-8xl mx-auto;
+    @apply mx-auto w-full max-w-8xl;
   }
 }
 

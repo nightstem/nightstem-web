@@ -2,6 +2,7 @@
 import storybook from 'eslint-plugin-storybook';
 import js from '@eslint/js';
 import security from 'eslint-plugin-security';
+import { importX } from 'eslint-plugin-import-x';
 import reactPerfPlugin from 'eslint-plugin-react-perf';
 
 import { dirname } from 'path';
@@ -28,6 +29,8 @@ const __filename = fileURLToPath(import.meta.url),
     },
     js.configs.recommended,
     security.configs.recommended,
+    importX.flatConfigs.recommended,
+    importX.flatConfigs.typescript,
     reactPerfPlugin.configs.flat.all,
     ...compat.config({
       extends: ['next/core-web-vitals', 'next/typescript', 'prettier'],

@@ -30,7 +30,7 @@ export type ButtonProps = DetailedHTMLProps<
   variant?: ButtonVariant;
 };
 
-export const Button = ({
+const Button = ({
   className,
   type = 'button',
   color = BUTTON_COLORS.PRIMARY,
@@ -47,10 +47,10 @@ export const Button = ({
     <button
       type={type}
       className={cx(
-        'select-none whitespace-nowrap font-medium',
+        'font-medium whitespace-nowrap select-none',
         'cursor-pointer disabled:cursor-not-allowed',
         'transition-colors duration-200 motion-reduce:transition-none',
-        'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark',
+        'ring-offset-dark focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none',
         sizeClassNames,
         shapeClassNames,
         colorClassNames,

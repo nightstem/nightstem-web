@@ -6,14 +6,15 @@ export type KbdProps = DetailedHTMLProps<
   HTMLElement
 >;
 
-export const Kbd = ({ className, ...props }: KbdProps) => (
+const Kbd = ({ className, ...props }: KbdProps) => (
   <kbd
     {...props}
     className={cx(
-      'rounded shadow-2xl border border-foreground/20 p-1.5 leading-[50%]',
+      'rounded border border-foreground/20 p-1.5 leading-[50%] shadow-2xl',
       className,
     )}
   />
 );
 
+Kbd.displayName = 'Kbd';
 export default Kbd;

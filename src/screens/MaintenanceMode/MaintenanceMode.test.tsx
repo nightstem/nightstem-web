@@ -2,7 +2,7 @@ import { beforeEach, afterEach, describe, it, expect } from 'vitest';
 import { axe } from 'vitest-axe';
 import { render } from '@testing-library/react';
 
-import { MaintenanceMode } from '@/screens/MaintenanceMode';
+import MaintenanceMode from '@/screens/MaintenanceMode';
 
 const mockVersion = '1.0.0';
 const originalEnv = process.env;

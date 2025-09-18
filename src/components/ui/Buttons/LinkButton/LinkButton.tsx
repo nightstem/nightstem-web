@@ -32,7 +32,7 @@ export type LinkButtonProps = DetailedHTMLProps<
   variant?: ButtonVariant;
 };
 
-export const LinkButton = ({
+const LinkButton = ({
   className,
   href,
   isExternal = false,

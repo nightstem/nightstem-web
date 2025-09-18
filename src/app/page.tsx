@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div className="w-full h-full">Homepage</div>;
+  return <div className="h-full w-full">Homepage</div>;
 }

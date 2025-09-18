@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 
-import { NotFound } from '@/screens/NotFound';
+import NotFound from '@/screens/NotFound';
 
 export const metadata: Metadata = {
   title: 'Not found | Nightstem',
   robots: 'noindex',
 };
 
-export const NotFoundPage = () => <NotFound />;
+const NotFoundPage = () => <NotFound />;
 
 NotFoundPage.displayName = 'NotFoundPage';
 export default NotFoundPage;

@@ -1,20 +1,19 @@
-import {
+import Logo, {
   LOGO_ANIMATIONS,
   LOGO_MODES,
   LOGO_SIZES,
-  Logo,
 } from '@/components/ui/Logo';
 import { LinkButton } from '@/components/ui/Buttons';
 
-export const MaintenanceMode = () => {
+const MaintenanceMode = () => {
   const version = process.env.NEXT_PUBLIC_APP_VERSION;
 
   return (
-    <div className="relative min-h-dvh w-full grid place-items-center">
+    <div className="relative grid min-h-dvh w-full place-items-center">
       <section
         aria-labelledby="mm-title"
         aria-describedby="mm-desc"
-        className="grid gap-8 w-full max-w-prose px-6"
+        className="grid w-full max-w-prose gap-8 px-6"
       >
         <header className="grid gap-2">
           <Logo
@@ -39,7 +38,7 @@ export const MaintenanceMode = () => {
           </LinkButton>
         </div>
 
-        <div className="flex items-center gap-1.5 text-caption text-foreground/60 border-t border-foreground/10 pt-3">
+        <div className="text-caption flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-foreground/60">
           <span>Service unavailable (503)</span>
           <span>•</span>
           <span>Please try again shortly.</span>
@@ -47,7 +46,7 @@ export const MaintenanceMode = () => {
       </section>
 
       {version && (
-        <span className="absolute bottom-4 right-4 text-caption text-foreground/60 font-mono">
+        <span className="text-caption absolute right-4 bottom-4 font-mono text-foreground/60">
           v{version}
         </span>
       )}
