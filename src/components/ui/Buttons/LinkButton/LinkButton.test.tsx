@@ -31,7 +31,6 @@ describe('Snapshots', () => {
     ),
   )(
     'matches snapshot for %s variant with %s color, %s size, and %s shape',
-    // eslint-disable-next-line max-params
     (variant, color, size, shape) => {
       const { container } = render(
         <LinkButton

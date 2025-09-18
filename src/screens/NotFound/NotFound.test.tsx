@@ -5,7 +5,11 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { axe } from 'vitest-axe';
 
 import NotFound from '@/screens/NotFound/NotFound';
-import { defaultNotFound, notFoundList } from '@/screens/NotFound/constants';
+import {
+  defaultNotFound,
+  notFoundList,
+  NotFoundPhrase,
+} from '@/screens/NotFound/constants';
 
 vi.mock('next/navigation', () => ({
   usePathname: vi.fn(),
@@ -16,6 +20,17 @@ const mockPush = vi.fn();
 const mockRouter = { push: mockPush } as unknown as ReturnType<
   typeof useRouter
 >;
+
+const noPhrases: NotFoundPhrase[] = [];
+
+const phrases = [
+  { title: 'First', description: 'First desc' },
+  { title: 'Second', description: 'Second desc' },
+];
+
+const customPhrases = [
+  { title: 'Custom Title', description: 'Custom Description' },
+];
 
 describe(NotFound, () => {
   beforeEach(() => {
@@ -65,11 +80,6 @@ describe(NotFound, () => {
     });
 
     it('shuffles content multiple times to test collision handling', async () => {
-      // eslint-disable-next-line react-perf/jsx-no-new-array-as-prop
-      const phrases = [
-        { title: 'First', description: 'First desc' },
-        { title: 'Second', description: 'Second desc' },
-      ];
       const user = userEvent.setup();
       render(<NotFound notFoundPhrases={phrases} />);
 
@@ -78,7 +88,6 @@ describe(NotFound, () => {
       });
 
       for (let i = 0; i < 10; i += 1) {
-        // eslint-disable-next-line no-await-in-loop
         await user.click(shuffleButton);
 
         expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument();
@@ -146,8 +155,7 @@ describe(NotFound, () => {
 
     it('falls back to defaultNotFound when index is out of bounds', () => {
       // Create empty array to force fallback to defaultNotFound
-      // eslint-disable-next-line react-perf/jsx-no-new-array-as-prop
-      render(<NotFound notFoundPhrases={[]} />);
+      render(<NotFound notFoundPhrases={noPhrases} />);
 
       expect(
         screen.getByRole('heading', { level: 2, name: defaultNotFound.title }),
@@ -156,11 +164,6 @@ describe(NotFound, () => {
     });
 
     it('handles custom notFoundPhrases prop', () => {
-      // eslint-disable-next-line react-perf/jsx-no-new-array-as-prop
-      const customPhrases = [
-        { title: 'Custom Title', description: 'Custom Description' },
-      ];
-
       render(<NotFound notFoundPhrases={customPhrases} />);
 
       expect(screen.getByText('Custom Title')).toBeInTheDocument();

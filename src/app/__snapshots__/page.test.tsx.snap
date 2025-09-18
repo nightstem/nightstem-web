@@ -9,13 +9,3 @@ exports[`Home > matches snapshot 1`] = `
   </div>
 </div>
 `;
-
-exports[`matches snapshot 1`] = `
-<div>
-  <div
-    class="w-full h-full"
-  >
-    Homepage
-  </div>
-</div>
-`;

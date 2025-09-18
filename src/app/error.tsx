@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect } from 'react';
 import type { Metadata } from 'next';
 
 import Logo, {
@@ -20,12 +19,7 @@ export type ErrorPageProps = {
   reset: () => void;
 };
 
-export const ErrorPage = ({ error, reset }: ErrorPageProps) => {
-  useEffect(() => {
-    // eslint-disable-next-line no-console
-    console.error(error);
-  }, [error]);
-
+export const ErrorPage = ({ reset }: ErrorPageProps) => {
   return (
     <div className="h-full w-full grid place-items-center">
       <div

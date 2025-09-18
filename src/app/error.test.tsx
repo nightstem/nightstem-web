@@ -1,6 +1,5 @@
-/* eslint-disable no-console */
 import { render, screen } from '@testing-library/react';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { axe } from 'vitest-axe';
 import userEvent from '@testing-library/user-event';
 
@@ -15,18 +14,6 @@ describe(ErrorPage, () => {
     reset: mockReset,
   };
 
-  const originalConsoleError = console.error;
-
-  beforeEach(() => {
-    vi.spyOn(console, 'error').mockImplementation(() => {
-      /* Nothing */
-    });
-  });
-
-  afterEach(() => {
-    console.error = originalConsoleError;
-  });
-
   it('does not have any accessibility violations', async () => {
     const { container } = render(<ErrorPage {...defaultProps} />);
     const results = await axe(container);
@@ -40,44 +27,14 @@ describe(ErrorPage, () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  describe('Behavior', () => {
-    it('logs error to console on mount', () => {
-      render(<ErrorPage {...defaultProps} />);
+  it('calls reset function when reset button is clicked', async () => {
+    const user = userEvent.setup();
+    render(<ErrorPage {...defaultProps} />);
 
-      expect(console.error).toHaveBeenCalledWith(mockError);
-      expect(console.error).toHaveBeenCalledTimes(1);
-    });
+    const resetButton = screen.getByRole('button', { name: 'Try again' });
+    await user.click(resetButton);
 
-    it('logs new error when error prop changes', () => {
-      const { rerender } = render(<ErrorPage {...defaultProps} />);
-
-      const newError = new Error('New error message');
-      rerender(<ErrorPage error={newError} reset={mockReset} />);
-
-      expect(console.error).toHaveBeenCalledWith(mockError);
-      expect(console.error).toHaveBeenCalledWith(newError);
-      expect(console.error).toHaveBeenCalledTimes(2);
-    });
-
-    it('calls reset function when reset button is clicked', async () => {
-      const user = userEvent.setup();
-      render(<ErrorPage {...defaultProps} />);
-
-      const resetButton = screen.getByRole('button', { name: 'Try again' });
-      await user.click(resetButton);
-
-      expect(mockReset).toHaveBeenCalledTimes(1);
-    });
-
-    it('handles error with digest property', () => {
-      const errorWithDigest = Object.assign(new Error('Test error'), {
-        digest: 'error-digest-123',
-      });
-
-      render(<ErrorPage error={errorWithDigest} reset={mockReset} />);
-
-      expect(console.error).toHaveBeenCalledWith(errorWithDigest);
-    });
+    expect(mockReset).toHaveBeenCalledTimes(1);
   });
 });
 

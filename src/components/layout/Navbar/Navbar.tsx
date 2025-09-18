@@ -4,8 +4,6 @@ import { LinkButton } from '@/components/ui/Buttons';
 import Logo, { LOGO_MODES, LOGO_SIZES } from '@/components/ui/Logo';
 import Link from 'next/link';
 
-export type NavbarProps = {};
-
 export const Navbar = () => (
   <nav className="w-full flex justify-center">
     <div
