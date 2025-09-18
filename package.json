@@ -27,7 +27,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.2.7",
+    "@fontsource-variable/inter": "^5.2.8",
     "@growthbook/growthbook-react": "^1.6.1",
     "classnames": "^2.5.1",
     "next": "15.5.3",
@@ -48,7 +48,7 @@
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
-    "@types/node": "^20.19.16",
+    "@types/node": "^20.19.17",
     "@types/react": "19.1.13",
     "@types/react-dom": "19.1.9",
     "@vitejs/plugin-react": "^4.7.0",
