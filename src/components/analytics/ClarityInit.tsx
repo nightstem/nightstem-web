@@ -6,7 +6,8 @@ import Clarity from '@microsoft/clarity';
 const ClarityInit = () => {
   useEffect(() => {
     const id = process.env.NEXT_PUBLIC_CLARITY_ID;
-    if (!id) return;
+    const isProduction = process.env.NODE_ENV === 'production';
+    if (!isProduction || !id) return;
 
     Clarity.init(id);
     Clarity.consent();
