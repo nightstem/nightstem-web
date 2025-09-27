@@ -49,22 +49,3 @@ jobs:
           project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
           environment: preview
-
-      - name: Comment staging URL on PR
-        uses: actions/github-script@v7
-        if: github.event_name == 'pull_request'
-        with:
-          script: |
-            const deploymentUrl = '${{ steps.deploy.outputs.deployment-url }}';
-            const body = `🚀 **Staging deployment ready!**
-
-            📋 **Preview URL:** ${deploymentUrl}
-
-            💡 This staging environment will be automatically updated when you push new commits to this PR.`;
-
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: body
-            });
