@@ -23,6 +23,9 @@ export default defineConfig({
       provider: 'v8',
       include: ['src/**/*.{ts,tsx}'],
       exclude: [
+        // analytics
+        'src/analytics/**',
+
         // tests and stories
         'src/**/*.test.{ts,tsx}',
         'src/**/*.spec.{ts,tsx}',
@@ -41,7 +44,6 @@ export default defineConfig({
         '**/*.config.{ts,js}',
         '**/storybook/**',
         'e2e/**',
-        'src/components/analytics/**.*',
       ],
       thresholds: {
         statements: GLOBAL_MIN,

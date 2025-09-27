@@ -2,10 +2,12 @@ import '@/app/globals.css';
 
 import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
+
+import { ClarityInit } from '@/analytics/ClarityInit';
+import BaseLayout from '@/components/layout/BaseLayout';
 import { FeatureFlagProvider } from '@/contexts/FeatureFlagContext';
 import { MaintenanceModeWrapper } from '@/screens/MaintenanceMode';
-import BaseLayout from '@/components/layout/BaseLayout';
-import ClarityInit from '@/components/analytics/ClarityInit';
+import Umami from '@/analytics/Umami/Umami';
 
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
@@ -45,6 +47,8 @@ export default function RootLayout({
             <BaseLayout>{children}</BaseLayout>
           </MaintenanceModeWrapper>
         </FeatureFlagProvider>
+
+        <Umami />
         <ClarityInit />
       </body>
     </html>

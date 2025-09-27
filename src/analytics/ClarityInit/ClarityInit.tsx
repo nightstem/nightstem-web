@@ -3,11 +3,14 @@
 import { useEffect } from 'react';
 import Clarity from '@microsoft/clarity';
 
+const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+
 const ClarityInit = () => {
   useEffect(() => {
+    if (!IS_PRODUCTION) return;
+
     const id = process.env.NEXT_PUBLIC_CLARITY_ID;
-    const isProduction = process.env.NODE_ENV === 'production';
-    if (!isProduction || !id) return;
+    if (!id) return;
 
     Clarity.init(id);
     Clarity.consent();
