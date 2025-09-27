@@ -11,7 +11,6 @@ const ClarityInit = () => {
 
     Clarity.init(id);
     Clarity.consent();
-    Clarity.event('Clarity started');
   }, []);
 
   return null;
