@@ -2,6 +2,10 @@ name: Deploy staging
 run-name: 'Deploy staging for PR #${{ github.event.pull_request.number }}'
 
 on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
   pull_request:
     types:
       - opened
