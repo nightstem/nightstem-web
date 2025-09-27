@@ -109,6 +109,7 @@ runs:
       id: deploy
       uses: cloudflare/wrangler-action@v3
       with:
+        environment: ${{ inputs.environment == 'production' && 'production' || 'preview' }}
         apiToken: ${{ inputs.cloudflare-api-token }}
         accountId: ${{ inputs.cloudflare-account-id }}
         command: pages deploy ${{ inputs.build-output-directory }} --project-name=${{ inputs.project-name }}
