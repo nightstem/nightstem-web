@@ -41,6 +41,7 @@ export default defineConfig({
         '**/*.config.{ts,js}',
         '**/storybook/**',
         'e2e/**',
+        'src/components/analytics/**.*',
       ],
       thresholds: {
         statements: GLOBAL_MIN,

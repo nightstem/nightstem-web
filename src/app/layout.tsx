@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import { FeatureFlagProvider } from '@/contexts/FeatureFlagContext';
 import { MaintenanceModeWrapper } from '@/screens/MaintenanceMode';
 import BaseLayout from '@/components/layout/BaseLayout';
+import ClarityInit from '@/components/analytics/ClarityInit';
 
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
@@ -44,6 +45,7 @@ export default function RootLayout({
             <BaseLayout>{children}</BaseLayout>
           </MaintenanceModeWrapper>
         </FeatureFlagProvider>
+        <ClarityInit />
       </body>
     </html>
   );

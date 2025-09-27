@@ -18,6 +18,9 @@ importers:
       '@growthbook/growthbook-react':
         specifier: ^1.6.1
         version: 1.6.1(react@19.1.1)
+      '@microsoft/clarity':
+        specifier: ^1.0.0
+        version: 1.0.0
       classnames:
         specifier: ^2.5.1
         version: 2.5.1
@@ -687,6 +690,9 @@ packages:
     peerDependencies:
       '@types/react': 19.1.13
       react: '>=16'
+
+  '@microsoft/clarity@1.0.0':
+    resolution: {integrity: sha512-2QY6SmXnqRj6dWhNY8NYCN3e53j4zCFebH4wGnNhdGV1mqAsQwql2fT0w8TISxCvwwfVp8idsWLIdrRHOms1PQ==}
 
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
@@ -3929,6 +3935,8 @@ snapshots:
       '@types/mdx': 2.0.13
       '@types/react': 19.1.13
       react: 19.1.1
+
+  '@microsoft/clarity@1.0.0': {}
 
   '@napi-rs/wasm-runtime@0.2.12':
     dependencies:
