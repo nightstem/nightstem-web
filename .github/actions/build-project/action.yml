@@ -8,7 +8,7 @@ inputs:
   node-version:
     description: 'Node.js version to use (must be valid semver)'
     required: false
-    default: '20.14.0'
+    default: '22.19.0'
   build-command:
     description: 'Build command to run (should use pnpm)'
     required: false
