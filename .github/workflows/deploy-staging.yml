@@ -50,7 +50,7 @@ jobs:
           build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
           environment: preview
 
-      - name: Upsert GitHub Deployment with Pages URL
+      - name: Attach URL to the environment deployment
         uses: actions/github-script@v7
         env:
           DEPLOY_URL: ${{ steps.deploy.outputs.deployment-url }}
@@ -59,39 +59,31 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo  = context.repo.repo;
-            const ref   = context.sha;
-            const envName = 'staging';
+            const sha   = context.sha;               // <-- use sha, not ref
+            const env   = 'staging';
 
             const url = process.env.DEPLOY_ALIAS || process.env.DEPLOY_URL;
             if (!url) {
-              core.setFailed('No deployment URL found from previous step.');
+              core.setFailed('No deployment URL from previous step.');
               return;
             }
 
-            // Try to find an existing deployment for this sha + environment
+            // Find the auto-created deployment for this SHA + environment.
+            // Using 'sha' avoids the "no deployment found" issue seen with 'ref'.
             const { data: deployments } = await github.rest.repos.listDeployments({
-              owner, repo, ref, environment: envName
+              owner, repo, sha, environment: env, per_page: 20
             });
 
-            let deployment = deployments[0];
-
-            // If none exists, create one
-            if (!deployment) {
-              const { data } = await github.rest.repos.createDeployment({
-                owner,
-                repo,
-                ref,
-                environment: envName,
-                auto_merge: false,
-                required_contexts: [],       // don't block on checks
-                transient_environment: true, // it's staging
-                production_environment: false,
-                description: 'Nightstem staging deployment'
-              });
-              deployment = data;
+            if (!deployments.length) {
+              core.setFailed(`No auto deployment found for environment="${env}" sha=${sha}`);
+              return;
             }
 
-            // Mark as successful and attach the URL
+            // Pick the newest (there should be exactly one)
+            const deployment = deployments.sort(
+              (a, b) => new Date(b.created_at) - new Date(a.created_at)
+            )[0];
+
             await github.rest.repos.createDeploymentStatus({
               owner,
               repo,
@@ -103,4 +95,4 @@ jobs:
               auto_inactive: false
             });
 
-            core.info(`Attached URL to deployment ${deployment.id}: ${url}`);
+            core.info(`✔ Linked ${env} deployment ${deployment.id} → ${url}`);
