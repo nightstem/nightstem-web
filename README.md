@@ -12,13 +12,14 @@ A modern web application built with Next.js 15, featuring a comprehensive design
 - **Feature Flags**: GrowthBook integration
 - **Package Manager**: PNPM with workspace configuration
 - **Fonts**: Inter Variable (via Fontsource)
+- **Analytics**: Microsoft Clarity + Umami integration
 
 ## 🏁 Quick Start
 
 ### Prerequisites
 
-- [Node.js 22.18.0](https://nodejs.org/en/download/) (required)
-- [PNPM 10.17.0](https://pnpm.io/installation) (required package manager)
+- [Node.js 22.19.0+](https://nodejs.org/en/download/) (required)
+- [PNPM 10.17.0+](https://pnpm.io/installation) (required package manager)
 
 ### Installation
 
@@ -48,6 +49,9 @@ Create a `.env.local` file in the root directory:
 # Feature Flags (GrowthBook)
 NEXT_PUBLIC_FEATURE_FLAG_HOST="https://cdn.growthbook.io"
 NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY="your-growthbook-client-key"
+
+# Analytics (Umami)
+NEXT_PUBLIC_UMAMI_WEBSITE_ID="your-umami-website-id"
 
 # Add other environment variables as needed
 ```
@@ -144,6 +148,7 @@ This application is configured for **Cloudflare Pages** deployment via GitHub Ac
 - **Environment Variables**: Configure as GitHub repository variables in Settings → Environments → [environment] → Environment variables:
   - `NEXT_PUBLIC_FEATURE_FLAG_HOST`
   - `NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY`
+  - `NEXT_PUBLIC_UMAMI_WEBSITE_ID`
 
 ### Deployment Environments
 
