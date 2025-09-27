@@ -1,11 +1,13 @@
-name: Deploy staging
-run-name: 'Deploy staging'
+name: Deploy preview
+run-name: 'Deploy preview for PR #${{ github.event.pull_request.number }}'
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
 
 permissions:
   contents: read
@@ -13,7 +15,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: deploy-staging-${{ github.ref }}
+  group: deploy-preview-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -23,8 +25,8 @@ jobs:
     secrets: inherit
 
   build-and-deploy:
-    name: '🚀 Build and deploy to staging'
-    environment: staging
+    name: '🚀 Build and deploy to preview'
+    environment: preview
     needs: run-code-checks
     runs-on: ubuntu-latest
     timeout-minutes: 20
@@ -50,17 +52,17 @@ jobs:
           build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
           environment: preview
 
-      - name: Comment staging URL on PR
+      - name: Comment preview URL on PR
         uses: actions/github-script@v7
         if: github.event_name == 'pull_request'
         with:
           script: |
             const deploymentUrl = '${{ steps.deploy.outputs.deployment-url }}';
-            const body = `🚀 **Staging deployment ready!**
+            const body = `🚀 **Preview deployment ready!**
 
             📋 **Preview URL:** ${deploymentUrl}
 
-            💡 This staging environment will be automatically updated when you push new commits to this PR.`;
+            💡 This preview environment will be automatically updated when you push new commits to this PR.`;
 
             github.rest.issues.createComment({
               issue_number: context.issue.number,
