@@ -111,7 +111,7 @@ runs:
       with:
         apiToken: ${{ inputs.cloudflare-api-token }}
         accountId: ${{ inputs.cloudflare-account-id }}
-        command: pages deploy ${{ inputs.build-output-directory }} --project-name=${{ inputs.project-name }} --branch=${{ inputs.environment == 'production' && 'main' || inputs.environment == 'staging' && 'staging' || 'preview' }}
+        command: pages deploy ${{ inputs.build-output-directory }} --project-name=${{ inputs.project-name }}
 
     - name: Set deployment URLs
       id: extract-urls
