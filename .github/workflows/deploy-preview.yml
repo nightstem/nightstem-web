@@ -46,11 +46,11 @@ jobs:
         id: deploy
         uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
         with:
+          environment: preview
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
-          environment: preview
+          project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
 
       - name: Comment preview URL on PR
         uses: actions/github-script@v7

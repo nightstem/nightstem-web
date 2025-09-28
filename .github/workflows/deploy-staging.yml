@@ -35,6 +35,7 @@ jobs:
       - name: Build project
         uses: nightstem/nightstem-web/.github/actions/build-project@main
         env:
+          NODE_ENV: staging
           NEXT_PUBLIC_FEATURE_FLAG_HOST: ${{ vars.NEXT_PUBLIC_FEATURE_FLAG_HOST }}
           NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY: ${{ vars.NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY }}
         with:
@@ -44,11 +45,11 @@ jobs:
         id: deploy
         uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
         with:
+          environment: staging
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           build-output-directory: ${{ secrets.BUILD_OUTPUT_DIRECTORY }}
-          environment: preview
+          project-name: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
 
       - name: Attach URL to the environment deployment
         uses: actions/github-script@v7
@@ -59,7 +60,7 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo  = context.repo.repo;
-            const sha   = context.sha;               // <-- use sha, not ref
+            const sha   = context.sha;
             const env   = 'staging';
 
             const url = process.env.DEPLOY_ALIAS || process.env.DEPLOY_URL;
