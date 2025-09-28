@@ -50,7 +50,7 @@ export const THEME_VARIANT: Record<
       'disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500',
     ),
     secondary: cx(
-      'text-secondary-500 bg-transparent border border-secondary-500',
+      'text-white bg-transparent border border-secondary-500',
       'hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20',
       'focus-visible:ring-secondary-500',
       'disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500',

@@ -290,7 +290,7 @@ exports[`Snapshots > matches snapshot for outlined variant with primary color, s
 
 exports[`Snapshots > matches snapshot for outlined variant with secondary color, lg size, and circle shape 1`] = `
 <a
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg px-5 py-2.5 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg px-5 py-2.5 rounded-full text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
   Link Button
@@ -299,7 +299,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
 
 exports[`Snapshots > matches snapshot for outlined variant with secondary color, lg size, and square shape 1`] = `
 <a
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg px-5 py-2.5 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-lg px-5 py-2.5 rounded-md text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
   Link Button
@@ -308,7 +308,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
 
 exports[`Snapshots > matches snapshot for outlined variant with secondary color, md size, and circle shape 1`] = `
 <a
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-full text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
   Link Button
@@ -317,7 +317,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
 
 exports[`Snapshots > matches snapshot for outlined variant with secondary color, md size, and square shape 1`] = `
 <a
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
   Link Button
@@ -326,7 +326,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
 
 exports[`Snapshots > matches snapshot for outlined variant with secondary color, sm size, and circle shape 1`] = `
 <a
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm px-3 py-1.5 rounded-full text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm px-3 py-1.5 rounded-full text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
   Link Button
@@ -335,7 +335,7 @@ exports[`Snapshots > matches snapshot for outlined variant with secondary color,
 
 exports[`Snapshots > matches snapshot for outlined variant with secondary color, sm size, and square shape 1`] = `
 <a
-  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm px-3 py-1.5 rounded-md text-secondary-500 bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
+  class="select-none whitespace-nowrap font-medium cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-sm px-3 py-1.5 rounded-md text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
   href="#"
 >
   Link Button
