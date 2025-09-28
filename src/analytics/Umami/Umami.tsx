@@ -1,6 +1,6 @@
 import Script from 'next/script';
 
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+const IS_PRODUCTION = process.env.NEXT_PUBLIC_ENVIRONMENT === 'production';
 
 const Umami = () => {
   if (IS_PRODUCTION) return null;
