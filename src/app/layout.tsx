@@ -9,7 +9,7 @@ import { FeatureFlagProvider } from '@/contexts/FeatureFlagContext';
 import { MaintenanceModeWrapper } from '@/screens/MaintenanceMode';
 import Umami from '@/analytics/Umami/Umami';
 
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+const IS_PRODUCTION = process.env.NEXT_PUBLIC_ENVIRONMENT === 'production';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
