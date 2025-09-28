@@ -41,6 +41,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Clean staging helpers
+        run: |
+          rm -f out/robots.txt
+          rm -f out/sitemap.staging.xml
+          mv out/robots.staging.txt out/robots.txt
+
       - name: Deploy to Cloudflare Pages
         id: deploy
         uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main

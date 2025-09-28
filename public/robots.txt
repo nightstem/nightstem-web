@@ -1,0 +1,10 @@
+# robots.txt for https://nightstem.com
+
+User-agent: *
+Allow: /
+
+Disallow: /api/
+Disallow: /admin/
+Disallow: /internal/
+
+Sitemap: https://nightstem.com/sitemap.xml
