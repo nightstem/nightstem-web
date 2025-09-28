@@ -44,7 +44,7 @@ jobs:
       - name: Clean staging helpers
         run: |
           rm -f out/robots.txt
-          rm -f out/sitemap.staging.xml
+          rm -f out/sitemap.xml
           mv out/robots.staging.txt out/robots.txt
 
       - name: Deploy to Cloudflare Pages
