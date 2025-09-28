@@ -37,6 +37,7 @@ jobs:
       - name: Build project
         uses: nightstem/nightstem-web/.github/actions/build-project@main
         env:
+          NODE_ENV: preview
           NEXT_PUBLIC_FEATURE_FLAG_HOST: ${{ vars.NEXT_PUBLIC_FEATURE_FLAG_HOST }}
           NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY: ${{ vars.NEXT_PUBLIC_FEATURE_FLAG_CLIENT_KEY }}
         with:

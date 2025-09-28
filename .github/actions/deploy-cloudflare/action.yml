@@ -42,8 +42,8 @@ runs:
 
         # Validate environment
         ENV="${{ inputs.environment }}"
-        if [[ ! "$ENV" =~ ^(production|preview)$ ]]; then
-          echo "❌ Error: Invalid environment '$ENV'. Must be: production or preview"
+        if [[ ! "$ENV" =~ ^(production|staging|preview)$ ]]; then
+          echo "❌ Error: Invalid environment '$ENV'. Must be: production, staging, or preview"
           exit 1
         fi
 
