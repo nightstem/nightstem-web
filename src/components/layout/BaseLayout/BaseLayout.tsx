@@ -9,9 +9,7 @@ export type BaseLayoutProps = {
 const BaseLayout = ({ children }: BaseLayoutProps) => (
   <div className="flex h-dvh w-dvw flex-col">
     <Navbar />
-    <main className="screen-container h-full max-h-full overflow-auto">
-      {children}
-    </main>
+    <div className="h-full max-h-full overflow-auto">{children}</div>
   </div>
 );
 

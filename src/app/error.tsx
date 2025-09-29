@@ -21,7 +21,7 @@ export type ErrorPageProps = {
 
 const ErrorPage = ({ reset }: ErrorPageProps) => {
   return (
-    <div className="grid h-full w-full place-items-center">
+    <main className="screen-container grid h-full w-full place-items-center">
       <div
         aria-labelledby="nf-title"
         aria-describedby="nf-desc"
@@ -50,7 +50,7 @@ const ErrorPage = ({ reset }: ErrorPageProps) => {
           <Button onClick={reset}>Try again</Button>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

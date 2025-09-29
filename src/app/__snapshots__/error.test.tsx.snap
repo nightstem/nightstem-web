@@ -1,8 +1,8 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`ErrorPage > renders correctly with snapshot 1`] = `
-<div
-  class="grid h-full w-full place-items-center"
+<main
+  class="screen-container grid h-full w-full place-items-center"
 >
   <div
     aria-describedby="nf-desc"
@@ -67,5 +67,5 @@ exports[`ErrorPage > renders correctly with snapshot 1`] = `
       </button>
     </div>
   </div>
-</div>
+</main>
 `;

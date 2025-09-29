@@ -9,7 +9,7 @@ exports[`BaseLayout > matches the snapshot 1`] = `
       class="flex w-full justify-center"
     >
       <div
-        class="screen-container px-2 py-2.5 flex items-center justify-between"
+        class="screen-container py-2.5 flex items-center justify-between"
       >
         <a
           href="/"
@@ -52,8 +52,8 @@ exports[`BaseLayout > matches the snapshot 1`] = `
         </ol>
       </div>
     </nav>
-    <main
-      class="screen-container h-full max-h-full overflow-auto"
+    <div
+      class="h-full max-h-full overflow-auto"
     />
   </div>
 </div>

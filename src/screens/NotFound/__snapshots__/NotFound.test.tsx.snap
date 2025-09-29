@@ -1,8 +1,8 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`NotFound > renders correctly with snapshot 1`] = `
-<div
-  class="grid h-full w-full place-items-center"
+<main
+  class="screen-container grid h-full w-full place-items-center"
 >
   <h1
     class="sr-only"
@@ -110,5 +110,5 @@ exports[`NotFound > renders correctly with snapshot 1`] = `
       </div>
     </div>
   </section>
-</div>
+</main>
 `;

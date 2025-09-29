@@ -8,7 +8,7 @@ const Navbar = () => (
   <nav className="flex w-full justify-center">
     <div
       className={cx(
-        'screen-container px-2 py-2.5',
+        'screen-container py-2.5',
         'flex items-center justify-between',
       )}
     >
