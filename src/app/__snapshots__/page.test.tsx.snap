@@ -3,7 +3,7 @@
 exports[`Home > matches snapshot 1`] = `
 <div>
   <main
-    class="screen-container"
+    class=""
   >
     <h1
       class="sr-only"
@@ -11,38 +11,45 @@ exports[`Home > matches snapshot 1`] = `
       Nightstem
     </h1>
     <section
-      class="relative grid screen-section items-center overflow-hidden pl-24"
+      class="relative grid screen-section items-center overflow-hidden px-2 lg:pl-24"
     >
       <div
-        class="flex measure-body flex-col gap-7"
+        class="absolute -top-3/12 -left-1/2 md:-top-0 md:-left-1/5 aspect-square max-square-size rounded-full bg-radial from-primary-500/15 from-0% to-primary-500/0 to-100% blur-2xl"
+      />
+      <div
+        class="screen-container"
       >
-        <header
-          class="flex flex-col gap-8"
-        >
-          <h2
-            class="heading-xxl text-primary-500"
-          >
-            Quiet software grows at night.
-          </h2>
-          <p>
-            A studio for focused software, built after hours.
-          </p>
-        </header>
         <div
-          class="flex gap-4"
+          class="flex measure-body flex-col gap-7"
         >
-          <button
-            class="font-medium whitespace-nowrap select-none cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none ring-offset-dark focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none text-base px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
-            type="button"
+          <header
+            class="flex flex-col gap-8"
           >
-            Learn more
-          </button>
-          <button
-            class="font-medium whitespace-nowrap select-none cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none ring-offset-dark focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none text-base px-4 py-2 rounded-md text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
-            type="button"
+            <h2
+              class="heading-xl text-primary-500 md:heading-xxl"
+            >
+              Quiet software grows at night.
+            </h2>
+            <p>
+              A studio for focused software, built after hours.
+            </p>
+          </header>
+          <div
+            class="flex gap-4"
           >
-            View work
-          </button>
+            <button
+              class="font-medium whitespace-nowrap select-none cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none ring-offset-dark focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none text-base px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
+              type="button"
+            >
+              Learn more
+            </button>
+            <button
+              class="font-medium whitespace-nowrap select-none cursor-pointer disabled:cursor-not-allowed transition-colors duration-200 motion-reduce:transition-none ring-offset-dark focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none text-base px-4 py-2 rounded-md text-white bg-transparent border border-secondary-500 hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20 focus-visible:ring-secondary-500 disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500"
+              type="button"
+            >
+              View work
+            </button>
+          </div>
         </div>
       </div>
     </section>

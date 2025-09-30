@@ -135,7 +135,7 @@
 }
 
 @utility screen-section {
-  height: calc(100dvh - var(--navbar-height, 0));
+  height: calc(100dvh - var(--navbar-height, 48px));
 }
 
 @utility measure-body {
@@ -152,6 +152,11 @@
 
 @utility measure-loose {
   max-width: var(--measure-loose);
+}
+
+@utility max-square-size {
+  width: max(100dvw, 100dvh);
+  height: max(100dvw, 100dvh);
 }
 
 /* Global styles */

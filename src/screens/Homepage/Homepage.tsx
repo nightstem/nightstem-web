@@ -2,7 +2,7 @@ import Hero from '@/screens/Homepage/sections/Hero';
 
 const Homepage = () => {
   return (
-    <main className="screen-container">
+    <main className="">
       <h1 className="sr-only">Nightstem</h1>
 
       <Hero />
