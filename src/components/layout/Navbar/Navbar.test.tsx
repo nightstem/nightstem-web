@@ -17,4 +17,20 @@ describe(Navbar, () => {
 
     expect(result).toHaveNoViolations();
   });
+
+  it('sets --navbar-height CSS custom property on mount', () => {
+    const mockClientHeight = 64;
+
+    Object.defineProperty(HTMLElement.prototype, 'clientHeight', {
+      configurable: true,
+      value: mockClientHeight,
+    });
+
+    render(<Navbar />);
+
+    const navbarHeight =
+      document.documentElement.style.getPropertyValue('--navbar-height');
+
+    expect(navbarHeight).toBe(`${mockClientHeight}px`);
+  });
 });

@@ -61,7 +61,7 @@ exports[`MaintenanceMode > should match snapshot 1`] = `
       </a>
     </div>
     <div
-      class="text-caption flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-foreground/60"
+      class="flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-caption text-foreground/60"
     >
       <span>
         Service unavailable (503)
@@ -75,7 +75,7 @@ exports[`MaintenanceMode > should match snapshot 1`] = `
     </div>
   </section>
   <span
-    class="text-caption absolute right-4 bottom-4 font-mono text-foreground/60"
+    class="absolute right-4 bottom-4 font-mono text-caption text-foreground/60"
   >
     v
     1.0.0

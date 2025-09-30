@@ -90,7 +90,7 @@ const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
             </Button>
           </div>
 
-          <div className="text-caption flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-foreground/60">
+          <div className="flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-caption text-foreground/60">
             <span>Tip: press</span>
             <Kbd>Esc</Kbd>
             <span>to go home</span>

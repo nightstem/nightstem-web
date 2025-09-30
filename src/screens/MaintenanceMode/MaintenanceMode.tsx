@@ -38,7 +38,7 @@ const MaintenanceMode = () => {
           </LinkButton>
         </div>
 
-        <div className="text-caption flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-foreground/60">
+        <div className="flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-caption text-foreground/60">
           <span>Service unavailable (503)</span>
           <span>•</span>
           <span>Please try again shortly.</span>
@@ -46,7 +46,7 @@ const MaintenanceMode = () => {
       </section>
 
       {version && (
-        <span className="text-caption absolute right-4 bottom-4 font-mono text-foreground/60">
+        <span className="absolute right-4 bottom-4 font-mono text-caption text-foreground/60">
           v{version}
         </span>
       )}
