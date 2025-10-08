@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Home > matches snapshot 1`] = `
+exports[`Homepage > matches the screenshot 1`] = `
 <div>
   <main
     class=""

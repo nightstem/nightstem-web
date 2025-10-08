@@ -1,4 +1,4 @@
-import Hero from '@/screens/Homepage/sections/Hero';
+import { Hero } from '@/screens/Homepage/sections/Hero';
 
 const Homepage = () => {
   return (

@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="relative grid screen-section items-center overflow-hidden px-2 lg:pl-24">
       <div
         className={cx(
-          'absolute -top-3/12 -left-1/2 md:-top-0 md:-left-1/5',
+          'absolute -top-3/12 -left-1/2 -z-10 md:-top-0 md:-left-1/5',
           'aspect-square max-square-size rounded-full',
           'bg-radial from-primary-500/15 from-0% to-primary-500/0 to-100% blur-2xl',
         )}
