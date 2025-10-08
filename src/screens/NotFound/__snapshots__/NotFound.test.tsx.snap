@@ -83,7 +83,7 @@ exports[`NotFound > renders correctly with snapshot 1`] = `
         </button>
       </div>
       <div
-        class="text-caption flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-foreground/60"
+        class="flex items-center gap-1.5 border-t border-foreground/10 pt-3 text-caption text-foreground/60"
       >
         <span>
           Tip: press

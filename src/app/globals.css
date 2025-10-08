@@ -82,49 +82,84 @@
   --text-5xl--line-height: 124%;
   --text-5xl--letter-spacing: -0.025em;
   --text-5xl--font-weight: 700;
+
+  /* Line width measure */
+  --measure-body: 62ch;
+  --measure-heading: 38ch;
+  --measure-tight: 56ch;
+  --measure-loose: 68ch;
 }
 
-@layer components {
-  .text-hint {
-    @apply text-[0.563rem] leading-[160%] font-normal tracking-wide;
-  }
+/* Font utilities */
 
-  .text-caption {
-    @apply text-[0.75rem] leading-[160%] font-normal tracking-wide;
-  }
-
-  .text-body {
-    @apply text-base leading-[150%] font-normal;
-  }
-
-  .heading-sm {
-    @apply text-[1.333rem] leading-[125%] font-semibold;
-  }
-
-  .heading-md {
-    @apply text-[1.777rem] leading-[125%] font-semibold;
-  }
-
-  .heading-lg {
-    @apply text-[2.369rem] leading-[120%] font-semibold tracking-tight;
-  }
-
-  .heading-xl {
-    @apply text-[3.157rem] leading-[120%] font-semibold tracking-tight;
-  }
-
-  .heading-xxl {
-    @apply text-[4.209rem] leading-[122%] font-bold tracking-tight;
-  }
-
-  .heading-display {
-    @apply text-[5.61rem] leading-[124%] font-bold tracking-tight;
-  }
-
-  .screen-container {
-    @apply mx-auto w-full max-w-8xl px-4 md:px-6 lg:px-8;
-  }
+@utility text-hint {
+  @apply text-[0.563rem] leading-[160%] font-normal tracking-wide;
 }
+
+@utility text-caption {
+  @apply text-[0.75rem] leading-[160%] font-normal tracking-wide;
+}
+
+@utility text-body {
+  @apply text-base leading-[150%] font-normal;
+}
+
+@utility heading-sm {
+  @apply text-[1.333rem] leading-[125%] font-semibold;
+}
+
+@utility heading-md {
+  @apply text-[1.777rem] leading-[125%] font-semibold;
+}
+
+@utility heading-lg {
+  @apply text-[2.369rem] leading-[120%] font-semibold tracking-tight;
+}
+
+@utility heading-xl {
+  @apply text-[3.157rem] leading-[120%] font-semibold tracking-tight;
+}
+
+@utility heading-xxl {
+  @apply text-[4.209rem] leading-[122%] font-bold tracking-tight;
+}
+
+@utility heading-display {
+  @apply text-[5.61rem] leading-[124%] font-bold tracking-tight;
+}
+
+/* Layout utilities */
+
+@utility screen-container {
+  @apply mx-auto w-full max-w-8xl px-4 md:px-6 lg:px-8;
+}
+
+@utility screen-section {
+  height: calc(100dvh - var(--navbar-height, 48px));
+}
+
+@utility measure-body {
+  max-width: var(--measure-body);
+}
+
+@utility measure-heading {
+  max-width: var(--measure-heading);
+}
+
+@utility measure-tight {
+  max-width: var(--measure-tight);
+}
+
+@utility measure-loose {
+  max-width: var(--measure-loose);
+}
+
+@utility max-square-size {
+  width: max(100dvw, 100dvh);
+  height: max(100dvw, 100dvh);
+}
+
+/* Global styles */
 
 body {
   background: var(--background);
