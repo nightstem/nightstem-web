@@ -103,7 +103,7 @@ describe(NotFound, () => {
 
       await user.keyboard('{Escape}');
 
-      expect(mockPush).toHaveBeenCalledWith('/');
+      expect(mockPush).toHaveBeenCalledExactlyOnceWith('/');
     });
 
     it('shuffles content when R key is pressed', async () => {
