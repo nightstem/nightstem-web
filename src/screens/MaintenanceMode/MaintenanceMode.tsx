@@ -54,5 +54,4 @@ const MaintenanceMode = () => {
   );
 };
 
-MaintenanceMode.displayName = 'MaintenanceMode';
 export default MaintenanceMode;

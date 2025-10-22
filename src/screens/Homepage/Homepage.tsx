@@ -10,5 +10,4 @@ const Homepage = () => {
   );
 };
 
-Homepage.displayName = 'Homepage';
 export default Homepage;

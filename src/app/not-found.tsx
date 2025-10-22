@@ -9,5 +9,4 @@ export const metadata: Metadata = {
 
 const NotFoundPage = () => <NotFound />;
 
-NotFoundPage.displayName = 'NotFoundPage';
 export default NotFoundPage;

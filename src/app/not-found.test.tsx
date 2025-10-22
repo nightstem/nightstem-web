@@ -25,10 +25,6 @@ describe(NotFoundPage, () => {
     expect(notFoundComponent).toHaveTextContent('NotFound Component');
   });
 
-  it('has correct displayName', () => {
-    expect(NotFoundPage.displayName).toBe('NotFoundPage');
-  });
-
   describe('metadata', () => {
     it('exports correct metadata object', () => {
       expect(metadata).toBeDefined();

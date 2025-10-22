@@ -104,5 +104,4 @@ const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
   );
 };
 
-NotFound.displayName = 'NotFound';
 export default NotFound;

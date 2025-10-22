@@ -14,5 +14,4 @@ const Umami = () => {
   );
 };
 
-Umami.displayName = 'Umami';
 export default Umami;

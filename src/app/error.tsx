@@ -54,5 +54,4 @@ const ErrorPage = ({ reset }: ErrorPageProps) => {
   );
 };
 
-ErrorPage.displayName = 'ErrorPage';
 export default ErrorPage;

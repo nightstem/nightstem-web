@@ -13,5 +13,4 @@ const BaseLayout = ({ children }: BaseLayoutProps) => (
   </div>
 );
 
-BaseLayout.displayName = 'BaseLayout';
 export default BaseLayout;

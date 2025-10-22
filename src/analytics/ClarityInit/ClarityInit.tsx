@@ -19,5 +19,4 @@ const ClarityInit = () => {
   return null;
 };
 
-ClarityInit.displayName = 'ClarityInit';
 export default ClarityInit;

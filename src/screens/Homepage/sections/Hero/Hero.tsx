@@ -35,5 +35,4 @@ const Hero = () => {
   );
 };
 
-Hero.displayName = 'Hero';
 export default Hero;

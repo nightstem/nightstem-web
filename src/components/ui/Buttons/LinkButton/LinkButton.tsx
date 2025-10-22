@@ -64,5 +64,4 @@ const LinkButton = ({
   );
 };
 
-LinkButton.displayName = 'LinkButton';
 export default LinkButton;

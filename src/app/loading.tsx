@@ -6,5 +6,4 @@ const LoadingPage = () => (
   </main>
 );
 
-LoadingPage.displayName = 'LoadingPage';
 export default LoadingPage;

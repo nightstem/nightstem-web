@@ -16,5 +16,4 @@ const Kbd = ({ className, ...props }: KbdProps) => (
   />
 );
 
-Kbd.displayName = 'Kbd';
 export default Kbd;

@@ -54,5 +54,4 @@ const PageLoader = ({
   );
 };
 
-PageLoader.displayName = 'PageLoader';
 export default PageLoader;
