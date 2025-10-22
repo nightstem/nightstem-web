@@ -91,6 +91,20 @@ const eslintConfig = defineConfig([
       'vitest/require-mock-type-parameters': 'off',
     },
   },
+  {
+    files: ['.husky/**'],
+    languageOptions: {
+      globals: {
+        console: 'readonly',
+        process: 'readonly',
+      },
+    },
+    rules: {
+      'no-console': 'off',
+      'no-undef': 'off',
+      '@typescript-eslint/no-unused-vars': 'off',
+    },
+  },
 ]);
 
 export default eslintConfig;
