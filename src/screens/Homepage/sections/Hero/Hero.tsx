@@ -1,12 +1,11 @@
-import cx from 'classnames';
-
 import { Button } from '@/components/ui/Buttons';
+import { cn } from '@/lib/utils';
 
 const Hero = () => {
   return (
     <section className="relative grid screen-section items-center overflow-hidden px-2 lg:pl-24">
       <div
-        className={cx(
+        className={cn(
           'absolute -top-3/12 -left-1/2 -z-10 md:top-0 md:-left-1/5',
           'aspect-square max-square-size rounded-full',
           'bg-radial from-primary-500/15 from-0% to-primary-500/0 to-100% blur-2xl',

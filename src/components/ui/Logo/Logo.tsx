@@ -1,6 +1,6 @@
-import cx from 'classnames';
-
 import { LogoMark } from '@/assets/svgs/LogoMark';
+
+import { cn } from '@/lib/utils';
 
 import type {
   LogoAnimation,
@@ -35,7 +35,7 @@ const Logo = ({
     <LogoMark
       title={`${appName} logo`}
       decorative={mode !== LOGO_MODES.ICON}
-      className={cx(
+      className={cn(
         sizeConfig.logoClass,
         animationClass,
         'motion-reduce:animate-none',
@@ -47,7 +47,7 @@ const Logo = ({
   switch (mode) {
     case LOGO_MODES.HORIZONTAL: {
       return (
-        <div className={cx('inline-flex items-center', sizeConfig.gapClass)}>
+        <div className={cn('inline-flex items-center', sizeConfig.gapClass)}>
           {logo}
           <span className={sizeConfig.textClass}>{appName}</span>
         </div>

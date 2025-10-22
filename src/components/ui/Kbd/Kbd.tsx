@@ -1,5 +1,6 @@
-import cx from 'classnames';
 import { DetailedHTMLProps, HTMLAttributes } from 'react';
+
+import { cn } from '@/lib/utils';
 
 export type KbdProps = DetailedHTMLProps<
   HTMLAttributes<HTMLElement>,
@@ -9,7 +10,7 @@ export type KbdProps = DetailedHTMLProps<
 const Kbd = ({ className, ...props }: KbdProps) => (
   <kbd
     {...props}
-    className={cx(
+    className={cn(
       'rounded border border-foreground/20 p-1.5 leading-[50%] shadow-2xl',
       className,
     )}

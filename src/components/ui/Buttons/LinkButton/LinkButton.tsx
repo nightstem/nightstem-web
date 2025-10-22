@@ -1,6 +1,7 @@
-import cx from 'classnames';
 import Link from 'next/link';
 import { AnchorHTMLAttributes, DetailedHTMLProps } from 'react';
+
+import { cn } from '@/lib/utils';
 
 import type {
   ButtonColor,
@@ -46,7 +47,7 @@ const LinkButton = ({
   const shapeClassNames = THEME_SHAPE[shape];
   const colorClassNames = THEME_VARIANT[variant][color];
 
-  const classNames = cx(
+  const classNames = cn(
     'select-none whitespace-nowrap font-medium',
     'cursor-pointer disabled:cursor-not-allowed',
     'transition-colors duration-200 motion-reduce:transition-none',

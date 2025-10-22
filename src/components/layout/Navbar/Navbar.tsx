@@ -1,6 +1,7 @@
 'use client';
-import cx from 'classnames';
 import { useEffect, useRef } from 'react';
+
+import { cn } from '@/lib/utils';
 
 import { LinkButton } from '@/components/ui/Buttons';
 import Logo, { LOGO_MODES, LOGO_SIZES } from '@/components/ui/Logo';
@@ -21,7 +22,7 @@ const Navbar = () => {
   return (
     <nav ref={navbarRef} className="flex w-full justify-center">
       <div
-        className={cx(
+        className={cn(
           'screen-container py-2.5',
           'flex items-center justify-between',
         )}

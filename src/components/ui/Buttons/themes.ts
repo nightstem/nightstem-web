@@ -1,11 +1,11 @@
-import cx from 'classnames';
-
 import type {
   ButtonColor,
   ButtonShape,
   ButtonSize,
   ButtonVariant,
 } from '@/components/ui/Buttons/types';
+
+import { cn } from '@/lib/utils';
 
 export const THEME_SIZE: Record<ButtonSize, string> = {
   lg: 'text-lg px-5 py-2.5',
@@ -23,19 +23,19 @@ export const THEME_VARIANT: Record<
   Record<ButtonColor, string>
 > = {
   solid: {
-    primary: cx(
+    primary: cn(
       'text-dark bg-primary-500',
       'hover:bg-primary-400 active:bg-primary-400',
       'focus-visible:ring-primary-500',
       'disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500',
     ),
-    secondary: cx(
+    secondary: cn(
       'text-dark bg-secondary-500',
       'hover:bg-secondary-400 active:bg-secondary-400',
       'focus-visible:ring-secondary-500',
       'disabled:opacity-60 disabled:hover:bg-secondary-500 disabled:active:bg-secondary-500',
     ),
-    neutral: cx(
+    neutral: cn(
       'text-dark bg-neutral-400',
       'hover:bg-neutral-300 active:bg-neutral-300',
       'focus-visible:ring-neutral-400',
@@ -43,19 +43,19 @@ export const THEME_VARIANT: Record<
     ),
   },
   outlined: {
-    primary: cx(
+    primary: cn(
       'text-primary-500 bg-transparent border border-primary-500',
       'hover:border-primary-400 active:border-primary-400 hover:bg-primary-500/20 active:bg-primary-500/20',
       'focus-visible:ring-primary-500',
       'disabled:opacity-60 disabled:hover:border-primary-500 disabled:active:border-primary-500',
     ),
-    secondary: cx(
+    secondary: cn(
       'text-white bg-transparent border border-secondary-500',
       'hover:border-secondary-400 active:border-secondary-400 hover:bg-secondary-500/20 active:bg-secondary-500/20',
       'focus-visible:ring-secondary-500',
       'disabled:opacity-60 disabled:hover:border-secondary-500 disabled:active:border-secondary-500',
     ),
-    neutral: cx(
+    neutral: cn(
       'text-neutral-400 bg-transparent border border-neutral-400',
       'hover:border-neutral-300 active:border-neutral-300 hover:bg-neutral-400/20 active:bg-neutral-400/20',
       'focus-visible:ring-neutral-400',
@@ -63,19 +63,19 @@ export const THEME_VARIANT: Record<
     ),
   },
   ghost: {
-    primary: cx(
+    primary: cn(
       'text-primary-500 bg-transparent',
       'hover:text-dark hover:bg-primary-500/60 active:bg-primary-500/60',
       'focus-visible:ring-primary-500',
       'disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent',
     ),
-    secondary: cx(
+    secondary: cn(
       'text-secondary-500 bg-transparent',
       'hover:text-dark hover:bg-secondary-500/60 active:bg-secondary-500/60',
       'focus-visible:ring-secondary-500',
       'disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent',
     ),
-    neutral: cx(
+    neutral: cn(
       'text-neutral-400 bg-transparent',
       'hover:text-dark hover:bg-neutral-400/60 active:bg-neutral-400/60',
       'focus-visible:ring-neutral-400',
@@ -83,19 +83,19 @@ export const THEME_VARIANT: Record<
     ),
   },
   text: {
-    primary: cx(
+    primary: cn(
       'text-primary-500',
       'hover:text-primary-400 active:text-primary-400',
       'focus-visible:ring-primary-500',
       'disabled:opacity-60 disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:active:bg-transparent',
     ),
-    secondary: cx(
+    secondary: cn(
       'text-secondary-500',
       'hover:text-secondary-400 active:text-secondary-400',
       'focus-visible:ring-secondary-500',
       'disabled:opacity-60 disabled:hover:text-secondary-500 disabled:hover:bg-transparent disabled:active:bg-transparent',
     ),
-    neutral: cx(
+    neutral: cn(
       'text-neutral-400',
       'hover:text-neutral-300 active:text-neutral-300',
       'focus-visible:ring-neutral-400',

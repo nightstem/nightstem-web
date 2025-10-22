@@ -1,4 +1,4 @@
-import cx from 'classnames';
+import { cn } from '@/lib/utils';
 
 type LogoMarkProps = {
   className?: string;
@@ -20,7 +20,7 @@ export const LogoMark = ({
       fill="none"
       viewBox="0 0 500 500"
       xmlns="http://www.w3.org/2000/svg"
-      className={cx('text-primary-500', className)}
+      className={cn('text-primary-500', className)}
       {...ariaProps}
     >
       <path

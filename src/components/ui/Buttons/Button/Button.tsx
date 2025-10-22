@@ -1,5 +1,6 @@
-import cx from 'classnames';
 import { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
+
+import { cn } from '@/lib/utils';
 
 import type {
   ButtonColor,
@@ -46,7 +47,7 @@ const Button = ({
   return (
     <button
       type={type}
-      className={cx(
+      className={cn(
         'font-medium whitespace-nowrap select-none',
         'cursor-pointer disabled:cursor-not-allowed',
         'transition-colors duration-200 motion-reduce:transition-none',
