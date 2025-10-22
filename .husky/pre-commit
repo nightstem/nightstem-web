@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
 
 # Header section
-
 echo
 echo
 echo "Pre-commit hook started"
@@ -9,22 +8,39 @@ echo
 echo "------------------------------------------------------------------"
 echo
 
-# Get list of staged files
+# Get list of staged files (excluding deletions)
 STAGED_FILES=$(git diff --cached --name-only --diff-filter=d)
+
+# Check if there are any staged files
+if [ -z "$STAGED_FILES" ]; then
+    echo "No staged files detected. Skipping checks."
+    echo "------------------------------------------------------------------"
+    echo "✨ Good to commit ✨"
+    echo
+    echo
+    exit 0
+fi
+
+# Initialize exit code
+EXIT_CODE=0
 
 # Check prettier
 echo "Prettier check   ................................................."
+PRETTIER_START=$(date +%s)
 
-if [ -n "$STAGED_FILES" ]; then
-    echo "$STAGED_FILES" | xargs pnpm exec prettier --write --ignore-unknown
-    PRETTIER_EXIT_CODE=$?
-    if [ $PRETTIER_EXIT_CODE -ne 0 ]; then
-        echo "❌ Prettier failed with exit code $PRETTIER_EXIT_CODE"
-        exit 1
-    fi
+echo "$STAGED_FILES" | xargs pnpm exec prettier --write --ignore-unknown
+PRETTIER_EXIT_CODE=$?
+
+PRETTIER_END=$(date +%s)
+PRETTIER_TIME=$((PRETTIER_END - PRETTIER_START))
+
+if [ $PRETTIER_EXIT_CODE -ne 0 ]; then
+    echo "❌ Prettier failed with exit code $PRETTIER_EXIT_CODE"
+    EXIT_CODE=1
+else
     # Re-add formatted files to staging area
     echo "$STAGED_FILES" | xargs git add
-    echo "✅ Prettier formatting completed and files re-staged"
+    echo "✅ Prettier formatting completed in ${PRETTIER_TIME}s"
 fi
 
 # Check TypeScript
@@ -33,13 +49,23 @@ echo "TypeScript check ................................................."
 # Filter TypeScript files
 TS_FILES=$(echo "$STAGED_FILES" | grep -E '\.(ts|tsx)$' || true)
 if [ -n "$TS_FILES" ]; then
-    pnpm lint:ts
+    TS_START=$(date +%s)
+
+    # Use --incremental for faster subsequent checks
+    pnpm lint:ts --incremental
     TS_EXIT_CODE=$?
+
+    TS_END=$(date +%s)
+    TS_TIME=$((TS_END - TS_START))
+
     if [ $TS_EXIT_CODE -ne 0 ]; then
         echo "❌ TypeScript check failed with exit code $TS_EXIT_CODE"
-        exit 1
+        EXIT_CODE=1
+    else
+        echo "✅ TypeScript check passed in ${TS_TIME}s"
     fi
-    echo "✅ TypeScript check passed"
+else
+    echo "⊘ No TypeScript files staged - skipping"
 fi
 
 # Check linter
@@ -48,34 +74,65 @@ echo "Linter check     ................................................."
 # Filter files for linter
 LINTER_FILES=$(echo "$STAGED_FILES" | grep -E '\.(js|jsx|ts|tsx)$' || true)
 if [ -n "$LINTER_FILES" ]; then
-    echo "$LINTER_FILES" | xargs pnpm exec eslint --fix
+    LINT_START=$(date +%s)
+
+    # Use --max-warnings 0 to fail on warnings, not just errors
+    echo "$LINTER_FILES" | xargs pnpm exec eslint --fix --max-warnings 0
     LINT_EXIT_CODE=$?
+
+    LINT_END=$(date +%s)
+    LINT_TIME=$((LINT_END - LINT_START))
+
     if [ $LINT_EXIT_CODE -ne 0 ]; then
         echo "❌ Linter failed with exit code $LINT_EXIT_CODE"
-        exit 1
+        EXIT_CODE=1
+    else
+        # Re-add files in case they were auto-fixed
+        echo "$LINTER_FILES" | xargs git add
+        echo "✅ Linter check passed in ${LINT_TIME}s"
     fi
-    echo "✅ Linter check passed"
+else
+    echo "⊘ No JavaScript/TypeScript files staged - skipping"
 fi
 
 # Run tests
 echo "Tests            ................................................."
 
-# Check if there are any test files or if this affects testable code
+# Check if there are any JS/TS files (test-relevant)
 TEST_RELEVANT_FILES=$(echo "$STAGED_FILES" | grep -E '\.(js|jsx|ts|tsx)$' || true)
 if [ -n "$TEST_RELEVANT_FILES" ]; then
+    TEST_START=$(date +%s)
+
+    # Run tests without watch mode
     pnpm test
     TEST_EXIT_CODE=$?
+
+    TEST_END=$(date +%s)
+    TEST_TIME=$((TEST_END - TEST_START))
+
     if [ $TEST_EXIT_CODE -ne 0 ]; then
         echo "❌ Tests failed with exit code $TEST_EXIT_CODE"
-        exit 1
+        EXIT_CODE=1
+    else
+        echo "✅ All tests passed in ${TEST_TIME}s"
     fi
-    echo "✅ All tests passed"
+else
+    echo "⊘ No test-relevant files staged - skipping"
 fi
 
+# Footer section
 echo "------------------------------------------------------------------"
 echo
-echo "✨ Good to commit ✨"
-echo
-echo
 
-exit 0
+if [ $EXIT_CODE -eq 0 ]; then
+    echo "✨ Good to commit ✨"
+    echo
+    echo
+    exit 0
+else
+    echo "❌ Pre-commit checks failed. Please fix the issues above."
+    echo "   Your changes remain staged for fixing."
+    echo
+    echo
+    exit 1
+fi
