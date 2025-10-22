@@ -14,6 +14,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "clean": "rm -rf out && rm -rf coverage && rm -rf .next && rm -rf node_modules",
     "lint": "eslint .",
     "lint:ts": "tsc --noEmit --skipLibCheck",
     "test": "vitest --watch false",
