@@ -1,6 +1,6 @@
 import { LogoMark } from '@/assets/svgs/LogoMark';
 
-import { cn } from '@/lib/utils';
+import cn from '@/utils/classnames';
 
 import type {
   LogoAnimation,

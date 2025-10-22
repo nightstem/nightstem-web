@@ -89,6 +89,7 @@ const eslintConfig = defineConfig([
       'vitest/prefer-lowercase-title': 'off',
       'vitest/prefer-expect-assertions': 'off',
       'vitest/require-mock-type-parameters': 'off',
+      'vitest/max-expects': ['error', { max: 10 }],
     },
   },
   {

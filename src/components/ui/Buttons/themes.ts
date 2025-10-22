@@ -5,7 +5,7 @@ import type {
   ButtonVariant,
 } from '@/components/ui/Buttons/types';
 
-import { cn } from '@/lib/utils';
+import cn from '@/utils/classnames';
 
 export const THEME_SIZE: Record<ButtonSize, string> = {
   lg: 'text-lg px-5 py-2.5',

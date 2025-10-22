@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef } from 'react';
 
-import { cn } from '@/lib/utils';
+import cn from '@/utils/classnames';
 
 import { LinkButton } from '@/components/ui/Buttons';
 import Logo, { LOGO_MODES, LOGO_SIZES } from '@/components/ui/Logo';

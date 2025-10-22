@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/Buttons';
-import { cn } from '@/lib/utils';
+import cn from '@/utils/classnames';
 
 const Hero = () => {
   return (
