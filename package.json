@@ -24,6 +24,7 @@
     "prettier:check": "prettier --check . --ignore-unknown",
     "prettier:write": "prettier --write . --ignore-unknown",
     "prepare": "husky",
+    "quality": "pnpm exec node scripts/quality-check.js",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
