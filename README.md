@@ -68,11 +68,13 @@ NEXT_PUBLIC_UMAMI_WEBSITE_ID="your-umami-website-id"
 
 - `pnpm test` - Run tests once with Vitest
 - `pnpm test:watch` - Run tests in watch mode
-- `pnpm coverage` - Generate test coverage report (100% coverage required)
+- `pnpm coverage` - Generate test coverage report (80% coverage threshold enforced)
 - `pnpm lint` - Run ESLint
 - `pnpm lint:ts` - Run TypeScript type checking
 - `pnpm prettier:check` - Check code formatting
 - `pnpm prettier:write` - Format code
+- `pnpm quality` - Run full quality check (format, types, lint, tests, coverage)
+- `pnpm clean` - Clean build artifacts and node_modules
 
 ### Storybook
 
@@ -112,7 +114,7 @@ ComponentName/
 
 - **Framework**: Vitest with jsdom environment
 - **Library**: React Testing Library for component testing
-- **Coverage**: 100% test coverage requirement enforced
+- **Coverage**: 80% test coverage threshold enforced per file
 - **Accessibility**: Automated a11y testing with vitest-axe
 - **Snapshots**: Comprehensive snapshot testing for UI consistency
 - **Timeout**: 10s test timeout for reliable CI/CD
@@ -161,7 +163,7 @@ This application is configured for **Cloudflare Pages** deployment via GitHub Ac
 
 1. **Setup**: Follow the Quick Start guide
 2. **Development**: Use `pnpm dev` for development server
-3. **Testing**: Ensure `pnpm test` and `pnpm coverage` pass (100% coverage required)
+3. **Testing**: Ensure `pnpm test` and `pnpm coverage` pass (80% coverage threshold required)
 4. **Quality**: Run `pnpm lint` and `pnpm lint:ts` before committing
 5. **Storybook**: Document new components with stories
 
