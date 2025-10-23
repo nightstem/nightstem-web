@@ -1,2 +1,2 @@
 #!/bin/sh
-node .husky/pre-commit.js
+pnpm exec node .husky/pre-commit.js
