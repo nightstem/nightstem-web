@@ -1,4 +1,4 @@
-import { Hero } from '@/screens/Homepage/sections/Hero';
+import { Hero, Philosophy } from '@/screens/Homepage/sections';
 
 const Homepage = () => {
   return (
@@ -6,6 +6,7 @@ const Homepage = () => {
       <h1 className="sr-only">Nightstem</h1>
 
       <Hero />
+      <Philosophy />
     </main>
   );
 };
