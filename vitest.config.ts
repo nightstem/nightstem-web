@@ -17,7 +17,6 @@ export default defineConfig({
     setupFiles: ['./vitest.setup.ts'],
     testTimeout: 10000,
     coverage: {
-      all: true,
       reportsDirectory: './coverage',
       reporter: ['text', 'lcov', 'html'],
       provider: 'v8',

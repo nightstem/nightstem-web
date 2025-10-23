@@ -11,7 +11,7 @@ const Navbar = () => {
   const navbarRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    /* v8 ignore next */
+    /* v8 ignore next -- @preserve */
     if (!navbarRef.current) return;
     document.documentElement.style.setProperty(
       '--navbar-height',

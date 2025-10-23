@@ -16,7 +16,9 @@ const mockGrowthBook = {
 };
 
 vi.mock('@growthbook/growthbook-react', () => ({
-  GrowthBook: vi.fn(() => mockGrowthBook),
+  GrowthBook: vi.fn(function () {
+    return mockGrowthBook;
+  }),
   GrowthBookProvider: ({ children }: { children: React.ReactNode }) => (
     <div>{children}</div>
   ),
