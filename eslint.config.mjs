@@ -7,19 +7,9 @@ import storybook from 'eslint-plugin-storybook';
 import { importX } from 'eslint-plugin-import-x';
 import reactPerfPlugin from 'eslint-plugin-react-perf';
 import nextPlugin from '@next/eslint-plugin-next';
-
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
-import { FlatCompat } from '@eslint/eslintrc';
+import nextTypescript from 'eslint-config-next/typescript';
 
 import vitest from '@vitest/eslint-plugin';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
 
 const eslintConfig = defineConfig([
   {
@@ -29,11 +19,12 @@ const eslintConfig = defineConfig([
       '.next/**',
       'out/**',
       'build/**',
+      'storybook-static/**',
       '**/*.d.ts',
     ],
   },
   js.configs.recommended,
-  ...compat.extends('next/typescript'),
+  ...nextTypescript,
   security.configs.recommended,
   importX.flatConfigs.recommended,
   importX.flatConfigs.typescript,

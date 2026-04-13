@@ -39,7 +39,10 @@ function getStagedFiles() {
  * Filter files by extension
  */
 function filterFiles(files, extensions) {
-  return files.filter((file) => extensions.some((ext) => file.endsWith(ext)));
+  return files.filter(
+    (file) =>
+      !file.endsWith('.d.ts') && extensions.some((ext) => file.endsWith(ext)),
+  );
 }
 
 /**
@@ -77,6 +80,7 @@ function buildTasks(mode, stagedFiles) {
           }
           throw new Error(
             `Formatting check failed [${Math.round(ctx.prettierTime / 1000)}s]`,
+            { cause: error },
           );
         }
       },
@@ -118,6 +122,7 @@ function buildTasks(mode, stagedFiles) {
           }
           throw new Error(
             `Type errors detected [${Math.round(ctx.tsTime / 1000)}s]`,
+            { cause: error },
           );
         }
       },
@@ -175,6 +180,7 @@ function buildTasks(mode, stagedFiles) {
           }
           throw new Error(
             `Lint violations found [${Math.round(ctx.lintTime / 1000)}s]`,
+            { cause: error },
           );
         }
       },
@@ -210,6 +216,7 @@ function buildTasks(mode, stagedFiles) {
           }
           throw new Error(
             `Test failures detected [${Math.round(ctx.testTime / 1000)}s]`,
+            { cause: error },
           );
         }
       },
