@@ -21,7 +21,7 @@ concurrency:
 jobs:
   run-code-checks:
     name: '🔍 Run code quality checks'
-    uses: nightstem/nightstem-web/.github/workflows/run-code-checks.yml@main
+    uses: nightstem/site/.github/workflows/run-code-checks.yml@main
     secrets: inherit
 
   build-and-deploy:
@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build project
-        uses: nightstem/nightstem-web/.github/actions/build-project@main
+        uses: nightstem/site/.github/actions/build-project@main
         env:
           NEXT_PUBLIC_ENVIRONMENT: preview
           NEXT_PUBLIC_FEATURE_FLAG_HOST: ${{ vars.NEXT_PUBLIC_FEATURE_FLAG_HOST }}
@@ -51,7 +51,7 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         id: deploy
-        uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
+        uses: nightstem/site/.github/actions/deploy-cloudflare@main
         with:
           environment: preview
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}

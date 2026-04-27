@@ -25,7 +25,7 @@ concurrency:
 jobs:
   run-code-checks:
     name: '🔍 Run code quality checks'
-    uses: nightstem/nightstem-web/.github/workflows/run-code-checks.yml@main
+    uses: nightstem/site/.github/workflows/run-code-checks.yml@main
     secrets: inherit
 
   bump-version:
@@ -42,11 +42,11 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          repositories: nightstem-web
+          repositories: site
 
       - name: Bump version
         id: bump-version-step
-        uses: nightstem/nightstem-web/.github/actions/bump-version@main
+        uses: nightstem/site/.github/actions/bump-version@main
         with:
           bump: ${{ inputs.bump }}
           github-token: ${{ steps.generate-token.outputs.token }}
@@ -65,7 +65,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          repositories: nightstem-web
+          repositories: site
 
       - name: Create pre-release
         id: create-pre-release-step
@@ -105,7 +105,7 @@ jobs:
           ref: main
 
       - name: Build project
-        uses: nightstem/nightstem-web/.github/actions/build-project@main
+        uses: nightstem/site/.github/actions/build-project@main
         env:
           NEXT_PUBLIC_ENVIRONMENT: production
           NEXT_PUBLIC_CLARITY_ID: ${{ vars.NEXT_PUBLIC_CLARITY_ID }}
@@ -120,7 +120,7 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         id: deploy
-        uses: nightstem/nightstem-web/.github/actions/deploy-cloudflare@main
+        uses: nightstem/site/.github/actions/deploy-cloudflare@main
         with:
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -146,7 +146,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          repositories: nightstem-web
+          repositories: site
 
       - name: Update pre-release with deployment URL
         uses: actions/github-script@v7
@@ -291,7 +291,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          repositories: nightstem-web
+          repositories: site
 
       - name: Update pre-release to release
         uses: jhonny17/actions/update-release@main
@@ -320,7 +320,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          repositories: nightstem-web
+          repositories: site
 
       - name: Checkout
         uses: actions/checkout@v4

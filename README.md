@@ -26,7 +26,7 @@ A modern web application built with Next.js 15, featuring a comprehensive design
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd nightstem-web
+cd site
 
 # Install dependencies
 pnpm install

@@ -10,7 +10,7 @@ runs:
   using: 'composite'
   steps:
     - name: Install dependencies
-      uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+      uses: nightstem/site/.github/actions/install-dependencies@main
       with:
         github-token: ${{ inputs.github-token }}
 

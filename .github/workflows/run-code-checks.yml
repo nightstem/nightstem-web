@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        uses: nightstem/nightstem-web/.github/actions/install-dependencies@main
+        uses: nightstem/site/.github/actions/install-dependencies@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -54,24 +54,24 @@ jobs:
 
       - name: Check prettier
         if: matrix.check == 'prettier'
-        uses: nightstem/nightstem-web/.github/actions/check-prettier@main
+        uses: nightstem/site/.github/actions/check-prettier@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check linter
         if: matrix.check == 'linter'
-        uses: nightstem/nightstem-web/.github/actions/check-linter@main
+        uses: nightstem/site/.github/actions/check-linter@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run tests
         if: matrix.check == 'tests'
-        uses: nightstem/nightstem-web/.github/actions/run-tests@main
+        uses: nightstem/site/.github/actions/run-tests@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check coverage
         if: matrix.check == 'coverage'
-        uses: nightstem/nightstem-web/.github/actions/check-coverage@main
+        uses: nightstem/site/.github/actions/check-coverage@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
